@@ -13,20 +13,76 @@
 
 ## Definición del marco de trabajo
 
-_[Definición del marco de trabajo SCRUM con los acuerdos principales del equipo y evidencia de sus prácticas aplicadas en la iteración. Deben estar los roles definidos para cada integrante del equipo y la justificación de la adaptación del marco de trabajo al contexto de la iteración.]_
+Al comienzo establecimos los roles con la intención de que en las siguientes iteraciones se roten, favoreciendo así la participación y el aprendizaje de todos.
+
+- **Product Owner**: Emiliano Reyes
+
+- **Scrum Master**: Juan Croquis
+
+- **Developer**: Juan Ferreira
 
 ### Artefactos principales
 
-- Definición del calendario de eventos con justificación de su adaptación al contexto de la iteración.
-- Roles y responsabilidades definidos para cada integrante del equipo.
-- Políticas de trabajo del equipo:
-  - Definition of Done.
-  - Definition of Ready.
+En el presente Sprint definimos que los eventos se establecerán de la siguiente forma:
+
+- **Sprint Planning**: 2 días (29/09/2025 y 02/10/2025)
+- **Daily Scrum**: 3 días (04/10/2025, 06/10/2025 y 08/10/2025)
+- **Sprint Retrospective**: 1 día (10/10/2025)
+
+# Definition of Done y Definition of Ready – Carpool Universitario
+
+## Definition of Done (DoD)
+
+Un entregable (historia de usuario, funcionalidad o tarea) se considera **terminado** cuando:
+
+- **Funcionalidad implementada**  
+  Ejemplo: el registro de usuario permite crear cuenta como conductor o pasajero.  
+
+- **Funcionalidad testeada**  
+  Pruebas unitarias y funcionales confirman que el login, búsqueda de viajes, reserva y publicación funcionan según lo esperado.  
+
+- **Criterios de aceptación cumplidos**  
+  Cada historia de usuario cuenta con criterios claros (ejemplo:  
+  *“Como pasajero quiero buscar un viaje por horario y zona, para elegir la mejor opción”*),  
+  y deben cumplirse en su totalidad.  
+
+---
+
+## Definition of Ready (DoR)
+
+Una historia de usuario o tarea se considera **lista para entrar en un Sprint** cuando:
+
+- **Estimación de esfuerzo confirmada**  
+  El equipo acordó una estimación en puntos de historia o tiempo, y está alineada con la capacidad disponible del Sprint.  
+
+- **Recursos disponibles**  
+  El equipo cuenta con acceso a las herramientas necesarias 
+
+- **Conocimientos/capacitación suficiente**  
+  Los miembros tienen claro cómo implementar la historia
+
+- **Diseño de UI aprobado**  
+  Las pantallas necesarias para la historia (ejemplo: formulario de *Publicar viaje*, vista de *Reservar lugar*) están definidas y detalladas.  
+
+- **Criterios de aceptación definidos**  
+  Cada historia de usuario tiene escenarios claros que permitan saber cuándo está “hecha”.  
+
 
 ## Planificación de la iteración
 
-_[Sprint Backlog para cumplir con el objetivo de la iteración. Debe contener las historias de usuario priorizadas y las tareas planificadas basadas en la capacidad y velocidad disponible del equipo.]_
+### Minuta 1: Planning 1 (29/09/2025)
 
+El lunes 29 de septiembre, tuvimos la primera instancia de reunión para este proyecto. El objetivo de esta reunión fue conocer más el sistema a desarrollar y planificar que íbamos a realizar esta iteración (Sprint). Hicimos la lectura del obligatorio, designamos roles y discutimos la rotación de ellos entre cada iteración, validamos las herramientas a utilizar, definimos el objetivo de la iteración, buscamos consenso sobre cómo aplicar el marco de trabajo SCRUM al contexto del proyecto y que corresponde a cada rol y definimos un **Product Backlog inicial**. La reunión se dio en clases duró 1 hora y concluimos que la siguiente reunión continuaremos con la siguiente parte del planning.
+
+![Imagen](Reuniones/Planning1.jpeg "Planning 1")
+
+### Minuta 2: Planning 2 (02/10/2025)
+
+El jueves 02 de octubre, continuamos con la segunda parte de la planning, finalizando. El objetivo de esta reunión fue continuar con la investigación, ambientar el backlog generando las épica y sus correspondientes features, categorizamos a cada una de ellas en orden de prioridad donde 1 es más prioritario y 4 menos prioritario. Creamos una encuesta con la cual recaudaremos información, que nos servirá a modo de guía para nuestro producto, asignamos las tareas que iremos trabajando en esta iteración.
+La reunión duró un total de 3 horas y culminamos que nos juntaremos en la próxima reunión para compartir avances de lo asignado.
+
+
+![Imagen](Reuniones/Planning2.PNG "Planning 2")
 ### Artefactos principales
 
 - Minuta de la sprint planning con su agenda, actividades y resultados.
