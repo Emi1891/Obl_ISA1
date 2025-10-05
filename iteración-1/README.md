@@ -210,6 +210,49 @@ A partir de los resultados obtenidos, determinamos que nuestro público objetivo
 
 Este perfil de usuario nos permitió validar la necesidad de una **aplicación de carpooling universitario** que conecte conductores y pasajeros dentro de una misma institución, promoviendo la colaboración, la eficiencia y la sostenibilidad en los traslados diarios.
 
+### Lista de funcionalidades por cada interesado.
+Se crearon las funcionalidades en formato “Como… Quiero… Para…”, considerando los tres perfiles principales del sistema: conductor, pasajero y administrador:
+
+- **Como conductor**  
+  1. Quiero poder publicar viajes indicando origen, destino, día, hora, costo compartido y cupos disponibles. <br>
+     Para ofrecer lugares en mi vehículo a otros estudiantes y optimizar mis gastos de traslado.
+  2. Quiero poder editar o cancelar mis viajes publicados. <br>
+     Para mantener la información actualizada y evitar confusiones con los pasajeros.
+  3. Quiero recibir notificaciones cuando un pasajero reserve o cancele su lugar. <br>
+     Para estar informado en tiempo real sobre la ocupación del viaje.
+  4. Quiero poder calificar a los pasajeros luego de cada viaje. <br>
+     Para contribuir al sistema de reputación y promover un ambiente de confianza.
+  5. Quiero poder marcarme como “demorado” o “en camino”. <br>
+     Para que mis pasajeros reciban información actualizada sobre el estado del viaje.
+  6. Quiero tener un historial de mis viajes realizados. <br>
+     Para consultar mi actividad pasada y estadísticas de uso (por ejemplo, kilómetros recorridos o pasajeros transportados).
+
+- **Como pasajero**  
+  1. Quiero poder buscar viajes disponibles por zona, día y horario. <br>
+     Para encontrar opciones que se ajusten a mis horarios y ubicación.
+  2. Quiero reservar un lugar en un viaje publicado. <br>
+     Para asegurar mi asiento y confirmar mi participación.
+  3. Quiero recibir notificaciones sobre el estado del viaje (recordatorios, demoras o cancelaciones). <br>
+     Para mantenerme informado y poder reaccionar ante cambios.
+  4. Quiero poder cancelar mi reserva con antelación. <br>
+     Para liberar el lugar y evitar penalizaciones.
+  5. Quiero poder calificar al conductor después de un viaje. <br>
+     Para aportar al sistema de reputación y mejorar la experiencia de futuros usuarios.
+  6. Quiero ver mi historial de viajes y calificaciones previas. <br>
+     Para tener un registro de mis viajes realizados y conductores con los que viajé.
+
+- **Como administrador**
+  1. Quiero poder gestionar usuarios del sistema (altas, bajas y suspensiones). <br>
+     Para mantener la plataforma segura y evitar comportamientos inapropiados.
+  2. Quiero arbitrar discrepancias o conflictos entre usuarios en las evaluaciones. <br>
+     Para resolver disputas y mantener un entorno justo y confiable.
+  3. Quiero recibir reportes de la comunidad (por ejemplo, sobre comportamiento inapropiado o problemas en los viajes). <br>
+     Para tomar acciones correctivas y preservar la calidad del servicio.
+  4. Quiero poder revisar las estadísticas generales de uso (cantidad de viajes, reservas, calificaciones promedio). <br>
+     Para analizar el funcionamiento del sistema y detectar oportunidades de mejora.
+  5. Quiero establecer políticas o reglas del sistema (por ejemplo, penalizaciones por inasistencia o demoras). <br>
+     Para asegurar un comportamiento responsable entre todos los usuarios.
+
 
 ### Artefactos principales
 
