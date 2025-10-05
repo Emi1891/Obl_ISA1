@@ -87,6 +87,30 @@ La reunión duró un total de 3 horas y culminamos que nos juntaremos en la pró
 ### Sprint Backlog
 
 #### Historias de usuario
+- **Historia de usuario 1**: Identificación de interesados
+  - **Como**: Equipo de desarrollo
+  - **Quiero**: Identificar a los distintos interesados en el proyecto.
+  - **Para**: Comprender sus necesidades, expectativas y prioridades, y así definir funcionalidades que aporten valor a cada uno.
+  - **Criterios de aceptación**:
+    - Se identifican todos los interesados del proyecto con su rol y nivel de relevancia documentados.
+    - Para cada interesado se define una lista de funcionalidades o requerimientos clave que reflejan sus necesidades.
+
+- **Historia de usuario 2**: Lista de funcionalidades por tipo de usuario
+  - **Como**: Scrum Master
+  - **Quiero**: Crear una lista de funcionalidades específicas para cada tipo de usuario del sistema (conductor, pasajero y administrador).
+  - **Para**: Asegurarme de que el producto cubra las expectativas y necesidades particulares de cada rol.
+  - **Criterios de aceptación**:
+    - Se define al menos una funcionalidad principal y secundaria para cada tipo de usuario (conductor, pasajero y administrador).
+    - Las funcionalidades están alineadas con las necesidades reales y los objetivos de cada tipo de usuario dentro del sistema.
+  
+  - **Historia de usuario 3**: Análisis comparativo de apps similares
+  - **Como**: Product Owner
+  - **Quiero**: Analizar y comparar aplicaciones similares existentes en el mercado.
+  - **Para**: Identificar oportunidades de mejora y diferenciación que aporten valor a nuestro producto.
+  - **Criterios de aceptación**:
+    - Se identifican y analizan al menos tres aplicaciones similares del mercado, documentando sus funcionalidades, fortalezas y debilidades.
+    - Se elabora un cuadro comparativo que evidencie coincidencias, diferencias y oportunidades de mejora frente a las apps existentes.
+
 - **Historia de usuario 7**: Creación del Product Backlog inicial
   - **Como**: Equipo de desarrollo
   - **Quiero**: Definir un Product Backlog inicial que incluya las épicas principales y sus respectivas historias de usuario.
