@@ -191,9 +191,25 @@ _[Existe evidencia sobre la inspección del proceso con aprendizajes principales
 
 # Identificar y definir el problema a resolver
 
-## Identificación del problema a resolver
+## Investigación y definición del público objetivo
 
-_[Entendimiento claro del problema del negocio a resolver con la identificación de los usuarios y escenarios principales con su valor de negocio asociado. Existe a su vez evidencia que se analiza y compara aplicaciones similares existentes del mercado.]_
+Para poder satisfacer las necesidades de los usuarios y generar un producto que realmente aporte valor, consideramos fundamental investigar el contexto del transporte universitario, analizar a los posibles competidores y comprender el perfil de nuestros futuros usuarios.  
+Con este propósito realizamos una encuesta dirigida a estudiantes de distintas universidades (Universidad ORT, UDELAR, Universidad de Montevideo, entre otras), con el fin de identificar sus hábitos de transporte, disposición a compartir viajes y las principales motivaciones para utilizar una aplicación de carpooling.
+
+#### Identificación de posibles usuarios
+
+A partir de los resultados obtenidos, determinamos que nuestro público objetivo se compone principalmente de:
+
+- Personas entre **18 y 33 años**.  
+- Estudiantes universitarios que **asisten de forma presencial** varias veces por semana.  
+- Usuarios que **utilizan principalmente ómnibus o auto** para desplazarse hacia la facultad.  
+- Estudiantes que **ya han compartido viajes ocasionalmente** y estarían dispuestos a hacerlo con mayor frecuencia si existiera una plataforma confiable.  
+- Individuos interesados en **ahorrar dinero, reducir tiempos de viaje y conocer nuevas personas**.  
+- Conductores que buscan **compartir gastos de combustible y estacionamiento**.  
+- Pasajeros que valoran la **comodidad, la seguridad y la previsibilidad del trayecto**.  
+
+Este perfil de usuario nos permitió validar la necesidad de una **aplicación de carpooling universitario** que conecte conductores y pasajeros dentro de una misma institución, promoviendo la colaboración, la eficiencia y la sostenibilidad en los traslados diarios.
+
 
 ### Artefactos principales
 
