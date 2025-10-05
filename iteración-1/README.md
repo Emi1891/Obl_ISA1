@@ -103,7 +103,7 @@ La reunión duró un total de 3 horas y culminamos que nos juntaremos en la pró
     - Se define al menos una funcionalidad principal y secundaria para cada tipo de usuario (conductor, pasajero y administrador).
     - Las funcionalidades están alineadas con las necesidades reales y los objetivos de cada tipo de usuario dentro del sistema.
   
-  - **Historia de usuario 3**: Análisis comparativo de apps similares
+- **Historia de usuario 3**: Análisis comparativo de apps similares
   - **Como**: Product Owner
   - **Quiero**: Analizar y comparar aplicaciones similares existentes en el mercado.
   - **Para**: Identificar oportunidades de mejora y diferenciación que aporten valor a nuestro producto.
@@ -111,7 +111,26 @@ La reunión duró un total de 3 horas y culminamos que nos juntaremos en la pró
     - Se identifican y analizan al menos tres aplicaciones similares del mercado, documentando sus funcionalidades, fortalezas y debilidades.
     - Se elabora un cuadro comparativo que evidencie coincidencias, diferencias y oportunidades de mejora frente a las apps existentes.
 
-- **Historia de usuario 7**: Creación del Product Backlog inicial
+- **Historia de usuario 4**: Identificación del “viaje típico” como escenario base
+    - **Como:** Equipo de Desarrollo  
+    - **Quiero:** Identificar y documentar el “viaje típico” que realizan los usuarios dentro de la aplicación.  
+    - **Para:** Contar con un escenario base que sirva como referencia para el diseño de funcionalidades y la validación de futuras iteraciones.  
+
+    - **Criterios de aceptación:**
+        - Se debe describir un flujo completo de viaje, desde la búsqueda hasta la finalización del trayecto.  
+        - El escenario debe contemplar al menos un perfil de **conductor** y uno de **pasajero**.  
+        - El “viaje típico” debe quedar registrado como documento de referencia en el repositorio del proyecto.  
+
+- **Historia de usuario 5**: Definición de políticas iniciales
+  - **Como**: Product Owner  
+  - **Quiero**: Definir las políticas iniciales de uso, privacidad y comportamiento dentro de la plataforma.  
+  - **Para**: Garantizar un marco de funcionamiento claro y seguro para todos los usuarios.  
+  - **Criterios de aceptación**:
+      - Las políticas deben incluir al menos los aspectos de **cancelaciones** y **uso responsable de la aplicación**.
+      - Deben estar redactadas en lenguaje claro y publicadas en el apartado de información de la app.  
+      - El equipo debe validar las políticas con los roles de usuario (conductor, pasajero, administrador).
+
+- **Historia de usuario 6**: Creación del Product Backlog inicial
   - **Como**: Equipo de desarrollo
   - **Quiero**: Definir un Product Backlog inicial que incluya las épicas principales y sus respectivas historias de usuario.
   - **Para**: Contar con una base organizada y priorizada de trabajo que sirva como punto de partida para las próximas iteraciones.
@@ -119,7 +138,7 @@ La reunión duró un total de 3 horas y culminamos que nos juntaremos en la pró
     - El Product Backlog debe contener al menos las épicas principales con sus historias de usuario asociadas.
     - Cada historia de usuario debe estar redactada en el formato “Como…”, “Quiero…”, “Para…”.
 
-- **Historia de usuario 8**: Definición de criterios de aceptación
+- **Historia de usuario 7**: Definición de criterios de aceptación
 
     **Como:** Equipo de Desarrollo  
     **Quiero:** Conocer los criterios de aceptación para cada historia de usuario.  
@@ -129,7 +148,7 @@ La reunión duró un total de 3 horas y culminamos que nos juntaremos en la pró
     - Cada historia de usuario debe contar con criterios de aceptación redactados en un lenguaje claro, verificable y comprensible para todos los integrantes del equipo.  
     - Todas las historias de usuario deben incluir como mínimo **un criterio de aceptación**; si este no logra explicar completamente el requerimiento, deberán incluirse **al menos dos criterios de aceptación bien definidos**.  
 
-- **Historia de usuario 9**: Creación del Story Map
+- **Historia de usuario 8**: Creación del Story Map
 
   **Como:** Equipo de Desarrollo  
   **Quiero:** Crear un Story Map de alto nivel.  
