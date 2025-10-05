@@ -118,13 +118,11 @@ La reunión duró un total de 3 horas y culminamos que nos juntaremos en la pró
 
 ![Sprint 1 Backlog](Sprint1.PNG "Sprint 1")
 
-### Artefactos principales
 
-- Minuta de la sprint planning con su agenda, actividades y resultados.
-- Objetivos de la iteración.
-- Sprint backlog con historias de usuarios y tareas asociadas.
-- Planificación de acuerdo a la capacidad del equipo.
-- Técnicas de priorización y estimación utilizadas.
+### Tareas asociadas
+
+En esta iteración no se definieron tareas específicas para cada historia de usuario, ya que se consideran suficientemente claras y autoexplicativas por sí mismas.
+
 
 ## Seguimiento de la iteración
 
