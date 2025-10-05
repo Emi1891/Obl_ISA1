@@ -171,6 +171,9 @@ En esta iteración no se definieron tareas específicas para cada historia de us
 
 ### Minuta 3: Daily 1 (04/10/2025)
 
+El Sábado 04 de octubre, realizamos la primer daily con el objetivo coordinar el trabajo del equipo y revisar el avance de la iteración, presentamos avance de la investigación. Se construyeron y redactaron las historias de usuario de los casos de esta iteración, se analizaron los resultados de la encuesta para proporcionar más información para el producto que vamos a construir, avances en el listado de información para cada tipo de usuario (Stakeholders). Se mostró cómo íbamos a dividir los casos (Story Map) para todas las iteraciones. También definimos los story points al cual equivaldrían las tareas.
+
+![Imagen](Reuniones/Daily1.PNG "Daily 1")
 
 ### Artefactos principales
 
