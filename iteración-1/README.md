@@ -83,6 +83,40 @@ La reunión duró un total de 3 horas y culminamos que nos juntaremos en la pró
 
 
 ![Imagen](Reuniones/Planning2.PNG "Planning 2")
+
+### Sprint Backlog
+
+#### Historias de usuario
+- **Historia de usuario 7**: Creación del Product Backlog inicial
+  - **Como**: Equipo de desarrollo
+  - **Quiero**: Definir un Product Backlog inicial que incluya las épicas principales y sus respectivas historias de usuario.
+  - **Para**: Contar con una base organizada y priorizada de trabajo que sirva como punto de partida para las próximas iteraciones.
+  - **Criterios de aceptación**:
+    - El Product Backlog debe contener al menos las épicas principales con sus historias de usuario asociadas.
+    - Cada historia de usuario debe estar redactada en el formato “Como…”, “Quiero…”, “Para…”.
+
+- **Historia de usuario 8**: Definición de criterios de aceptación
+
+    **Como:** Equipo de Desarrollo  
+    **Quiero:** Conocer los criterios de aceptación para cada historia de usuario.  
+    **Para:** Asegurarme de que los requerimientos sean claros y verificables.  
+
+    **Criterios de aceptación:**
+    - Cada historia de usuario debe contar con criterios de aceptación redactados en un lenguaje claro, verificable y comprensible para todos los integrantes del equipo.  
+    - Todas las historias de usuario deben incluir como mínimo **un criterio de aceptación**; si este no logra explicar completamente el requerimiento, deberán incluirse **al menos dos criterios de aceptación bien definidos**.  
+
+- **Historia de usuario 9**: Creación del Story Map
+
+  **Como:** Equipo de Desarrollo  
+  **Quiero:** Crear un Story Map de alto nivel.  
+  **Para:** Visualizar de manera clara el flujo de usuario y priorizar las funcionalidades de cada iteración.  
+
+  **Criterios de aceptación:**
+  - Cada épica debe tener asociadas al menos dos o más historias de usuario.  
+  - El Story Map debe mostrar claramente las actividades y tareas principales de los usuarios.  
+  - El Story Map debe incluir las épicas principales identificadas en el Product Backlog inicial.
+
+
 ### Artefactos principales
 
 - Minuta de la sprint planning con su agenda, actividades y resultados.
