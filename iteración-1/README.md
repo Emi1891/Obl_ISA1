@@ -116,6 +116,7 @@ La reunión duró un total de 3 horas y culminamos que nos juntaremos en la pró
   - El Story Map debe mostrar claramente las actividades y tareas principales de los usuarios.  
   - El Story Map debe incluir las épicas principales identificadas en el Product Backlog inicial.
 
+![Sprint 1 Backlog](Sprint1.PNG "Sprint 1")
 
 ### Artefactos principales
 
