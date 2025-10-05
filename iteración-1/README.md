@@ -169,7 +169,8 @@ En esta iteración no se definieron tareas específicas para cada historia de us
 
 ## Seguimiento de la iteración
 
-_[Existe evidencia sobre el registro de actividades y horas de cada integrante del equipo con el seguimiento general de cada iteración del proyecto sobre lo planificado inicialmente.]_
+### Minuta 3: Daily 1 (04/10/2025)
+
 
 ### Artefactos principales
 
@@ -196,7 +197,7 @@ _[Existe evidencia sobre la inspección del proceso con aprendizajes principales
 Para poder satisfacer las necesidades de los usuarios y generar un producto que realmente aporte valor, consideramos fundamental investigar el contexto del transporte universitario, analizar a los posibles competidores y comprender el perfil de nuestros futuros usuarios.  
 Con este propósito realizamos una encuesta dirigida a estudiantes de distintas universidades (Universidad ORT, UDELAR, Universidad de Montevideo, entre otras), con el fin de identificar sus hábitos de transporte, disposición a compartir viajes y las principales motivaciones para utilizar una aplicación de carpooling.
 
-#### Identificación de posibles usuarios
+### Identificación de posibles usuarios
 
 A partir de los resultados obtenidos, determinamos que nuestro público objetivo se compone principalmente de:
 
@@ -209,6 +210,23 @@ A partir de los resultados obtenidos, determinamos que nuestro público objetivo
 - Pasajeros que valoran la **comodidad, la seguridad y la previsibilidad del trayecto**.  
 
 Este perfil de usuario nos permitió validar la necesidad de una **aplicación de carpooling universitario** que conecte conductores y pasajeros dentro de una misma institución, promoviendo la colaboración, la eficiencia y la sostenibilidad en los traslados diarios.
+
+---> En la carpeta de "Encuestas Resultados" se adjuntan unas imagenes de las respuestas de la encuesta que realizamos.
+
+###  Stakeholders
+
+Entendemos por *stakeholders* a todos aquellos individuos o grupos que se vean de alguna manera afectados por el progreso y desarrollo de nuestra aplicación de viajes compartidos.  
+Dada la naturaleza de nuestro proyecto, consideramos los siguientes grupos de interés:
+
+####  Conductores
+Los conductores constituyen uno de los grupos de stakeholders más relevantes para nuestra plataforma. Son los usuarios que ofrecen viajes y comparten sus rutas con otros pasajeros. Su experiencia y nivel de confianza en el sistema son fundamentales para garantizar la continuidad del servicio. Es clave comprender sus necesidades en cuanto a seguridad, flexibilidad de horarios y transparencia en los pagos, para así ofrecer una experiencia confiable y competitiva.
+
+####  Pasajeros
+Los pasajeros son el núcleo de nuestra comunidad de usuarios. Utilizan la aplicación para encontrar viajes convenientes, seguros y accesibles, compartiendo trayectos con otros usuarios. Satisfacer sus necesidades de puntualidad, confianza y comodidad es esencial para asegurar su participación continua y fomentar la recomendación del servicio.
+
+####  Administradores y Equipo de Soporte
+El equipo administrativo y de soporte técnico es responsable de mantener la plataforma en funcionamiento, gestionar incidencias y garantizar el cumplimiento de las políticas de seguridad y convivencia. Este grupo también supervisa los reportes de usuarios, evalúa comportamientos y gestiona las alertas del sistema para mantener un entorno seguro y ordenado.
+
 
 ### Lista de funcionalidades por cada interesado.
 Se crearon las funcionalidades en formato “Como… Quiero… Para…”, considerando los tres perfiles principales del sistema: conductor, pasajero y administrador:
@@ -253,12 +271,7 @@ Se crearon las funcionalidades en formato “Como… Quiero… Para…”, consi
   5. Quiero establecer políticas o reglas del sistema (por ejemplo, penalizaciones por inasistencia o demoras). <br>
      Para asegurar un comportamiento responsable entre todos los usuarios.
 
-
-### Artefactos principales
-
-- Identificación de interesados con sus perfiles asociados.
-- Lista de funcionalidades por cada interesado.
-- Análisis y estudio de competidores.
+### Análisis comparativo de apps similares
 
 ## Definición del problema/solución
 
