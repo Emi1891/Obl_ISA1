@@ -295,7 +295,18 @@ Como prinicpales funcionalidades, incorpora un sistema de puntuacion tanto para 
 
 ## Definición del problema/solución
 
-### ⏱️ Estimación y priorización
+### Story map
+
+### Iteración 1
+![StoryMap](StoryMap/StoryMap1.jpg "SM1")
+
+### Iteración 2 y 3
+![StoryMap](StoryMap/StoryMap2.jpg "SM23")
+
+### Iteración 4
+![StoryMap](StoryMap/StoryMap3.jpg "SM4")
+
+### Estimación y priorización
 
 Para la estimación del esfuerzo, se definió una escala en la cual **1 Story Point equivale aproximadamente a media hora de trabajo**.  
 Como referencia base, se tomó la **tarea con ID 22**, a la cual se le asignó un valor de **7 Story Points (≈3 horas)**, considerando su complejidad y duración estimada.  
@@ -329,16 +340,6 @@ En base al criterio anterior estos fueron los **Story Points** asignados a cada 
 La siguiente imagen muestra los **IDs asociados** a cada historia dentro del Product Backlog:
 
 ![Imagen](Features/Estimaciones.PNG "Estimaciones")
-### Story map
-
-### Iteración 1
-![StoryMap](StoryMap/StoryMap1.jpg "SM1")
-
-### Iteración 2 y 3
-![StoryMap](StoryMap/StoryMap2.jpg "SM23")
-
-### Iteración 4
-![StoryMap](StoryMap/StoryMap3.jpg "SM4")
 
 ### 🗂️ Product Backlog
 
