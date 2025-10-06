@@ -269,6 +269,30 @@ Se crearon las funcionalidades en formato “Como… Quiero… Para…”, consi
 
 ### Análisis comparativo de apps similares
 
+Para analizar los posibles competidores tomamos a los demás proyectos que brindan un servicio de transporte personalizado y a través de una aplicación móvil. Con este primer criterio, el principal candidato en nuestro país podría ser Uber, tanto por popularidad en el mercado local como por su presencia a nivel internacional. 
+Luego quisimos filtrar aún más la búsqueda añadiendo como segundo criterio que el proyecto también se base en la modalidad de carpooling. Sin duda que en nuestro contexto un proyecto que está generando una gran repercusión es Viatik.
+Sin embargo, quisimos encontrar un proyecto que se asemeje lo más posible al nuestro para poder realizar una comparación lo más precisa posible. Justamente, al buscar con tal especificidad, dimos con una aplicación que dice ser un servicio de carpooling pensado especialmente para estudiantes universitarios. Esta aplicación se llama The Ridely App. La misma es parte de un proyecto personal de un estudiante universitario egresado de University of South Florida.
+
+El análisis de los distintos sistemas es el siguiente:
+
+**Uber:**
+Es una aplicación gratuita cuyo principal objetivo es facilitar el alcance de un medio de transporte no masivo agilizando la conexión entre el conductor y el/los pasajero/s. Como mencionamos anteriormente, la aplicación posee un gran flujo de usuarios, ya que es de las opciones más populares del segmento. Este flujo de usuarios no solo abarca a pasajeros, sino a conductores.
+Tras analizar la aplicación más detenidamente podemos señalar como principales funcionalidades la integración con PayPal como método de pago, la función de compartir viaje en vivo, ver autos de conductores cercanos en vivo en el mapa y un sistema de calificación tanto para el conductor como para el pasajero.
+
+**Viatik:**
+Al igual que Uber, Viatik es una aplicación gratuita. En este caso, el sistema funciona como un intermediario entre los conductores los cuales tienen espacio disponible y los pasajeros que buscan lugar en un transporte que los lleve al destino deseado. Si bien este proyecto es bastante reciente en comparación a Uber, ya cuenta con una considerable base de usuarios la cual está en continuo crecimiento.
+En el caso de Viatik, comparte algunas de las funcionalidades principales de Uber, como contar con una pasarela de pago propia y un sistema de puntuación para conductores y pasajeros. Además, Viatik cuenta con un chat entre usuarios y una interfaz para poder recargar una tarjeta STM.
+
+**The Ridely App:**
+Este proyecto también fue lanzado como una aplicación gratuita. A diferencia de Uber y Viatik, The Ridely App es un proyecto personal poco desarrollado, por lo cual la versión publicada evidencia una calidad inferior en cuanto a su diseño y funcionalidad. Aun así, este proyecto tiene las funcionalidades básicas de una aplicación de carpooling universitario, por lo que es el proyecto que mas se asemeja al nuestro.
+Como prinicpales funcionalidades, incorpora un sistema de puntuacion tanto para conductores como para pasajeros, muestra informacion del conductor con el cual el pasajero conecta y permite a cualquier usuario funcionar tanto como conductor o como pasajero.
+
+|Aplicación|Fortalezas|Desbilidades|
+|-|-|-|
+|**Uber**|Integracion con metodos de pago seguros y conocidos, seguimiento de viaje para terceros, gran disponibilidad de conductores.|Precios un poco elevados.|
+|**Viatik**|Precios a decidir por los conductores (accesibles), chat entre usuarios independiente del viaje, no hay limites de distancia ni de jurisdicciones al viajar|No hay regulaciones para los conductores|
+|**The Ridely App**|Especialmente pensado para estudiantes.|No integra pasarela de pago, proyecto pequeño.|
+
 ## Definición del problema/solución
 
 ### ⏱️ Estimación y priorización
