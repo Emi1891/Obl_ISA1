@@ -287,7 +287,7 @@ En el caso de Viatik, comparte algunas de las funcionalidades principales de Ube
 Este proyecto también fue lanzado como una aplicación gratuita. A diferencia de Uber y Viatik, The Ridely App es un proyecto personal poco desarrollado, por lo cual la versión publicada evidencia una calidad inferior en cuanto a su diseño y funcionalidad. Aun así, este proyecto tiene las funcionalidades básicas de una aplicación de carpooling universitario, por lo que es el proyecto que mas se asemeja al nuestro.
 Como prinicpales funcionalidades, incorpora un sistema de puntuacion tanto para conductores como para pasajeros, muestra informacion del conductor con el cual el pasajero conecta y permite a cualquier usuario funcionar tanto como conductor o como pasajero.
 
-|Aplicación|Fortalezas|Desbilidades|
+|Aplicación|Fortalezas|Debilidades|
 |-|-|-|
 |**Uber**|Integracion con metodos de pago seguros y conocidos, seguimiento de viaje para terceros, gran disponibilidad de conductores.|Precios un poco elevados.|
 |**Viatik**|Precios a decidir por los conductores (accesibles), chat entre usuarios independiente del viaje, no hay limites de distancia ni de jurisdicciones al viajar|No hay regulaciones para los conductores|
