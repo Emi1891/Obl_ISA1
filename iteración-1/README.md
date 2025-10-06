@@ -138,25 +138,24 @@ La reunión duró un total de 3 horas y culminamos que nos juntaremos en la pró
     - Cada historia de usuario debe estar redactada en el formato “Como…”, “Quiero…”, “Para…”.
 
 - **Historia de usuario 7**: Definición de criterios de aceptación
+  - **Como:** Equipo de Desarrollo  
+  - **Quiero:** Conocer los criterios de aceptación para cada historia de usuario.  
+  - **Para:** Asegurarme de que los requerimientos sean claros y verificables.  
 
-    **Como:** Equipo de Desarrollo  
-    **Quiero:** Conocer los criterios de aceptación para cada historia de usuario.  
-    **Para:** Asegurarme de que los requerimientos sean claros y verificables.  
-
-    **Criterios de aceptación:**
+  - **Criterios de aceptación:**
     - Cada historia de usuario debe contar con criterios de aceptación redactados en un lenguaje claro, verificable y comprensible para todos los integrantes del equipo.  
     - Todas las historias de usuario deben incluir como mínimo **un criterio de aceptación**; si este no logra explicar completamente el requerimiento, deberán incluirse **al menos dos criterios de aceptación bien definidos**.  
 
 - **Historia de usuario 8**: Creación del Story Map
 
-  **Como:** Equipo de Desarrollo  
-  **Quiero:** Crear un Story Map de alto nivel.  
-  **Para:** Visualizar de manera clara el flujo de usuario y priorizar las funcionalidades de cada iteración.  
+  - **Como:** Equipo de Desarrollo  
+  - **Quiero:** Crear un Story Map de alto nivel.  
+  - **Para:** Visualizar de manera clara el flujo de usuario y priorizar las funcionalidades de cada iteración.  
 
-  **Criterios de aceptación:**
-  - Cada épica debe tener asociadas al menos dos o más historias de usuario.  
-  - El Story Map debe mostrar claramente las actividades y tareas principales de los usuarios.  
-  - El Story Map debe incluir las épicas principales identificadas en el Product Backlog inicial.
+  - **Criterios de aceptación:**
+    - Cada épica debe tener asociadas al menos dos o más historias de usuario.  
+    - El Story Map debe mostrar claramente las actividades y tareas principales de los usuarios.  
+    - El Story Map debe incluir las épicas principales identificadas en el Product Backlog inicial.
 
 ![Sprint 1 Backlog](Sprint1.PNG "Sprint 1")
 
@@ -308,7 +307,14 @@ La siguiente imagen muestra los **IDs asociados** a cada historia dentro del Pro
 ![Imagen](Features/Estimaciones.PNG "Estimaciones")
 ### Story map
 
+### Iteración 1
+![StoryMap](StoryMap/StoryMap1.jpg "SM1")
 
+### Iteración 2 y 3
+![StoryMap](StoryMap/StoryMap2.jpg "SM23")
+
+### Iteración 4
+![StoryMap](StoryMap/StoryMap3.jpg "SM4")
 
 ### 🗂️ Product Backlog
 
