@@ -112,14 +112,13 @@ La reunión duró un total de 3 horas y culminamos que nos juntaremos en la pró
     - Se elabora un cuadro comparativo que evidencie coincidencias, diferencias y oportunidades de mejora frente a las apps existentes.
 
 - **Historia de usuario 4**: Identificación del “viaje típico” como escenario base
-    - **Como:** Equipo de Desarrollo  
-    - **Quiero:** Identificar y documentar el “viaje típico” que realizan los usuarios dentro de la aplicación.  
-    - **Para:** Contar con un escenario base que sirva como referencia para el diseño de funcionalidades y la validación de futuras iteraciones.  
-
-    - **Criterios de aceptación:**
-        - Se debe describir un flujo completo de viaje, desde la búsqueda hasta la finalización del trayecto.  
-        - El escenario debe contemplar al menos un perfil de **conductor** y uno de **pasajero**.  
-        - El “viaje típico” debe quedar registrado como documento de referencia en el repositorio del proyecto.  
+  - **Como:** Equipo de Desarrollo  
+  - **Quiero:** Identificar y documentar el “viaje típico” que realizan los usuarios dentro de la aplicación.  
+  - **Para:** Contar con un escenario base que sirva como referencia para el diseño de funcionalidades y la validación de futuras iteraciones.  
+  - **Criterios de aceptación:**
+    - Se debe describir un flujo completo de viaje, desde la búsqueda hasta la finalización del trayecto.  
+    - El escenario debe contemplar al menos un perfil de **conductor** y uno de **pasajero**.  
+    - El “viaje típico” debe quedar registrado como documento de referencia en el repositorio del proyecto.  
 
 - **Historia de usuario 5**: Definición de políticas iniciales
   - **Como**: Product Owner  
