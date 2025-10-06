@@ -78,7 +78,7 @@ El lunes 29 de septiembre, tuvimos la primera instancia de reunión para este pr
 
 ### Minuta 2: Planning 2 (02/10/2025)
 
-El jueves 02 de octubre, continuamos con la segunda parte de la planning, finalizando. El objetivo de esta reunión fue continuar con la investigación, ambientar el backlog generando las épica y sus correspondientes features, categorizamos a cada una de ellas en orden de prioridad donde 1 es más prioritario y 4 menos prioritario. Creamos una encuesta con la cual recaudaremos información, que nos servirá a modo de guía para nuestro producto, asignamos las tareas que iremos trabajando en esta iteración.
+El jueves 02 de octubre, continuamos con la segunda parte de la planning, finalizando. El objetivo de esta reunión fue continuar con la investigación, ambientar el backlog generando las épica y sus correspondientes features, categorizamos a cada una de ellas en orden de prioridad donde 1 es más prioritario y 4 menos prioritario. Creamos una encuesta con la cual recaudaremos información, que nos servirá a modo de guía para nuestro producto, asignamos las tareas que iremos trabajando en esta iteración. Se definio la herramienta de Clockify para el conteo de las horas de trabajo.
 La reunión duró un total de 3 horas y culminamos que nos juntaremos en la próxima reunión para compartir avances de lo asignado.
 
 
@@ -175,14 +175,9 @@ El Sábado 04 de octubre, realizamos la primer daily con el objetivo coordinar e
 
 ![Imagen](Reuniones/Daily1.PNG "Daily 1")
 
-### Artefactos principales
+### Minuta 4: Daily 2 (06/10/2025)
 
-- Minuta de daily scrum describiendo la coordinación del trabajo de cada integrante del equipo.
-  - ¿Que logramos hacer?
-  - ¿Qué planificamos hacer?
-  - ¿Qué impedimentos tenemos?
-- Registro y reporte de horas de cada integrante del equipo con sus actividades principales.
-- Seguimiento visual de la iteración con burndown y/o burnup charts.
+### Minuta 5: Daily 3 (08/10/2025)
 
 ## Inspección y adaptación del proceso
 
@@ -214,7 +209,7 @@ A partir de los resultados obtenidos, determinamos que nuestro público objetivo
 
 Este perfil de usuario nos permitió validar la necesidad de una **aplicación de carpooling universitario** que conecte conductores y pasajeros dentro de una misma institución, promoviendo la colaboración, la eficiencia y la sostenibilidad en los traslados diarios.
 
----> En la carpeta de "Encuestas Resultados" se adjuntan unas imagenes de las respuestas de la encuesta que realizamos.
+> **Nota:** En la carpeta de "Encuestas Resultados" se adjuntan unas imagenes de las respuestas de la encuesta que realizamos.
 
 ###  Stakeholders
 
@@ -278,7 +273,128 @@ Se crearon las funcionalidades en formato “Como… Quiero… Para…”, consi
 
 ## Definición del problema/solución
 
-_[Existe un Product Backlog definido con su jerarquía de épicas e historias de usuario con sus criterios de aceptación asociados. Existe una priorización de los prototipos principales que se buscarán idear, construir y validar como parte del ciclo de descubrimiento.]_
+### ⏱️ Estimación y priorización
+
+Para la estimación del esfuerzo, se definió una escala en la cual **1 Story Point equivale aproximadamente a media hora de trabajo**.  
+Como referencia base, se tomó la **tarea con ID 22**, a la cual se le asignó un valor de **7 Story Points (≈3 horas)**, considerando su complejidad y duración estimada.  
+El resto de las tareas fueron evaluadas en función de esta referencia, ajustando los puntos de historia según el nivel de esfuerzo relativo requerido.
+
+La **priorización** se realizó considerando el **valor que cada funcionalidad aporta al usuario final**, así como las **dependencias y relaciones de precedencia** entre las distintas tareas, buscando optimizar la secuencia de desarrollo y maximizar el impacto en cada iteración.
+
+### Tareas de la Iteración 1 y las estimaciones asignadas
+En base al criterio anterior estos fueron los **Story Points** asignados a cada una de las Historias de Usuarios de este sprint:
+
+- **Historia de usuario 1**: Identificación de interesados (stakeholders)
+  - 1 SP
+- **Historia de usuario 2**: Lista de funcionalidades por tipo de usuario
+  - 1 SP
+- **Historia de usuario 3**: Análisis comparativo de apps similares
+  - 4 SP
+- **Historia de usuario 4**: Identificar “viaje típico” como escenario base
+  - 2 SP
+- **Historia de usuario 5**: Definición de políticas iniciales
+  - 2 SP
+- **Historia de usuario 6**: Creación del Product Backlog inicial
+  - 6 SP
+- **Historia de usuario 7**: Definición de criterios de aceptación
+  - 2 SP
+- **Historia de usuario 8**: Creación del Story Map
+  - 2 SP
+
+### Estimacion de esfuerzo en las siguientes HU
+
+**Id:** Corresponde al identificador asignado automáticamente por **Azure Boards** para cada historia de usuario.  
+La siguiente imagen muestra los **IDs asociados** a cada historia dentro del Product Backlog:
+
+![Imagen](Features/Estimaciones.PNG "Estimaciones")
+### Story map
+
+
+
+### 🗂️ Product Backlog
+
+A continuación se presenta el **Product Backlog** del proyecto, estructurado en **épicas** e **historias de usuario**, de acuerdo con los principios de la **gestión ágil**.  
+Este backlog fue desarrollado y priorizado en función del valor que cada funcionalidad aporta al usuario final y se gestiona utilizando la herramienta **Azure Boards**, lo que permite mantener trazabilidad, transparencia y control sobre el avance de cada iteración.
+
+#### 🟦 ÉPICA 1: Gestión de usuarios
+Todo lo relacionado con el registro, inicio de sesión y administración de cuentas dentro de la aplicación.
+
+| ID  | Historia de Usuario |
+|-----|----------------------|
+| HU10 | Como nuevo usuario, quiero registrarme con mi correo, nombre de usuario y contraseña para crear mi cuenta en la aplicación. |
+| HU11 | Como usuario, quiero iniciar sesión con mi nombre de usuario y contraseña para acceder a mi perfil y mis viajes. |
+| HU12 | Como usuario, quiero poder iniciar sesión con mi cuenta de Google para acceder de forma rápida y segura. |
+| HU13 | Como usuario, quiero editar mi perfil para actualizar mis datos personales y preferencias. |
+| HU09 | Como usuario, quiero seleccionar mi tipo de perfil (conductor o pasajero) para definir cómo usaré la aplicación. |
+| HU14 | Como administrador, quiero poder dar de alta a otros administradores para gestionar la comunidad. |
+| HU15 | Como usuario, quiero recuperar mi contraseña si la olvido para poder volver a ingresar a la aplicación. |
+
+![Imagen](Features/GestionUsuarios.PNG "GU")
+---
+
+#### 🟩 ÉPICA 2: Funcionalidades del conductor
+Incluye todas las acciones relacionadas con los usuarios que ofrecen viajes dentro de la plataforma.
+
+| ID  | Historia de Usuario |
+|-----|----------------------|
+| HU16 | Como conductor, quiero publicar mis viajes (origen, destino, ruta, día, horario, costo y lugares disponibles) para que otros estudiantes puedan unirse. |
+| HU18 | Como conductor, quiero editar los viajes publicados para modificar la información si hay cambios. |
+| HU19 | Como conductor, quiero cancelar un viaje publicado en caso de imprevistos o cambios de horario. |
+| HU17 | Como conductor, quiero evaluar a mis pasajeros según criterios como puntualidad y actitud para mantener la calidad de la comunidad. |
+| HU32 | Como conductor, quiero marcar el estado de mi viaje (pendiente, en curso o finalizado) para informar a los pasajeros. |
+| HU33 | Como conductor, quiero acceder a un historial de viajes realizados para consultar mis trayectos anteriores. |
+
+![Imagen](Features/FConductor.PNG "FC")
+---
+
+#### 🟧 ÉPICA 3: Funcionalidades del pasajero
+Agrupa las funcionalidades destinadas a los usuarios que buscan y reservan viajes.
+
+| ID  | Historia de Usuario |
+|-----|----------------------|
+| HU20 | Como pasajero, quiero reservar un lugar en un viaje publicado para asegurar mi traslado. |
+| HU21 | Como pasajero, quiero evaluar al conductor luego del viaje para contribuir a la reputación de la comunidad. |
+| HU22 | Como pasajero, quiero buscar viajes disponibles según zona, día y hora para encontrar la opción más conveniente. |
+| HU36 | Como pasajero, quiero cancelar mi reserva en caso de que ya no pueda realizar el viaje. |
+| HU37 | Como pasajero, quiero acceder a un historial de viajes realizados para consultar mis trayectos anteriores. |
+
+![Imagen](Features/FPasajero.PNG "FP")
+---
+
+#### 🟥 ÉPICA 4: Administración del sistema
+Incluye las funcionalidades que permiten a los administradores mantener el orden, la seguridad y la calidad de la plataforma.
+
+| ID  | Historia de Usuario |
+|-----|----------------------|
+| HU23 | Como administrador, quiero dar de baja a usuarios que incumplan las políticas de la comunidad. |
+| HU24 | Como administrador, quiero gestionar los reportes realizados por los usuarios para resolver conflictos. |
+| HU25 | Como administrador, quiero resolver discrepancias en las evaluaciones para garantizar la transparencia. |
+| HU38 | Como administrador, quiero visualizar estadísticas generales de uso para analizar el desempeño de la plataforma. |
+| HU39 | Como administrador, quiero definir las políticas iniciales de uso y comportamiento para establecer las reglas de la comunidad. |
+
+![Imagen](Features/Administracion.PNG "AS")
+---
+
+#### 🟨 ÉPICA 5: Notificaciones y alertas
+Reúne todas las notificaciones que mejoran la comunicación entre usuarios y el seguimiento de los viajes.
+
+| ID  | Historia de Usuario |
+|-----|----------------------|
+| HU28 | Como pasajero, quiero recibir un recordatorio cuando falten 15 minutos para mi viaje reservado para no llegar tarde. |
+| HU26 | Como pasajero, quiero recibir una notificación cuando el conductor esté demorado para poder reorganizarme. |
+| HU27 | Como pasajero, quiero recibir una alerta cuando un conductor cancele un viaje reservado para poder buscar otra opción. |
+| HU34 | Como conductor, quiero recibir una notificación cuando un pasajero reserve un viaje para confirmar su lugar. |
+| HU35 | Como conductor, quiero recibir una notificación cuando un pasajero cancele su reserva para mantener actualizada la disponibilidad del viaje. |
+
+![Imagen](Features/Notificaciones.PNG "NS")
+
+
+<br>
+
+> **Nota:** La asignación de historias de usuario a cada sprint se definirá durante las sesiones de **Sprint Planning**.  
+> Actualmente, todas las historias se encuentran **priorizadas en el Product Backlog** y **organizadas por épicas** dentro de **Azure Boards**, lo que permite una gestión clara y trazable del progreso del proyecto.
+
+
 
 ### Artefactos principales
 
