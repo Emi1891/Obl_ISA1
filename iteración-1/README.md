@@ -175,6 +175,11 @@ El Sábado 04 de octubre, realizamos la primer daily con el objetivo coordinar e
 
 ### Minuta 4: Daily 2 (06/10/2025)
 
+El Lunes 06 de octubre, realizamos la segunda daily con el objetivo coordinar el trabajo del equipo y revisar el avance de la iteración, presentamos avance de la investigación. Mostramos avances como la construcción final del Story Map, se mostró un avance del análisis comparando otras apps similares, se definió la estimación de los casos restantes y se documentó sobre ello, también se registraron las épicas y sus correspondientes Historias de Usuarios en el documento.
+Nos queda pendiente para la proxima y ultima daily; la de definir cómo sería un viaje típico, definir las políticas iniciales y terminar la parte de Definición del problema/solución.
+
+![Imagen](Reuniones/Daily2.PNG "Daily 2")
+
 ### Minuta 5: Daily 3 (08/10/2025)
 
 ## Inspección y adaptación del proceso
