@@ -27,6 +27,7 @@ En el presente Sprint definimos que los eventos se establecerán de la siguiente
 
 - **Sprint Planning**: 2 días (29/09/2025 y 02/10/2025)
 - **Daily Scrum**: 3 días (04/10/2025, 06/10/2025 y 08/10/2025)
+- **Sprint Review**: 1 día (10/10/2025)
 - **Sprint Retrospective**: 1 día (10/10/2025)
 
 # Definition of Done y Definition of Ready – Carpool Universitario
@@ -159,7 +160,6 @@ La reunión duró un total de 3 horas y culminamos que nos juntaremos en la pró
 
 ![Sprint 1 Backlog](Sprint1.PNG "Sprint 1")
 
-
 ### Tareas asociadas
 
 En esta iteración no se definieron tareas específicas para cada historia de usuario, ya que se consideran suficientemente claras y autoexplicativas por sí mismas.
@@ -183,6 +183,10 @@ Nos queda pendiente para la proxima y ultima daily; la de definir cómo sería u
 ### Minuta 5: Daily 3 (08/10/2025)
 
 ## Inspección y adaptación del proceso
+
+### Minuta 6: Review (10/10/2025)
+
+### Minuta 7: Retrospective (10/10/2025)
 
 _[Existe evidencia sobre la inspección del proceso con aprendizajes principales y acciones de mejora implementadas durante el desarrollo del proyecto.]_
 
@@ -344,7 +348,7 @@ En base al criterio anterior estos fueron los **Story Points** asignados a cada 
 **Id:** Corresponde al identificador asignado automáticamente por **Azure Boards** para cada historia de usuario.  
 La siguiente imagen muestra los **IDs asociados** a cada historia dentro del Product Backlog:
 
-![Imagen](Features/Estimaciones.PNG "Estimaciones")
+![Imagen](Items/Estimaciones.PNG "Estimaciones")
 
 ### 🗂️ Product Backlog
 
@@ -364,7 +368,7 @@ Todo lo relacionado con el registro, inicio de sesión y administración de cuen
 | HU14 | Como administrador, quiero poder dar de alta a otros administradores para gestionar la comunidad. |
 | HU15 | Como usuario, quiero recuperar mi contraseña si la olvido para poder volver a ingresar a la aplicación. |
 
-![Imagen](Features/GestionUsuarios.PNG "GU")
+![Imagen](Items/GestionUsuarios.PNG "GU")
 ---
 
 #### 🟩 ÉPICA 2: Funcionalidades del conductor
@@ -379,7 +383,7 @@ Incluye todas las acciones relacionadas con los usuarios que ofrecen viajes dent
 | HU32 | Como conductor, quiero marcar el estado de mi viaje (pendiente, en curso o finalizado) para informar a los pasajeros. |
 | HU33 | Como conductor, quiero acceder a un historial de viajes realizados para consultar mis trayectos anteriores. |
 
-![Imagen](Features/FConductor.PNG "FC")
+![Imagen](Items/FConductor.PNG "FC")
 ---
 
 #### 🟧 ÉPICA 3: Funcionalidades del pasajero
@@ -393,7 +397,7 @@ Agrupa las funcionalidades destinadas a los usuarios que buscan y reservan viaje
 | HU36 | Como pasajero, quiero cancelar mi reserva en caso de que ya no pueda realizar el viaje. |
 | HU37 | Como pasajero, quiero acceder a un historial de viajes realizados para consultar mis trayectos anteriores. |
 
-![Imagen](Features/FPasajero.PNG "FP")
+![Imagen](Items/FPasajero.PNG "FP")
 ---
 
 #### 🟥 ÉPICA 4: Administración del sistema
@@ -407,7 +411,7 @@ Incluye las funcionalidades que permiten a los administradores mantener el orden
 | HU38 | Como administrador, quiero visualizar estadísticas generales de uso para analizar el desempeño de la plataforma. |
 | HU39 | Como administrador, quiero definir las políticas iniciales de uso y comportamiento para establecer las reglas de la comunidad. |
 
-![Imagen](Features/Administracion.PNG "AS")
+![Imagen](Items/Administracion.PNG "AS")
 ---
 
 #### 🟨 ÉPICA 5: Notificaciones y alertas
@@ -421,19 +425,20 @@ Reúne todas las notificaciones que mejoran la comunicación entre usuarios y el
 | HU34 | Como conductor, quiero recibir una notificación cuando un pasajero reserve un viaje para confirmar su lugar. |
 | HU35 | Como conductor, quiero recibir una notificación cuando un pasajero cancele su reserva para mantener actualizada la disponibilidad del viaje. |
 
-![Imagen](Features/Notificaciones.PNG "NS")
+![Imagen](Items/Notificaciones.PNG "NS")
+---
 
+#### 🟪 ÉPICA 6: Generales y configuración
+Incluye tareas y funcionalidades relacionadas con los ajustes visuales y la documentación necesaria para la finalización del proyecto.
 
+| ID  | Historia de Usuario |
+|-----|----------------------|
+| HU30 | Como equipo de desarrollo, quiero realizar ajustes en la interfaz de usuario (UI) para mejorar la experiencia y coherencia visual de la aplicación. |
+| HU31 | Como equipo, queremos elaborar la documentación final del producto para dejar registro del funcionamiento, decisiones de diseño y entregables del proyecto. |
+
+![Imagen](Items/General.PNG "G")
 <br>
 
 > **Nota:** La asignación de historias de usuario a cada sprint se definirá durante las sesiones de **Sprint Planning**.  
 > Actualmente, todas las historias se encuentran **priorizadas en el Product Backlog** y **organizadas por épicas** dentro de **Azure Boards**, lo que permite una gestión clara y trazable del progreso del proyecto.
 
-
-
-### Artefactos principales
-
-- Product backlog con épicas e historias de usuario para prototipar.
-- Historias de usuario cumpliendo el Definition of Ready con sus criterios de aceptación.
-- Propuesta de valor diferenciadora de la competencia.
-- Story map del roadmap inicial del proyecto.
