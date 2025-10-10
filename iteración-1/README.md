@@ -474,7 +474,7 @@ Reúne todas las notificaciones que mejoran la comunicación entre usuarios y el
 ---
 
 #### 🟪 ÉPICA 6: Generales y configuración
-Incluye tareas y funcionalidades relacionadas con los ajustes visuales y la documentación necesaria para la finalización del proyecto.
+Incluye tareas y funcionalidades relacionadas con los ajustes visuales y la documentación necesaria para la finalización del proyecto (Serán realizadas en la iteración final).
 
 | ID  | Historia de Usuario |
 |-----|----------------------|
