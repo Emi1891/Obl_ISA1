@@ -182,6 +182,11 @@ Nos queda pendiente para la proxima y ultima daily; la de definir cómo sería u
 
 ### Minuta 5: Daily 3 (10/10/2025)
 
+El Viernes 10 de octubre, realizamos la última daily con el objetivo coordinar el trabajo del equipo y revisar los ultimos detalles antes de finalizar la iteración 1. Se definio la Epica 6 con detalles que serán realizados en la iteración 4, se hicieron las politicas iniciales las cuales iban estar representadas en el funcionamiento del prototipo y reglas generales. Queda también registrado en el backlog las historias de usuario de las cards correspondientes a esta sprint.
+Nos queda pendiente la definición de viaje típico y una conclusión final de análisis de competidores.
+
+![Imagen](Reuniones/Daily3.PNG "Daily 3")
+
 ## Inspección y adaptación del proceso
 
 ### Minuta 6: Review (11/10/2025)
@@ -482,3 +487,5 @@ Incluye tareas y funcionalidades relacionadas con los ajustes visuales y la docu
 > **Nota:** La asignación de historias de usuario a cada sprint se definirá durante las sesiones de **Sprint Planning**.  
 > Actualmente, todas las historias se encuentran **priorizadas en el Product Backlog** y **organizadas por épicas** dentro de **Azure Boards**, lo que permite una gestión clara y trazable del progreso del proyecto.
 
+
+## ⌛ Registro de Horas del equipo
