@@ -455,6 +455,7 @@ Incluye las funcionalidades que permiten a los administradores mantener el orden
 | HU25 | Como administrador, quiero resolver discrepancias en las evaluaciones para garantizar la transparencia. |
 | HU38 | Como administrador, quiero visualizar estadísticas generales de uso para analizar el desempeño de la plataforma. |
 | HU39 | Como administrador, quiero definir las políticas iniciales de uso y comportamiento para establecer las reglas de la comunidad. |
+| HU29 | Como administrador, quiero poder iniciar sesión con mis credenciales para acceder a las herramientas de gestión del sistema. |
 
 ![Imagen](Items/Administracion.PNG "AS")
 ---
