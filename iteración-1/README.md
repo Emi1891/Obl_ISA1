@@ -26,9 +26,9 @@ Al comienzo establecimos los roles con la intención de que en las siguientes it
 En el presente Sprint definimos que los eventos se establecerán de la siguiente forma:
 
 - **Sprint Planning**: 2 días (29/09/2025 y 02/10/2025)
-- **Daily Scrum**: 3 días (04/10/2025, 06/10/2025 y 08/10/2025)
-- **Sprint Review**: 1 día (10/10/2025)
-- **Sprint Retrospective**: 1 día (10/10/2025)
+- **Daily Scrum**: 3 días (04/10/2025, 06/10/2025 y 10/10/2025)
+- **Sprint Review**: 1 día (11/10/2025)
+- **Sprint Retrospective**: 1 día (11/10/2025)
 
 # Definition of Done y Definition of Ready – Carpool Universitario
 
@@ -180,13 +180,13 @@ Nos queda pendiente para la proxima y ultima daily; la de definir cómo sería u
 
 ![Imagen](Reuniones/Daily2.PNG "Daily 2")
 
-### Minuta 5: Daily 3 (08/10/2025)
+### Minuta 5: Daily 3 (10/10/2025)
 
 ## Inspección y adaptación del proceso
 
-### Minuta 6: Review (10/10/2025)
+### Minuta 6: Review (11/10/2025)
 
-### Minuta 7: Retrospective (10/10/2025)
+### Minuta 7: Retrospective (11/10/2025)
 
 _[Existe evidencia sobre la inspección del proceso con aprendizajes principales y acciones de mejora implementadas durante el desarrollo del proyecto.]_
 
