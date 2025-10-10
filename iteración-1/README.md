@@ -304,6 +304,46 @@ Como prinicpales funcionalidades, incorpora un sistema de puntuacion tanto para 
 
 ## Definición del problema/solución
 
+### Definición de Políticas iniciales
+
+1. Políticas de seguridad y autenticación
+- Todo usuario debe registrarse con un correo electrónico válido y único.
+- Se exige una contraseña segura (mínimo 8 caracteres, con mayúsculas, minúsculas y números).
+- Se mantiene la sesión activa solo por un tiempo limitado de inactividad.
+- Los datos sensibles (contraseñas, correos) se almacenan de forma cifrada.
+
+2. Políticas de roles y permisos
+- Existen tres roles principales: Conductor, Pasajero y Administrador.
+- Cada usuario puede tener más de un rol, pero solo uno activo por sesión.
+- Los administradores tienen permisos exclusivos para suspender usuarios, arbitrar disputas y gestionar reportes.
+- Los conductores pueden publicar, editar o cancelar viajes.
+- Los pasajeros pueden buscar, reservar o cancelar viajes.
+
+3. Políticas de comunicación y notificaciones
+- Las notificaciones se envían cuando:
+    - Un conductor cancela un viaje reservado.
+    - Un conductor marca “demorado”.
+    - Un viaje está próximo a comenzar (15 minutos antes).
+- Las notificaciones pueden ser push o internas en la app.
+- No se envían notificaciones publicitarias ni mensajes no solicitados.
+
+4. Políticas de reputación y evaluaciones
+- Luego de cada viaje, conductores y pasajeros deben evaluarse mutuamente.
+- El sistema calcula una reputación promedio basada en las últimas calificaciones.
+- Los usuarios con calificaciones reiteradamente bajas pueden ser reportados o suspendidos.
+- Las evaluaciones deben mantener un tono respetuoso y constructivo.
+
+5. Políticas de reportes y sanciones
+- Cualquier usuario puede reportar comportamientos inapropiados (falta de puntualidad, cancelaciones reiteradas, lenguaje ofensivo, etc.).
+- Los reportes son revisados por un administrador, quien puede emitir advertencias o suspender temporalmente al usuario.
+- Los usuarios sancionados recibirán una notificación con el motivo de la acción tomada.
+
+6. Políticas de privacidad y uso responsable
+- Los datos personales solo se utilizan con fines funcionales de la aplicación.
+- No se comparten con terceros ajenos al sistema.
+- Se promueve un ambiente de respeto y colaboración entre los usuarios.
+- No se toleran conductas discriminatorias ni mensajes inapropiados.
+
 ### Story map
 
 ### Iteración 1
