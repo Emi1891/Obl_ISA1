@@ -409,9 +409,9 @@ Todo lo relacionado con el registro, inicio de sesión y administración de cuen
 | HU11 | Como usuario, quiero iniciar sesión con mi nombre de usuario y contraseña para acceder a mi perfil y mis viajes. |
 | HU12 | Como usuario, quiero poder iniciar sesión con mi cuenta de Google para acceder de forma rápida y segura. |
 | HU13 | Como usuario, quiero editar mi perfil para actualizar mis datos personales y preferencias. |
-| HU09 | Como usuario, quiero seleccionar mi tipo de perfil (conductor o pasajero) para definir cómo usaré la aplicación. |
 | HU14 | Como administrador, quiero poder dar de alta a otros administradores para gestionar la comunidad. |
 | HU15 | Como usuario, quiero recuperar mi contraseña si la olvido para poder volver a ingresar a la aplicación. |
+| HU09 | Como usuario, quiero seleccionar mi tipo de perfil (conductor o pasajero) para definir cómo usaré la aplicación. |
 
 ![Imagen](Items/GestionUsuarios.PNG "GU")
 ---
@@ -436,9 +436,9 @@ Agrupa las funcionalidades destinadas a los usuarios que buscan y reservan viaje
 
 | ID  | Historia de Usuario |
 |-----|----------------------|
+| HU22 | Como pasajero, quiero buscar viajes disponibles según zona, día y hora para encontrar la opción más conveniente. |
 | HU20 | Como pasajero, quiero reservar un lugar en un viaje publicado para asegurar mi traslado. |
 | HU21 | Como pasajero, quiero evaluar al conductor luego del viaje para contribuir a la reputación de la comunidad. |
-| HU22 | Como pasajero, quiero buscar viajes disponibles según zona, día y hora para encontrar la opción más conveniente. |
 | HU36 | Como pasajero, quiero cancelar mi reserva en caso de que ya no pueda realizar el viaje. |
 | HU37 | Como pasajero, quiero acceder a un historial de viajes realizados para consultar mis trayectos anteriores. |
 
@@ -464,9 +464,9 @@ Reúne todas las notificaciones que mejoran la comunicación entre usuarios y el
 
 | ID  | Historia de Usuario |
 |-----|----------------------|
-| HU28 | Como pasajero, quiero recibir un recordatorio cuando falten 15 minutos para mi viaje reservado para no llegar tarde. |
-| HU26 | Como pasajero, quiero recibir una notificación cuando el conductor esté demorado para poder reorganizarme. |
 | HU27 | Como pasajero, quiero recibir una alerta cuando un conductor cancele un viaje reservado para poder buscar otra opción. |
+| HU26 | Como pasajero, quiero recibir una notificación cuando el conductor esté demorado para poder reorganizarme. |
+| HU28 | Como pasajero, quiero recibir un recordatorio cuando falten 15 minutos para mi viaje reservado para no llegar tarde. |
 | HU34 | Como conductor, quiero recibir una notificación cuando un pasajero reserve un viaje para confirmar su lugar. |
 | HU35 | Como conductor, quiero recibir una notificación cuando un pasajero cancele su reserva para mantener actualizada la disponibilidad del viaje. |
 
