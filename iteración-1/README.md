@@ -553,5 +553,5 @@ Incluye tareas y funcionalidades relacionadas con los ajustes visuales y la docu
 A continuación se muestran las horas de trabajo del equipo, registrando las grupales e individuales
 
 ![Imagen](Horas/Horas1.PNG "H1")
-![Imagen](Horas/Horas2.PNG "H2")
-![Imagen](Horas/Horas3.PNG "H3")
+![Imagen](Horas/Horas2.png "H2")
+![Imagen](Horas/Horas3.png "H3")
