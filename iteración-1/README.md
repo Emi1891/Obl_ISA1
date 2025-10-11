@@ -191,14 +191,63 @@ Nos queda pendiente la definición de viaje típico y una conclusión final de a
 
 ### Minuta 6: Review (11/10/2025)
 
+El Sábado 11 de octubre realizamos la Sprint Review. Si bien esta iteración no generó un producto de valor demostrable al usuario, aprovechamos la instancia para evaluar los resultados de las user stories y el backlog desarrollado. Teniendo en cuenta las tareas cumplidas, que no tuvimos ningun Carry para la siguiente iteración, concluimos que fue un muy buen comienzo. 
+
+![Imagen](Reuniones/Review.PNG "Review")
+
 ### Minuta 7: Retrospective (11/10/2025)
 
-_[Existe evidencia sobre la inspección del proceso con aprendizajes principales y acciones de mejora implementadas durante el desarrollo del proyecto.]_
+#### 🧩 Descripción
+Como último día del sprint, realizamos la retrospectiva para reflexionar sobre el proceso de esta iteración y definir qué prácticas mantener, mejorar o eliminar.  
+La dinámica se llevó a cabo utilizando **Miro**, lo que permitió recopilar de forma colaborativa las opiniones del equipo.
 
-### Artefactos principales
+---
 
-- Minuta de la retrospectiva con la dinámica utilizada y sus principales resultados.
-- Planificación y seguimiento de las acciones de mejora.
+#### ✅ CONTINUE
+Aspectos que funcionaron bien y queremos mantener:
+- Manejo de roles bien definidos.  
+- Mantenimiento de una buena comunicación.  
+- Cumplimiento de los plazos definidos para la iteración.  
+- Uso organizado del repositorio de GitHub.  
+- Buena división de las tareas.  
+- Claridad en la redacción de historias de usuario.  
+- Claridad en los objetivos de cada sprint.
+
+---
+
+#### 🔄 CHANGE
+Aspectos que debemos mejorar o ajustar:
+- Las herramientas costaron al principio manejarlas.  
+- Demoramos un poco en arrancar la sprint.  
+- Coordinar mejor los horarios de trabajo grupal.  
+- Definir con mayor precisión los tiempos estimados por tarea.
+
+---
+
+#### 💡 NEW IDEAS
+Nuevas ideas y propuestas para próximas iteraciones:
+- Alternar los roles en cada iteración.  
+- Incorporar una plantilla estándar para historias de usuario (mantener formato y estilo).  
+- Incluir una encuesta breve de feedback interno al final del sprint.  
+- Probar una reunión de 10 minutos al inicio de la semana para planificar entregas.
+
+---
+
+#### 💙 APPRECIATE
+Reconocimientos y valoraciones del equipo:
+- Apreciamos el compromiso y constancia del equipo.  
+- Se destaca la participación activa de todos los miembros en las decisiones.  
+- Trabajar en un repositorio unificado nos pareció una muy buena práctica.  
+- Se valora la importancia de definir roles desde el inicio y documentar todo.
+
+---
+
+#### 🧭 Conclusión
+La retrospectiva permitió identificar tanto los logros como las oportunidades de mejora del equipo.  
+El principal acuerdo fue **seguir fortaleciendo la organización y la planificación**, especialmente en las *dailies* y la gestión de tiempos, manteniendo a la vez la buena comunicación y colaboración alcanzadas.
+
+![Imagen](Reuniones/Retro.PNG "Retro")
+
 
 # Identificar y definir el problema a resolver
 
@@ -490,3 +539,7 @@ Incluye tareas y funcionalidades relacionadas con los ajustes visuales y la docu
 
 
 ## ⌛ Registro de Horas del equipo
+
+A continuación se muestran las horas de trabajo del equipo, registrando las grupales e individuales
+
+![Imagen](Horas/Horas1.PNG "H1")
