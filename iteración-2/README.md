@@ -13,19 +13,103 @@
 
 ## Definición del marco de trabajo
 
-_[Definición del marco de trabajo SCRUM con los acuerdos principales del equipo y evidencia de sus prácticas aplicadas en la iteración. Deben estar los roles definidos para cada integrante del equipo y la justificación de la adaptación del marco de trabajo al contexto de la iteración.]_
+Siguiendo como habiamos establecido los roles con la intención de que en las siguientes iteraciones se roten, favoreciendo así la participación y el aprendizaje de todos.
+
+- **Product Owner**: Juan Ferreira
+
+- **Scrum Master**: Emiliano Reyes
+
+- **Developer**:  Juan Croquis
 
 ### Artefactos principales
 
-- Definición del calendario de eventos con justificación de su adaptación al contexto de la iteración.
-- Roles y responsabilidades definidos para cada integrante del equipo.
-- Políticas de trabajo del equipo:
-  - Definition of Done.
-  - Definition of Ready.
+En el presente Sprint definimos que los eventos se establecerán de la siguiente forma:
+
+- **Sprint Planning**: 2 días (13/10/2025 y 14/10/2025)
+- **Daily Scrum**: 3 días (17/10/2025, 22/10/2025 y 24/10/2025)
+- **Sprint Review**: 1 día (25/10/2025)
+- **Sprint Retrospective**: 1 día (25/10/2025)
+
+# Definition of Done y Definition of Ready – Carpool Universitario
+
+## Definition of Done (DoD)
+
+Un entregable (historia de usuario, funcionalidad o tarea) se considera **terminado** cuando:
+
+- **Funcionalidad implementada**  
+  Ejemplo: el registro de usuario permite crear cuenta como conductor o pasajero.  
+
+- **Funcionalidad testeada**  
+  Pruebas unitarias y funcionales confirman que el login, búsqueda de viajes, reserva y publicación funcionan según lo esperado.  
+
+- **Criterios de aceptación cumplidos**  
+  Cada historia de usuario cuenta con criterios claros (ejemplo:  
+  *“Como pasajero quiero buscar un viaje por horario y zona, para elegir la mejor opción”*),  
+  y deben cumplirse en su totalidad.  
+
+---
+
+## Definition of Ready (DoR)
+
+Una historia de usuario o tarea se considera **lista para entrar en un Sprint** cuando:
+
+- **Estimación de esfuerzo confirmada**  
+  El equipo acordó una estimación en puntos de historia o tiempo, y está alineada con la capacidad disponible del Sprint.  
+
+- **Recursos disponibles**  
+  El equipo cuenta con acceso a las herramientas necesarias 
+
+- **Conocimientos/capacitación suficiente**  
+  Los miembros tienen claro cómo implementar la historia
+
+- **Diseño de UI aprobado**  
+  Las pantallas necesarias para la historia (ejemplo: formulario de *Publicar viaje*, vista de *Reservar lugar*) están definidas y detalladas.  
+
+- **Criterios de aceptación definidos**  
+  Cada historia de usuario tiene escenarios claros que permitan saber cuándo está “hecha”. 
+
 
 ## Planificación de la iteración
 
-_[Sprint Backlog para cumplir con el objetivo de la iteración. Debe contener las historias de usuario priorizadas y las tareas planificadas basadas en la capacidad y velocidad disponible del equipo.]_
+### Minuta 1: Planning 1 (13/10/2025)
+
+Lunes 13 de Octubre, realizamos la primera reunion para preparar el ambiente para la iteración 2. El objetivo de esta reunión fue avanzar y planificar que íbamos a realizar esta iteración (Sprint). Designamos roles, validamos las herramientas a utilizar, definimos el objetivo de la iteración, buscamos consenso sobre cómo aplicar el marco de trabajo SCRUM al contexto del proyecto y que corresponde a cada rol y dejamos preparado el **Product Backlog**. La reunión se dio en clases duró 30 minutos y concluimos que la siguiente reunión continuaremos con la siguiente parte del planning.
+
+![Imagen](Reuniones/Planning1.jpeg "Planning 1")
+
+### Minuta 2: Planning 2 (14/10/2025)
+
+Martes 14 de Octubre, continuamos con la segunda parte de la planning, finalizando. El objetivo de esta reunión fue continuar con el scope para esta iteración, ambientar el backlog asignandonos las tareas para esta sprint, creamos el proyecto en **Framer** (la herramienta la cual haríamos el prototipo). Creamos algunas tasks para hacer en cada Historia de usuario. También definimos fechas para las siguientes reuniones.
+La reunión duró un total de 1 hora y media y culminamos que nos juntaremos en la próxima reunión para compartir avances de lo asignado.
+
+![Imagen](Reuniones/Planning2.jpeg "Planning 2")
+
+### Sprint Backlog
+
+![Imagen](Backlog/B1.PNG "B1")
+![Imagen](Backlog/B2.PNG "B2")
+![Imagen](Backlog/B3.PNG "B3")
+![Imagen](Backlog/B4.PNG "B4")
+
+#### Historias de usuario
+
+- **Historia de usuario 09**: Seleccionar Perfil
+  - **Como**: Como usuario registrado (conductor o pasajero)
+  - **Quiero**: Poder seleccionar con qué perfil deseo ingresar (conductor o pasajero).
+  - **Para**: Acceder solo a las funciones correspondientes a mi rol en cada sesión (publicar viajes o reservarlos).
+  - **Criterios de aceptación**:
+    - Al iniciar sesión, el sistema debe mostrar una pantalla o modal que permita elegir entre los perfiles "Conductor" y "Pasajero"
+    - El cambio de perfil debe actualizar las funcionalidades disponibles (ejemplo: "Publicar viaje" solo visible para conductores).
+
+- **Historia de usuario 11**: Login con usuario y contraseña
+  - **Como**: Como usuario registrado (conductor o pasajero)
+  - **Quiero**: Iniciar sesión con mi usuario y contraseña para acceder a mis viajes y reservas.
+  - **Para**: Poder acceder a mis viajes publicados, reservas o busqueda de viajes y perfil personal.
+  - **Criterios de aceptación**:
+    - Al iniciar sesión correctamente, se redirige al usuario a su pantalla principal donde seleccionará su perfil (conductor o pasajero).
+    - Debe haber una opción visible para “Recordar contraseña” o “Recuperar contraseña”.
+
+#### Estimaciones
 
 ### Artefactos principales
 
