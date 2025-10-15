@@ -109,7 +109,12 @@ La reunión duró un total de 1 hora y media y culminamos que nos juntaremos en 
     - Al iniciar sesión correctamente, se redirige al usuario a su pantalla principal donde seleccionará su perfil (conductor o pasajero).
     - Debe haber una opción visible para “Recordar contraseña” o “Recuperar contraseña”.
 
+
+> **Nota:** Se añadieron las tasks de redacción de historias de usuarios correspondientes a las cards que vamos a trabajar durante esta Iteración 2, además de la creación de pantallas intermedias necesarias para conectar las pantallas creadas.
+
 #### Estimaciones
+
+A continuación se redactan las estimaciónes puestas por el equipo correspondientes a estas Historias de Usuarios (Como definimos antes 1 SP corresponde a 30 minutos).
 
 ### Artefactos principales
 
