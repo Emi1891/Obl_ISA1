@@ -111,6 +111,8 @@ La reunión duró un total de 1 hora y media y culminamos que nos juntaremos en 
   - **Para**: Poder acceder a mis viajes publicados, reservas o busqueda de viajes y perfil personal.
   - **Criterios de aceptación**:
     - Al iniciar sesión correctamente, se redirige al usuario a su pantalla principal donde seleccionará su perfil (conductor o pasajero).
+    - Debe haber una opción visible de Crear cuenta si no se ha registrado aún.
+    - Debe haber una opción de iniciar sesión con Google.
     - Debe haber una opción visible para “Recordar contraseña” o “Recuperar contraseña”.
 
 - **Historia de usuario 22**: Buscar viajes por zona, día y hora
