@@ -84,12 +84,16 @@ La reunión duró un total de 1 hora y media y culminamos que nos juntaremos en 
 
 ![Imagen](Reuniones/Planning2.jpeg "Planning 2")
 
+---
+
 ### Sprint Backlog
 
 ![Imagen](Backlog/B1.PNG "B1")
 ![Imagen](Backlog/B2.PNG "B2")
 ![Imagen](Backlog/B3.PNG "B3")
 ![Imagen](Backlog/B4.PNG "B4")
+
+---
 
 #### Historias de usuario
 
@@ -109,12 +113,48 @@ La reunión duró un total de 1 hora y media y culminamos que nos juntaremos en 
     - Al iniciar sesión correctamente, se redirige al usuario a su pantalla principal donde seleccionará su perfil (conductor o pasajero).
     - Debe haber una opción visible para “Recordar contraseña” o “Recuperar contraseña”.
 
+- **Historia de usuario 29**: Iniciar sesión como administrador
+  - **Como**: Administrador del sistema
+  - **Quiero**: Poder iniciar sesión en la aplicación utilizando mis credenciales de administrador.
+  - **Para**: Acceder al panel de control y gestionar usuarios, estadisticas de viajes, notificaciones y configuraciones generales del sistema.
+  - **Criterios de aceptación**:
+    - Si las credenciales son válidas, se debe redirigir al panel de administración.
+    - El acceso al panel de administración debe estar restringido a perfiles no administradores.
+
 
 > **Nota:** Se añadieron las tasks de redacción de historias de usuarios correspondientes a las cards que vamos a trabajar durante esta Iteración 2, además de la creación de pantallas intermedias necesarias para conectar las pantallas creadas.
+
+---
 
 #### Estimaciones
 
 A continuación se redactan las estimaciónes puestas por el equipo correspondientes a estas Historias de Usuarios (Como definimos antes 1 SP corresponde a 30 minutos).
+
+
+- **Historia de usuario 9**: Seleccionar perfil
+  - 1 SP
+- **Historia de usuario 10**: Registrar nuevo usuario
+  - 5 SP
+- **Historia de usuario 11**: Login con usuario y contraseña
+  - 5 SP
+- **Historia de usuario 14**: Dar de alta administradores
+  - 4 SP
+- **Historia de usuario 16**: Publicar viajes
+  - 5 SP
+- **Historia de usuario 18**: Editar viajes publicados
+  - 4 SP
+- **Historia de usuario 20**: Reservar lugar en un viaje
+  - 6 SP
+- **Historia de usuario 22**: Buscar viajes por zona, día y hora
+  - 6 SP
+- **Historia de usuario 23**: Dar de baja usuarios
+  - 4 SP
+- **Historia de usuario 29**: Iniciar sesión como administrador
+  - 3 SP
+- **Historia de usuario 32**: Marcar estado del viaje
+  - 3 SP
+- **Historia de usuario 39**: Definición de políticas iniciales UI
+  - 5 SP
 
 ### Artefactos principales
 
