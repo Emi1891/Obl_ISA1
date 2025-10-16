@@ -113,6 +113,15 @@ La reunión duró un total de 1 hora y media y culminamos que nos juntaremos en 
     - Al iniciar sesión correctamente, se redirige al usuario a su pantalla principal donde seleccionará su perfil (conductor o pasajero).
     - Debe haber una opción visible para “Recordar contraseña” o “Recuperar contraseña”.
 
+- **Historia de usuario 22**: Buscar viajes por zona, día y hora
+  - **Como**: Pasajero
+  - **Quiero**: Poder buscar viajes disponibles filtrando por zona de origen o destino, día y hora deseada.
+  - **Para**: Encontrar opciones de viaje que se ajusten mejor a mi ubicación y disponibilidad horaria.
+  - **Criterios de aceptación**:
+      - El pasajero puede ingresar o seleccionar la zona de origen y/o destino.
+      - El pasajero puede elegir el día y la hora en la que desea viajar.
+      - El sistema muestra una lista de viajes disponibles que cumplan con los filtros seleccionados.
+
 - **Historia de usuario 29**: Iniciar sesión como administrador
   - **Como**: Administrador del sistema
   - **Quiero**: Poder iniciar sesión en la aplicación utilizando mis credenciales de administrador.
