@@ -137,7 +137,17 @@ La reunión duró un total de 1 hora y media y culminamos que nos juntaremos en 
 
 ---
 
-#### Estimaciones
+#### 🧮 Estimación del esfuerzo
+
+Para estimar el esfuerzo de las historias seleccionadas aplicamos la técnica **Planning Poker** basada en **Story Points**.
+
+Tomamos en cuenta los siguientes factores:
+- **Complejidad técnica**
+- **Volumen de trabajo**
+- **Nivel de incertidumbre**
+
+Utilizamos el **estimador integrado en Azure DevOps** para asignar valores dentro de la **escala de Fibonacci** a cada historia elegida para el sprint.  
+En los casos donde hubo diferencias de criterio, el equipo **debatió las estimaciones** y se realizó **una nueva votación** hasta llegar a un consenso.
 
 A continuación se redactan las estimaciónes puestas por el equipo correspondientes a estas Historias de Usuarios (Como definimos antes 1 SP corresponde a 30 minutos).
 
@@ -167,6 +177,14 @@ A continuación se redactan las estimaciónes puestas por el equipo correspondie
 - **Historia de usuario 39**: Definición de políticas iniciales UI
   - 5 SP
 
+### 👥 Asignación de tareas
+
+Durante la **planificación** asumimos distintos roles según la necesidad, pero en la etapa de **desarrollo** trabajaremos los tres de forma colaborativa.  
+Repartimos las tareas de manera **equitativa**, asegurando que cada integrante comience con una **tarea de prioridad 1**.
+
+Luego del proceso de **priorización**, **estimación** y **asignación**, las **historias de usuario seleccionadas para el sprint** fueron las siguientes:
+
+
 ### Artefactos principales
 
 - Minuta de la sprint planning con su agenda, actividades y resultados.
@@ -179,6 +197,18 @@ A continuación se redactan las estimaciónes puestas por el equipo correspondie
 ## Seguimiento de la iteración
 
 _[Existe evidencia sobre el registro de actividades y horas de cada integrante del equipo con el seguimiento general de cada iteración del proyecto sobre lo planificado inicialmente.]_
+
+### Minuta 3: Daily 1 (17/10/2025)
+
+El Viernes 17 de octubre, realizamos la primera daily de esta iteración 2, con el objetivo coordinar el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos a completar 6 de las 12 propuestas para esta sprint, 4 de las 12 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
+Actualmente el equipo pasa por el período de pruebas de parciales, examenes y entregas. Lo cual afecta un poco la velocidad de esta iteración.
+
+![Imagen](Reuniones/Daily1.jpeg "Daily 1")
+![Imagen](Backlog/B5.PNG "B5")
+
+### Minuta 4: Daily 2 (22/10/2025)
+
+### Minuta 5: Daily 3 (24/10/2025)
 
 ### Artefactos principales
 
