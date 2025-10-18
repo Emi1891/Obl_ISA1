@@ -95,7 +95,12 @@ La reunión duró un total de 1 hora y media y culminamos que nos juntaremos en 
 
 ---
 
-#### Historias de usuario
+#### 👥 Asignación de tareas
+
+Durante la **planificación** asumimos distintos roles según la necesidad, pero en la etapa de **desarrollo** trabajaremos los tres de forma colaborativa.  
+Repartimos las tareas de manera **equitativa**, asegurando que cada integrante comience con una **tarea de prioridad 1**.
+
+#### 📚 Historias de usuario
 
 - **Historia de usuario 09**: Seleccionar Perfil
   - **Como**: Como usuario registrado (conductor o pasajero)
@@ -146,7 +151,7 @@ Tomamos en cuenta los siguientes factores:
 - **Volumen de trabajo**
 - **Nivel de incertidumbre**
 
-Utilizamos el **estimador integrado en Azure DevOps** para asignar valores dentro de la **escala de Fibonacci** a cada historia elegida para el sprint.  
+Utilizamos el **estimador integrado en Azure DevOps** para asignar valores dentro de cada historia elegida para el sprint.  
 En los casos donde hubo diferencias de criterio, el equipo **debatió las estimaciones** y se realizó **una nueva votación** hasta llegar a un consenso.
 
 A continuación se redactan las estimaciónes puestas por el equipo correspondientes a estas Historias de Usuarios (Como definimos antes 1 SP corresponde a 30 minutos).
@@ -176,13 +181,6 @@ A continuación se redactan las estimaciónes puestas por el equipo correspondie
   - 3 SP
 - **Historia de usuario 39**: Definición de políticas iniciales UI
   - 5 SP
-
-### 👥 Asignación de tareas
-
-Durante la **planificación** asumimos distintos roles según la necesidad, pero en la etapa de **desarrollo** trabajaremos los tres de forma colaborativa.  
-Repartimos las tareas de manera **equitativa**, asegurando que cada integrante comience con una **tarea de prioridad 1**.
-
-Luego del proceso de **priorización**, **estimación** y **asignación**, las **historias de usuario seleccionadas para el sprint** fueron las siguientes:
 
 
 ### Artefactos principales
