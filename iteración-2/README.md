@@ -120,6 +120,27 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - Debe haber una opción de iniciar sesión con Google.
     - Debe haber una opción visible para “Recordar contraseña” o “Recuperar contraseña”.
 
+- **Historia de usuario 16**: Publicar viajes
+  - **Como**: Como conductor
+  - **Quiero**: Poder publicar un viaje ingresando el origen, destino, ruta, fecha, hora, costo y cantidad de lugares disponibles.
+  - **Para**: Compartir mi vehículo con otros estudiantes que realicen el mismo recorrido y así reducir costos de transporte.
+  - **Criterios de aceptación**:
+    - El formulario debe permitir ingresar todos los campos obligatorios: lugar de salida, destino, ruta, fecha, hora, costo y cantidad de lugares.
+    - Al presionar “Post Trip”, el sistema valida los datos y muestra un mensaje confirmando la publicación.
+    - No se puede publicar un viaje si hay campos vacíos o datos inválidos (por ejemplo, fecha pasada o número de lugares 0).
+    - El viaje publicado queda disponible en la lista de viajes visibles para los pasajeros.
+
+- **Historia de usuario 18**: Editar viajes publicados
+  - **Como**: Como conductor
+  - **Quiero**: Poder editar los detalles de un viaje que ya publiqué (como hora, costo o cantidad de lugares disponibles).
+  - **Para**: Actualizar la información del viaje si surgieron cambios o ajustes de último momento.
+  - **Criterios de aceptación**:
+    - El sistema debe mostrar los datos actuales del viaje en el formulario “Edit Trip”.
+    - Se deben poder modificar uno o varios campos y guardar los cambios al presionar “Edit Trip”.
+    - Al guardar, el sistema debe validar los datos actualizados y confirmar la modificación con un mensaje visible.
+    - Si el conductor cambia la fecha u hora, los pasajeros con reserva deben recibir una notificación del cambio.
+
+
 - **Historia de usuario 22**: Buscar viajes por zona, día y hora
   - **Como**: Pasajero
   - **Quiero**: Poder buscar viajes disponibles filtrando por zona de origen o destino, día y hora deseada.
