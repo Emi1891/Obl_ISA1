@@ -273,6 +273,8 @@ Una vez seleccionado el perfil, el usuario puede continuar con el flujo correspo
 
 La pantalla permite iniciar sesión en la app de carpool. Sobre un fondo ilustrado se presentan dos campos de entrada (Username y Password), el botón de "Sign in", enlaces auxiliares (Sign up, Forgot your password?) que aplican a los flujos de registro, recuperar contraseña o inicio alternativo, un separador "OR" y el botón "Continue with Google" para acceso alterno.
 
+Como validaciones en este caso las casillas no deben ser vacias, se ingresa con nickname o email (escrito correctamente @ y dominio). Validaciones que verifica que el usuario esta registrado. Completando este flujo al presionar "Sign in" inicio sesión correctamente.
+
 ![Imagen](Pantallas/IniciarSesion.PNG "IS")
 
 
