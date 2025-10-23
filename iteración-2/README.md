@@ -227,6 +227,11 @@ Actualmente el equipo pasa por el período de pruebas de parciales, examenes y e
 
 ### Minuta 4: Daily 2 (22/10/2025)
 
+El Miércoles 22 de octubre, nos reunimos para la segunda daily de esta iteración 2, con el objetivo de compartir avances del trabajo realizado,  presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, añadimos 4 pantallas más y escribimos otro par de Historias de Usuario. Compartimos tecnicas y diseños posibles para las pantallas restantes. Para la proxima nos propusimos en cerrar todas las pantallas que quedaban sin terminar, además de coordinar probar un prototipo y sacar feedback.
+Actualmente el equipo pasa por el período de pruebas de parciales, examenes y entregas. Lo cual afecta un poco la velocidad de esta iteración.
+
+![Imagen](Reuniones/Daily2.jpeg "Daily 2")
+
 ### Minuta 5: Daily 3 (24/10/2025)
 
 ### Artefactos principales
@@ -251,7 +256,36 @@ _[Existe evidencia sobre la inspección del proceso con aprendizajes principales
 
 ## Prototipos con posibles soluciones
 
-_[Existen diferentes propuestas de solución para entregar valor y resolver el problema identificado implementado a través de prototipos. Los prototipos deberán ser exportados en algún formato de imagen (como png o jpg) a efectos de poder ser visualizados fácilmente dentro del propio repo de github.]_
+Para explorar rápidamente el MVP (Minimum Viable Product), optamos por **Framer** como herramienta de prototipado. Con ella construimos un primer prototipo funcional de la app móvil de carpool universitario. Trabajamos íntegramente con el formato de "Mobile" para asegurar desde el inicio una experiencia 100% mobile-first (iOS/Android), manteniendo consistencia en tamaños, tipografías y patrones de navegación.
+
+El prototipo de esta primera iteración incluye doce pantallas principales, y --- pantallas auxiliares que conectan otras pantallas, pensadas para cubrir el flujo mínimo extremo a extremo:
+
+### Seleccionar perfil HU 9:
+
+En la pantalla se permite elegir el tipo de usuario con el que se usará la app: Driver (conductor) o Passenger (pasajero). Cada opción se presenta como un botón circular con ilustración y estado de selección visual (borde resaltado). En la parte superior se muestra el título “Select user type” y una breve descripción de ayuda.
+
+Una vez seleccionado el perfil, el usuario puede continuar con el flujo correspondiente. Esta decisión define el modo de navegación y las funcionalidades visibles en el resto del sistema (por ejemplo, crear/gestionar viajes para Driver, o buscar/reservar viajes para Passenger).
+
+![Imagen](Pantallas/SeleccionarPerfil.PNG "Seleccionar Perfil")
+
+### Registrar nuevo usuario HU 10:
+### Login con usuario y contraseña HU 11: 
+
+La pantalla permite iniciar sesión en la app de carpool. Sobre un fondo ilustrado se presentan dos campos de entrada (Username y Password), el botón de "Sign in", enlaces auxiliares (Sign up, Forgot your password?) que aplican a los flujos de registro, recuperar contraseña o inicio alternativo, un separador "OR" y el botón "Continue with Google" para acceso alterno.
+
+![Imagen](Pantallas/IniciarSesion.PNG "IS")
+
+
+### Dar de alta administradores HU 14:
+### Publicar viajes HU 16:
+### Editar viajes publicados HU 18:
+### Reservar lugar en un viaje HU 20: 
+### Buscar viajes por zona, día y hora HU 22:
+### Dar de baja usuarios HU 23:
+### Iniciar sesión como administrador HU 29:
+### Marcar estado del viaje HU 32:
+### Definición de políticas iniciales UI HU 39:
+
 
 ### Artefactos principales
 
