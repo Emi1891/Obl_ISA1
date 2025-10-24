@@ -357,6 +357,22 @@ NOTIFICATIONS:
 ![Admin2](../iteración-2/Pantallas/Politicas.PNG "Admin2")
 ---
 
+## Pantallas adicionales:
+
+### Perfil del pasajero:
+### Perfil del conductor:
+### Perfil del Admin:
+
+### Navbar del pasajero:
+En la página de su pérfil, el usuario cuenta con una navigation bar. Esta será la que le permita navegar por toda la aplicación sencillamente. Particularmente, el botón con el signo de pin o ubicación le ofrecerá la opción de buscar un nuevo viaje, los libros de ver su historial de viajes y la persona el ir a su perfil:
+
+![user](../iteración-2/Pantallas/navP.jpeg "user")
+
+### Navbar del conductor:
+En la página de su pérfil, el usuario cuenta con una navigation bar. Esta será la que le permita navegar por toda la aplicación sencillamente. Particularmente, el botón con el maleta y agenda le ofrecerá la opción de publicar un nuevo viaje, los libros de ver su historial de viajes y la persona el ir a su perfil:
+
+![user](../iteración-2/Pantallas/navC.PNG "user")
+
 ## Criterios para el flow de la aplicación
 ### Artefactos principales
 
