@@ -335,7 +335,36 @@ A efectos practicos esta pantalla es la misma que de iniciar sesión como usuari
 
 ## Inspección y adaptación del producto
 
-_[Existe evidencia de instancias de inspección y validación del producto con usuarios y la recolección de su feedback con ajustes finales a los prototipos.]_
+### Validación con usuarios
+
+Con el objetivo de validar los prototipos con usuarios reales, decidimos realizar pruebas de usabilidad. Buscamos medir qué tan intuitiva es la interfaz y detectar oportunidades de mejora en la operabilidad y la navegación. Apuntamos a ofrecer una experiencia de usuario óptima (UX), clave para un MVP sólido.
+
+Para esta instancia, organizamos sesiones con usuarios potenciales que participaron de forma voluntaria. En cada sesión, se les asignaron tareas concretas dentro de la app y se les pidió que las resolvieran sin recibir ayuda ni indicaciones. De este modo evaluamos la comprensibilidad del flujo y, cuando alguien no logra completar una acción, registramos esa fricción como área de mejora (ya sea de navegación o de usabilidad general).
+
+En particular, pedimos a los participantes completar historias de usuario críticas de esta iteración, siendo el flujo de un pasajero para reservar viaje y para el conductor crear un nuevo viaje para el producto. Entre ellas, la que presentó mayor dificultad fue:
+
+  - **Reservar lugar en un viaje HU 20:** Si bien en general esta pantalla no surguieron problemas para completar su flujo, los usuarios suguirieron de implementar una iterfaz a parte para reservar un viaje y no incluirla en la lista de viajes. Esto es debido a que el viaje seria mejor contemplado si se expande la información por dentre de este.
+
+En resumen a los usuarios le fue fácil realizar el flujo dentro de la aplicación y les gusto mucho como adaptamos estilos y paleta de colores en nuestra app. Sin embargo, se lograron encontrar oportunidades de mejora que implementarémos para adaptar dichas acotaciones.
+
+
+![Prototipo](../iteración-2/Pruebas/Chat1.PNG "Prototipo1")
+
+![Prototipo](../iteración-2/Pruebas/visual1.jpeg "Prototipo2")
+![Prototipo](../iteración-2/Pruebas/visual2.jpeg "Prototipo2")
+
+### Minuta 7: Review (25/10/2025)
+
+Al cerrar el sprint, el equipo se reunió para revisar el desempeño y los objetivos alcanzados.
+Junto con el Product Owner repasamos la Definition of Done y concluimos que se ajusta bien a nuestro flujo actual, por lo que la mantendremos.
+
+Además, completamos todas las User Stories planificadas en tiempo y forma, lo que indica una buena estimación de esfuerzo y que la velocidad del equipo está en línea con lo esperado.
+
+Por último, analizamos los hallazgos de usabilidad detectados en las pruebas con usuarios y acordamos implementar los ajustes necesarios en la próxima iteración.
+
+![Imagen](Reuniones/Review.PNG "Review")
+
+## ⌛ Registro de Horas del equipo
 
 ### Artefactos principales
 
