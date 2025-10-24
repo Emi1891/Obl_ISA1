@@ -158,6 +158,15 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - Si las credenciales son válidas, se debe redirigir al panel de administración.
     - El acceso al panel de administración debe estar restringido a perfiles no administradores.
 
+- **Historia de usuario 39**: Definición de políticas iniciales UI
+  - **Como**: Administrador del sistema
+  - **Quiero**: Configurar, desde una única pantalla, las políticas base del sistema (Cancelaciones, Seguridad, Precios/Comisiones y Notificaciones).
+  - **Para**: Establecer el comportamiento inicial de la plataforma con control, trazabilidad y consistencia.
+  - **Criterios de aceptación**:
+    - La pantalla muestra las secciones Cancelations, Security, Prices/Commissions y Notifications
+    - Cada sección contiene su botón Set para guardar solo esa sección
+    - Acceso restringido a rol Admin
+
 
 > **Nota:** Se añadieron las tasks de redacción de historias de usuarios correspondientes a las cards que vamos a trabajar durante esta Iteración 2, además de la creación de pantallas intermedias necesarias para conectar las pantallas creadas.
 
@@ -325,6 +334,25 @@ A efectos practicos esta pantalla es la misma que de iniciar sesión como usuari
 ---
 ### Definición de políticas iniciales UI HU 39:
 
+Pantalla de configuración para que Administración seten las políticas base del sistema. El layout presenta tarjetas independientes por categoría, cada una con campos de entrada y un botón **Set** que guarda solo esa sección, una flecha que me redireciona al menu del Admin. Las categorías visibles son:
+
+CANCELLATIONS:
+  - Free cancel window (min) (entrada numérica).
+  - Driver/Passenger penalty (%) (porcentual).
+  - Nota informativa: "Those affected will be automatically notified."
+
+SECURITY:
+  - Password policy length (MIN).
+  - Session timeout (Time/min).
+
+PRICES/COMMISSIONS:
+- Commission split: Admin % y Conductor %.
+
+NOTIFICATIONS:
+- Canales: SMS, Email, Push (toggles).
+- Events: listado con estados (los marcados SOON no son interactivos).
+
+![Admin2](../iteración-2/Pantallas/Politicas.PNG "Admin2")
 ---
 
 ## Criterios para el flow de la aplicación
