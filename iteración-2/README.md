@@ -268,7 +268,11 @@ Una vez seleccionado el perfil, el usuario puede continuar con el flujo correspo
 
 ![Imagen](Pantallas/SeleccionarPerfil.PNG "Seleccionar Perfil")
 
+---
+
 ### Registrar nuevo usuario HU 10:
+
+---
 ### Login con usuario y contraseña HU 11: 
 
 La pantalla permite iniciar sesión en la app de carpool. Sobre un fondo ilustrado se presentan dos campos de entrada (Username y Password), el botón de "Sign in", enlaces auxiliares (Sign up, Forgot your password?) que aplican a los flujos de registro, recuperar contraseña o inicio alternativo, un separador "OR" y el botón "Continue with Google" para acceso alterno.
@@ -277,18 +281,53 @@ Como validaciones en este caso las casillas no deben ser vacias, se ingresa con 
 
 ![Imagen](Pantallas/IniciarSesion.PNG "IS")
 
-
+---
 ### Dar de alta administradores HU 14:
+
+---
 ### Publicar viajes HU 16:
+
+---
 ### Editar viajes publicados HU 18:
+
+---
 ### Reservar lugar en un viaje HU 20: 
+
+---
 ### Buscar viajes por zona, día y hora HU 22:
+
+Pantalla para buscar viajes ingresando origen, destino, fecha y hora. Incluye:
+
+  - Inputs: Departure place, Destiny, DD/MM/YYYY (picker), HH:MM (time picker).
+  - Acción principal Find Trip.
+  - Atajo para invertir origen/destino (ícono ↻).
+  - Barra/tab inferior de navegación.
+
+Al ejecutar la búsqueda, se muestra el listado de resultados con cards que incluyen: nombre y rating del conductor, precio, cupos disponibles, y el trayecto (puntos de subida/bajada).
+Cuando el usuario da click en una de las tarjetas esta automaticamente redireccionará a una pantalla de dicho viaje.
+
+![Imagen](Pantallas/BuscarViaje1.PNG "Find Trip 1")
+![Imagen](Pantallas/BuscarViaje2.PNG "Find Trip 2")
+
+---
 ### Dar de baja usuarios HU 23:
+
+---
 ### Iniciar sesión como administrador HU 29:
+
+A efectos practicos esta pantalla es la misma que de iniciar sesión como usuario normal (pasajero / conductor), solo que redirige a un menu de administrador. Para adaptarlo aparte optamos de que fuera así. En el desarrollo final de la app será integrado a la misma ventana, con las validaciónes correspondientes el al iniciar sesión el sistema se dará cuenta que es un Admin y lo mandará a su lugar correspondiente.
+
+![Imagen](Pantallas/LoginAdmin.PNG "Admin1")
+
+---
 ### Marcar estado del viaje HU 32:
+
+---
 ### Definición de políticas iniciales UI HU 39:
 
+---
 
+## Criterios para el flow de la aplicación
 ### Artefactos principales
 
 - Prototipos interactivos para ser navegados.
