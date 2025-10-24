@@ -75,23 +75,23 @@ Una historia de usuario o tarea se considera **lista para entrar en un Sprint** 
 
 Lunes 13 de Octubre, realizamos la primera reunion para preparar el ambiente para la iteración 2. El objetivo de esta reunión fue avanzar y planificar que íbamos a realizar esta iteración (Sprint). Designamos roles, validamos las herramientas a utilizar, definimos el objetivo de la iteración, buscamos consenso sobre cómo aplicar el marco de trabajo SCRUM al contexto del proyecto y que corresponde a cada rol y dejamos preparado el **Product Backlog**. La reunión se dio en clases duró 30 minutos y concluimos que la siguiente reunión continuaremos con la siguiente parte del planning.
 
-![Imagen](../iteración-2/Reuniones/Planning1.jpeg "Planning 1")
+![Planning 1](../iteración-2/Reuniones/Planning1.jpeg "Planning 1")
 
 ### Minuta 2: Planning 2 (14/10/2025)
 
 Martes 14 de Octubre, continuamos con la segunda parte de la planning, finalizando. El objetivo de esta reunión fue continuar con el scope para esta iteración, ambientar el backlog asignandonos las tareas para esta sprint, creamos el proyecto en **Framer** (la herramienta la cual haríamos el prototipo). Creamos algunas tasks para hacer en cada Historia de usuario. También definimos fechas para las siguientes reuniones.
 La reunión duró un total de 1 hora y media y culminamos que nos juntaremos en la próxima reunión para compartir avances de lo asignado.
 
-![Imagen](../iteración-2/Reuniones/Planning2.jpeg "Planning 2")
+![Planning 2](../iteración-2/Reuniones/Planning2.jpeg "Planning 2")
 
 ---
 
 ### Sprint Backlog
 
-![Imagen](../iteración-2/Backlog/B1.PNG "B1")
-![Imagen](../iteración-2/Backlog/B2.PNG "B2")
-![Imagen](../iteración-2/Backlog/B3.PNG "B3")
-![Imagen](../iteración-2/Backlog/B4.PNG "B4")
+![B1](../iteración-2/Backlog/B1.PNG "B1")
+![B2](../iteración-2/Backlog/B2.PNG "B2")
+![B3](../iteración-2/Backlog/B3.PNG "B3")
+![B4](../iteración-2/Backlog/B4.PNG "B4")
 
 ---
 
@@ -222,15 +222,15 @@ _[Existe evidencia sobre el registro de actividades y horas de cada integrante d
 El Viernes 17 de octubre, realizamos la primera daily de esta iteración 2, con el objetivo coordinar el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos a completar 6 de las 12 propuestas para esta sprint, 4 de las 12 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
 Actualmente el equipo pasa por el período de pruebas de parciales, examenes y entregas. Lo cual afecta un poco la velocidad de esta iteración.
 
-![Imagen](../iteración-2/Reuniones/Daily1.jpeg "Daily 1")
-![Imagen](../iteración-2/Backlog/B5.PNG "B5")
+![Daily 1](../iteración-2/Reuniones/Daily1.jpeg "Daily 1")
+![B5](../iteración-2/Backlog/B5.PNG "B5")
 
 ### Minuta 4: Daily 2 (22/10/2025)
 
 El Miércoles 22 de octubre, nos reunimos para la segunda daily de esta iteración 2, con el objetivo de compartir avances del trabajo realizado,  presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, añadimos 4 pantallas más y escribimos otro par de Historias de Usuario. Compartimos tecnicas y diseños posibles para las pantallas restantes. Para la proxima nos propusimos en cerrar todas las pantallas que quedaban sin terminar, además de coordinar probar un prototipo y sacar feedback.
 Actualmente el equipo pasa por el período de pruebas de parciales, examenes y entregas. Lo cual afecta un poco la velocidad de esta iteración.
 
-![Imagen](../iteración-2/Reuniones/Daily2.jpeg "Daily 2")
+![Daily 2](../iteración-2/Reuniones/Daily2.jpeg "Daily 2")
 
 ### Minuta 5: Daily 3 (24/10/2025)
 
@@ -266,7 +266,7 @@ En la pantalla se permite elegir el tipo de usuario con el que se usará la app:
 
 Una vez seleccionado el perfil, el usuario puede continuar con el flujo correspondiente. Esta decisión define el modo de navegación y las funcionalidades visibles en el resto del sistema (por ejemplo, crear/gestionar viajes para Driver, o buscar/reservar viajes para Passenger).
 
-![Imagen](../iteración-2/Pantallas/SeleccionarPerfil.PNG "Seleccionar Perfil")
+![Seleccionar Perfil](../iteración-2/Pantallas/SeleccionarPerfil.PNG "Seleccionar Perfil")
 
 ---
 
@@ -279,7 +279,7 @@ La pantalla permite iniciar sesión en la app de carpool. Sobre un fondo ilustra
 
 Como validaciones en este caso las casillas no deben ser vacias, se ingresa con nickname o email (escrito correctamente @ y dominio). Validaciones que verifica que el usuario esta registrado. Completando este flujo al presionar "Sign in" inicio sesión correctamente.
 
-![Imagen](../iteración-2/Pantallas/IniciarSesion.PNG "IS")
+![IS](../iteración-2/Pantallas/IniciarSesion.PNG "IS")
 
 ---
 ### Dar de alta administradores HU 14:
@@ -306,8 +306,8 @@ Pantalla para buscar viajes ingresando origen, destino, fecha y hora. Incluye:
 Al ejecutar la búsqueda, se muestra el listado de resultados con cards que incluyen: nombre y rating del conductor, precio, cupos disponibles, y el trayecto (puntos de subida/bajada).
 Cuando el usuario da click en una de las tarjetas esta automaticamente redireccionará a una pantalla de dicho viaje.
 
-![Imagen](../iteración-2/Pantallas/BuscarViaje1.PNG "Find Trip 1")
-![Imagen](../iteración-2/Pantallas/BuscarViaje2.PNG "Find Trip 2")
+![Find Trip 1](../iteración-2/Pantallas/BuscarViaje1.PNG "Find Trip 1")
+![Find Trip 2](../iteración-2/Pantallas/BuscarViaje2.PNG "Find Trip 2")
 
 ---
 ### Dar de baja usuarios HU 23:
@@ -317,7 +317,7 @@ Cuando el usuario da click en una de las tarjetas esta automaticamente redirecci
 
 A efectos practicos esta pantalla es la misma que de iniciar sesión como usuario normal (pasajero / conductor), solo que redirige a un menu de administrador. Para adaptarlo aparte optamos de que fuera así. En el desarrollo final de la app será integrado a la misma ventana, con las validaciónes correspondientes el al iniciar sesión el sistema se dará cuenta que es un Admin y lo mandará a su lugar correspondiente.
 
-![Imagen](../iteración-2/Pantallas/LoginAdmin.PNG "Admin1")
+![Admin1](../iteración-2/Pantallas/LoginAdmin.PNG "Admin1")
 
 ---
 ### Marcar estado del viaje HU 32:
