@@ -267,11 +267,13 @@ _[Existe evidencia sobre la inspección del proceso con aprendizajes principales
 
 Para explorar rápidamente el MVP (Minimum Viable Product), optamos por **Framer** como herramienta de prototipado. Con ella construimos un primer prototipo funcional de la app móvil de carpool universitario. Trabajamos íntegramente con el formato de "Mobile" para asegurar desde el inicio una experiencia 100% mobile-first (iOS/Android), manteniendo consistencia en tamaños, tipografías y patrones de navegación.
 
-El prototipo de esta primera iteración incluye doce pantallas principales, y --- pantallas auxiliares que conectan otras pantallas, pensadas para cubrir el flujo mínimo extremo a extremo:
+![Framer](../iteración-2/Pantallas/casos.PNG "Framer")
+
+El prototipo de esta primera iteración incluye doce historias de usuario implementadas y 3 pantallas auxiliares (estas corresponden a el menu del usuario: pasajero, conductor o admin) que conectan otras pantallas, pensadas para cubrir el flujo mínimo extremo a extremo:
 
 ### Seleccionar perfil HU 9:
 
-En la pantalla se permite elegir el tipo de usuario con el que se usará la app: Driver (conductor) o Passenger (pasajero). Cada opción se presenta como un botón circular con ilustración y estado de selección visual (borde resaltado). En la parte superior se muestra el título “Select user type” y una breve descripción de ayuda.
+En la pantalla se permite elegir el tipo de usuario con el que se usará la app: Driver (conductor) o Passenger (pasajero). Cada opción se presenta como un botón circular con ilustración y estado de selección visual (borde resaltado). En la parte superior se muestra el título "Select user type" y una breve descripción de ayuda.
 
 Una vez seleccionado el perfil, el usuario puede continuar con el flujo correspondiente. Esta decisión define el modo de navegación y las funcionalidades visibles en el resto del sistema (por ejemplo, crear/gestionar viajes para Driver, o buscar/reservar viajes para Passenger).
 
