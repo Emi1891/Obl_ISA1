@@ -360,8 +360,19 @@ NOTIFICATIONS:
 ## Pantallas adicionales:
 
 ### Perfil del pasajero:
+En la parte superior izquierda muestra el botón "Log out" y, al centro, el bloque de perfil con avatar circular, nombre, botón "Edit Profile", para editar el perfil del usuario y rating 4.3 con estrella de puntaje del usuario; debajo aparece una cuadrícula de accesos, con las opciones Driver Mode (cambia a modo conductor), Wallet (billetera), Notifications (me muestra las notificaciones) y Terms and conditions (documento de lectura); más abajo, la sección Trips identificada con ofrece dos tarjetas para Recent Trips y Active Trips; todo se apoya en un estilo limpio con fondo degradado amarillo, tarjetas azules de bordes redondeados e íconos lineales, y se completa con una barra de navegación inferior de tres pestañas donde la central (pin de ubicación) está resaltada como activa.
+
+![user](../iteración-2/Pantallas/userProfile.PNG "user")
+
 ### Perfil del conductor:
+Panel de perfil para el rol conductor con botón "Log out" arriba a la izquierda, avatar circular, nombre, botón "Edit Profile" y rating 4.3 con estrella; debajo, accesos rápidos con Passenger Mode (ir al modo pasajero), Car Info (información de el auto y completarla), Notifications y Terms and conditions; sigue la sección Trips con dos tarjetas para Recent Trips y Active trips; el diseño usa tarjetas verdes con bordes redondeados sobre fondo crema y una barra de navegación inferior verde con tres pestañas.
+
+![driver](../iteración-2/Pantallas/driverProfile.PNG "driver")
 ### Perfil del Admin:
+
+Panel de administración con imagen de fondo tipo oficina, avatar circular centrado, botones "Log out" y "Edit Profile", nombre, una cuadrícula de módulos en tarjetas naranjas/rojas: User Management (gestión de usuarios), Statistics (Estadisticas de la aplicación), Add new Admin, Manage Reports, Manage comments y Manage Policies; la composición prioriza acciones de back-office con jerarquía clara y contraste alto para operaciones de administración.
+
+![admin](../iteración-2/Pantallas/adminProfile.PNG "admin")
 
 ### Navbar del pasajero:
 En la página de su pérfil, el usuario cuenta con una navigation bar. Esta será la que le permita navegar por toda la aplicación sencillamente. Particularmente, el botón con el signo de pin o ubicación le ofrecerá la opción de buscar un nuevo viaje, los libros de ver su historial de viajes y la persona el ir a su perfil:
