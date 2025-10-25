@@ -270,16 +270,6 @@ A continuación se redactan las estimaciones puestas por el equipo correspondien
 - **Historia de usuario 39**: Definición de políticas iniciales UI
   - 5 SP
 
-
-### Artefactos principales
-
-- Minuta de la sprint planning con su agenda, actividades y resultados.
-- Objetivos de la iteración.
-- Sprint backlog con historias de usuarios y tareas asociadas.
-- Planificación de acuerdo a la capacidad del equipo.
-- Técnicas de priorización y estimación utilizadas.
-- Uso de métricas relevantes para la planificación como la velocidad y productividad.
-
 ## Seguimiento de la iteración
 
 ### Minuta 3: Daily 1 (17/10/2025)
@@ -551,7 +541,7 @@ En resumen a los usuarios le fue fácil realizar el flujo dentro de la aplicaci�
 
 ### Minuta 7: Review (25/10/2025)
 
-Al cerrar el sprint, el equipo se reunió para revisar el desempeño y los objetivos alcanzados.
+El Sábado 25 de octubre, al cerrar el sprint, el equipo se reunió para revisar el desempeño y los objetivos alcanzados.
 Junto con el Product Owner repasamos la Definition of Done y concluimos que se ajusta bien a nuestro flujo actual, por lo que la mantendremos.
 
 Además, completamos todas las User Stories planificadas en tiempo y forma, lo que indica una buena estimación de esfuerzo y que la velocidad del equipo está en línea con lo esperado.
@@ -561,11 +551,3 @@ Por último, analizamos los hallazgos de usabilidad detectados en las pruebas co
 ![Imagen](Reuniones/Review.PNG "Review")
 
 ## ⌛ Registro de Horas del equipo
-
-### Artefactos principales
-
-- Minutas de sprint review.
-- Evidencia de los usability testing con usuarios finales.
-  - Descripción de las tareas propuestas a los usuarios finales.
-  - Cobertura obtenida de validación de los usuarios de la aplicación.
-- Feedback recibido de los usuarios finales con la priorización de las propuestas de cambio.
