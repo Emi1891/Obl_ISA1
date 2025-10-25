@@ -619,6 +619,7 @@ A continuación se muestran las horas de trabajo del equipo, registrando las gru
 
 ![Horas Emiliano Reyes](Horas/HorasEmiliano.png "Emiliano Reyes")
 
+<<<<<<< HEAD
 ![Horas Juan Ferreira](Horas/HorasJuanma.png "Juan Ferreira")
 
 
@@ -632,4 +633,7 @@ A continuación se muestran las horas de trabajo del equipo, registrando las gru
 
 > https://framer.com/projects/Proyecto-Carpool--oYH9FogtuTUVn9HgMU5H-iTRso
 
+=======
+![Horas Juan Croquis](Horas/HorasJuani.png "Juan Croquis")
+>>>>>>> f9d2a1135d0ad0056776767bf196b4ef063d9645
 
