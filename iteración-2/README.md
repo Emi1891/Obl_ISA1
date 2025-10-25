@@ -224,8 +224,6 @@ A continuación se redactan las estimaciónes puestas por el equipo correspondie
 
 ## Seguimiento de la iteración
 
-_[Existe evidencia sobre el registro de actividades y horas de cada integrante del equipo con el seguimiento general de cada iteración del proyecto sobre lo planificado inicialmente.]_
-
 ### Minuta 3: Daily 1 (17/10/2025)
 
 El Viernes 17 de octubre, realizamos la primera daily de esta iteración 2, con el objetivo coordinar el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos a completar 6 de las 12 propuestas para esta sprint, 4 de las 12 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
@@ -243,18 +241,14 @@ Actualmente el equipo pasa por el período de pruebas de parciales, examenes y e
 
 ### Minuta 5: Daily 3 (24/10/2025)
 
-### Artefactos principales
+El Viernes 24 de octubre, nos reunimos para la tercera y última daily de esta iteración 2, con el objetivo de compartir avances del trabajo realizado, presentamos los avances de las restantes pantallas de **Framer**. Ya solo nos queda perfeccionar las Historias de Usuario restantes y describir las pantallas. También presentamos el avance en cuanto a la validación con usuarios que discutiremos mañana en la Review.
+Cerraremos la instancia 2 mañana con la Retrospective y setear las bases para la iteración 3.
 
-- Minuta de daily scrum describiendo la coordinación del trabajo de cada integrante del equipo.
-  - ¿Que logramos hacer?
-  - ¿Qué planificamos hacer?
-  - ¿Qué impedimentos tenemos?
-- Registro y reporte de horas de cada integrante del equipo con sus actividades principales.
-- Seguimiento visual de la iteración con burndown y/o burnup charts.
+![Daily 3](../iteración-2/Reuniones/Daily3.PNG "Daily 3")
 
 ## Inspección y adaptación del proceso
 
-_[Existe evidencia sobre la inspección del proceso con aprendizajes principales y acciones de mejora implementadas durante el desarrollo del proyecto.]_
+### Minuta 6: Retrospective (25/10/2025)
 
 ### Artefactos principales
 
