@@ -110,6 +110,18 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - Al iniciar sesión, el sistema debe mostrar una pantalla o modal que permita elegir entre los perfiles "Conductor" y "Pasajero"
     - El cambio de perfil debe actualizar las funcionalidades disponibles (ejemplo: "Publicar viaje" solo visible para conductores).
 
+- **Historia de usuario 10**: Registrar nuevo usuario
+  - **Como**: Como usuario sin cuenta creada
+  - **Quiero**: Crear una cuenta ingresando mi nombre de usuario, correo electrónico y contraseña.
+  - **Para**: Poder acceder a la aplicación, iniciar sesión y utilizar las funciones según mi perfil (conductor o pasajero).
+  - **Criterios de aceptación**:
+    - El formulario de registro debe solicitar al menos: nombre de usuario, correo electrónico, contraseña y confirmación de contraseña.
+    - El sistema debe validar que el correo no esté registrado previamente.
+    - Las contraseñas deben coincidir y cumplir con los requisitos mínimos definidos en las políticas del sistema.
+    - Al registrarse correctamente, se muestra un mensaje de confirmación y el usuario es redirigido a la pantalla de selección de perfil.
+    - Debe existir una opción visible para “Iniciar sesión” si el usuario ya tiene cuenta.
+    - Debe ofrecer la opción de registrarse con Google como alternativa rápida.
+
 - **Historia de usuario 11**: Login con usuario y contraseña
   - **Como**: Como usuario registrado (conductor o pasajero)
   - **Quiero**: Iniciar sesión con mi usuario y contraseña para acceder a mis viajes y reservas.
@@ -119,6 +131,18 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - Debe haber una opción visible de Crear cuenta si no se ha registrado aún.
     - Debe haber una opción de iniciar sesión con Google.
     - Debe haber una opción visible para “Recordar contraseña” o “Recuperar contraseña”.
+
+- **Historia de usuario 14**: Dar de alta administradores
+  - **Como**: Administrador principal del sistema
+  - **Quiero**: Registrar nuevos administradores ingresando sus datos de acceso.
+  - **Para**: Delegar tareas de gestión y permitir que otros administradores supervisen usuarios, viajes y políticas del sistema.
+  - **Criterios de aceptación**:
+    - El formulario de alta debe solicitar al menos: nombre, correo electrónico y contraseña del nuevo administrador.
+    - El sistema debe validar que el correo no esté registrado previamente en el sistema.
+    - Solo un administrador autenticado puede acceder a la opción de alta de nuevos administradores.
+    - Al completar correctamente el registro, se muestra un mensaje confirmando la creación del nuevo administrador.
+    - El nuevo administrador debe poder iniciar sesión de inmediato con las credenciales asignadas.
+    - Debe existir una opción visible para cancelar o volver sin realizar cambios.
 
 - **Historia de usuario 16**: Publicar viajes
   - **Como**: Como conductor
@@ -140,6 +164,17 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - Al guardar, el sistema debe validar los datos actualizados y confirmar la modificación con un mensaje visible.
     - Si el conductor cambia la fecha u hora, los pasajeros con reserva deben recibir una notificación del cambio.
 
+- **Historia de usuario 20**: Reservar lugar en un viaje
+  - **Como**: Usuario pasajero registrado
+  - **Quiero**: Reservar uno o varios asientos en un viaje disponible.
+  - **Para**: Asegurar mi lugar en el recorrido seleccionado y poder compartir el viaje con otros usuarios.
+  - **Criterios de aceptación**:
+    - Solo se pueden mostrar viajes que tengan al menos un asiento disponible y coincidan con los filtros aplicados en la búsqueda.
+    - La pantalla de reserva debe permitir seleccionar la cantidad de asientos disponibles mediante un menú desplegable.
+    - El sistema debe validar que haya asientos disponibles al momento de confirmar la reserva.
+    - Al presionar el botón “Book Trip”, el sistema registra la reserva y muestra un mensaje de confirmación.
+    - En caso de que se agoten los lugares mientras el usuario visualiza la información del viaje, debe mostrarse un mensaje de error indicando que el viaje está completo.
+    - Una vez confirmada, la reserva debe quedar registrada en la sección “My Trips” del usuario.
 
 - **Historia de usuario 22**: Buscar viajes por zona, día y hora
   - **Como**: Pasajero
@@ -150,6 +185,17 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
       - El pasajero puede elegir el día y la hora en la que desea viajar.
       - El sistema muestra una lista de viajes disponibles que cumplan con los filtros seleccionados.
 
+- **Historia de usuario 23**: Dar de baja usuarios
+  - **Como**: Administrador del sistema
+  - **Quiero**: Eliminar usuarios registrados que incumplan las políticas o ya no utilicen la aplicación.
+  - **Para**: Mantener la base de datos actualizada y garantizar un correcto funcionamiento del sistema sin cuentas inactivas o indebidas.
+  - **Criterios de aceptación**:
+      - Solo un administrador autenticado puede acceder a la sección de gestión de usuarios.
+      - En la vista Registered Users, debe mostrarse una lista con los usuarios activos y un botón visible “Delete” junto a cada uno.
+      - Al presionar el botón Delete, debe abrirse una ventana modal de confirmación que pregunte si se desea eliminar el usuario seleccionado.
+      - Si se confirma la acción, el sistema elimina al usuario y muestra un mensaje de éxito (“User deleted successfully!”).
+      - Si se cancela la acción, el sistema debe cerrar la ventana sin realizar cambios.
+
 - **Historia de usuario 29**: Iniciar sesión como administrador
   - **Como**: Administrador del sistema
   - **Quiero**: Poder iniciar sesión en la aplicación utilizando mis credenciales de administrador.
@@ -157,6 +203,18 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
   - **Criterios de aceptación**:
     - Si las credenciales son válidas, se debe redirigir al panel de administración.
     - El acceso al panel de administración debe estar restringido a perfiles no administradores.
+
+- **Historia de usuario 32**: Marcar estado del viaje
+  - **Como**: Conductor de la aplicación
+  - **Quiero**: Poder marcar el estado actual de mi viaje (en camino, demorado o finalizado).
+  - **Para**: Mantener informados a los pasajeros sobre el progreso del viaje y mejorar la coordinación.
+  - **Criterios de aceptación**:
+      - En la vista de detalle del viaje, el conductor debe contar con botones visibles para cambiar el estado del viaje: “Start Trip”, “Delayed” y “Finish Trip”.
+      - Al marcar el viaje como “Start Trip”, el sistema debe notificar automáticamente a los pasajeros que el viaje ha comenzado.
+      - Si se marca como “Delayed”, se debe enviar una notificación a los pasajeros indicando el motivo del retraso.
+      - Al marcar el viaje como “Finish Trip”, el sistema debe actualizar el estado a finalizado y moverlo a la sección de “Recent Trips” del conductor y de los pasajeros.
+      - No se debe permitir cambiar el estado nuevamente una vez que el viaje fue finalizado.
+      - Las notificaciones deben enviarse en tiempo real a todos los pasajeros con reserva activa.
 
 - **Historia de usuario 39**: Definición de políticas iniciales UI
   - **Como**: Administrador del sistema
@@ -305,8 +363,35 @@ De la mano de una interfaz compartida con el registro de usuario, las validacion
 ---
 ### Publicar viajes HU 16:
 
+En esta pantalla, el conductor tiene la posibilidad de crear y publicar un nuevo viaje dentro de la aplicación.
+El objetivo principal de esta vista es permitirle al usuario conductor definir todos los datos necesarios para ofrecer un trayecto a otros pasajeros.
+
+La pantalla presenta un formulario compuesto por distintos campos que deben completarse: lugar de partida, destino, ruta, fecha, hora, costo por asiento y cantidad de lugares disponibles.
+
+En la parte inferior, se incluye un botón principal “Post Trip”, el cual, al ser presionado, registra el viaje en el sistema y lo publica para que otros usuarios puedan visualizarlo y reservar asientos.
+En caso de que el formulario esté incompleto o contenga datos inválidos (como un costo negativo o una fecha anterior al día actual), la aplicación notifica al conductor para que corrija los campos antes de confirmar la publicación.
+
+Una vez completado correctamente, el sistema muestra un mensaje de confirmación indicando que el viaje fue creado con éxito.
+Desde este punto, el nuevo trayecto pasa a estar disponible en la lista de viajes activos del conductor y visible para los pasajeros en las búsquedas.
+
+![Publicar viajes](./Pantallas/PublicarViajes.png "Publicar viajes")
+
 ---
 ### Editar viajes publicados HU 18:
+
+Esta pantalla permite al conductor modificar la información de un viaje que ya fue publicado previamente, ya sea para ajustar la hora de salida, el costo, la ruta u otros detalles importantes.
+
+La interfaz es prácticamente idéntica a la de publicación, manteniendo los mismos campos de entrada: origen, destino, ruta, fecha, hora, costo y cantidad de lugares disponibles, aunque en este caso, los valores aparecen pre-cargados con la información actual del viaje.
+
+El conductor puede cambiar uno o varios de estos datos y luego confirmar los cambios presionando el botón “Edit Trip” ubicado al final del formulario.
+Cuando el viaje es editado correctamente, la aplicación muestra un mensaje indicando que la actualización se realizó con éxito.
+
+Como medida de control, el sistema valida que los nuevos valores sean coherentes (por ejemplo, que la fecha no haya pasado o que los asientos no sean menores a los ya reservados).
+Una vez confirmados los cambios, los pasajeros que tenían reserva en ese viaje reciben una notificación automática informando sobre la actualización de los datos.
+
+Esta pantalla busca mantener una experiencia fluida y familiar para el conductor, reutilizando la estructura visual de la creación de viaje, pero adaptada al contexto de edición.
+
+![Editar viajes](./Pantallas/EditarViajes.png "Editar viajes")
 
 ---
 ### Reservar lugar en un viaje HU 20:
