@@ -503,10 +503,31 @@ En la página de su perfil, el usuario cuenta con una navigation bar. Esta será
 ![user](../iteración-2/Pantallas/navC.PNG "user")
 
 ## Criterios para el flow de la aplicación
-### Artefactos principales
 
-- Prototipos interactivos para ser navegados.
-- Prototipos asociados como bocetos a las historias de usuario.
+### Flujo del Pasajero
+
+El usuario ingresa a la aplicación y puede registrarse o iniciar sesión ingresando su nombre, contraseña y correo electrónico. Si aún no tiene cuenta, puede crearla fácilmente desde la opción “Sign up”. Luego de iniciar sesión, pasa a la pantalla Select Profile, donde elige su tipo de usuario: en este caso selecciona Passenger.
+
+Una vez dentro, el pasajero ve su perfil personal con su nombre, foto, calificación y diferentes accesos rápidos como Driver Mode, Wallet, Notifications, Terms and Conditions, además de las secciones Recent Trips y Active Trips para revisar viajes pasados o en curso.
+
+Desde su panel principal puede buscar un viaje en la vista Find Trip, donde completa los campos de origen, destino, fecha y hora. Al presionar el botón Find Trip, se muestra una lista de resultados con los conductores disponibles. Cada tarjeta incluye la foto, nombre, calificación, precio por asiento y cantidad de lugares restantes.
+
+Al seleccionar un viaje, el usuario accede a los detalles completos del recorrido, incluyendo los puntos de partida y destino, el horario, el costo, los asientos disponibles, el vehículo y los datos del conductor. Desde esta misma vista puede enviar un mensaje al conductor para coordinar detalles o hacer consultas. Finalmente, el pasajero elige cuántos asientos desea reservar y confirma la acción presionando Book Trip. La aplicación muestra un mensaje de confirmación indicando que la reserva fue realizada correctamente y notifica al conductor sobre la nueva solicitud.
+
+Si el viaje es modificado o cancelado por el conductor, el sistema envía automáticamente notificaciones al pasajero, manteniéndolo siempre informado. Cuando el viaje comienza, el pasajero recibe una alerta de inicio, y al finalizar puede visualizarlo en Recent Trips e incluso dejar una calificación o comentario.
+
+
+### Flujo del Conductor
+
+El conductor también comienza registrándose o iniciando sesión, y al elegir el perfil Driver en la pantalla Select Profile, accede a su vista personalizada. Allí se muestra su foto, nombre, calificación, y accesos a funciones específicas como Passenger Mode, Car Info, Notifications, Terms and Conditions, además de las secciones Recent Trips y Active Trips.
+
+Desde su menú principal puede publicar un nuevo viaje en la pantalla Post Trip. Debe ingresar el punto de partida, destino, ruta, fecha, hora, costo y cantidad de asientos disponibles. Al presionar Post Trip, aparece un mensaje confirmando que el viaje fue publicado exitosamente.
+
+En caso de necesitar realizar cambios, el conductor accede a Edit Trip, donde puede modificar cualquier dato del recorrido. Si cancela o edita un viaje, la aplicación notifica automáticamente a los pasajeros afectados.
+
+El conductor también dispone de la vista Active Trips, donde se muestran los viajes publicados que están en curso. Al seleccionar uno, ingresa al detalle completo (Trip Info), donde puede iniciar el viaje presionando el botón verde Start Trip, editarlo o cancelarlo. También puede enviar mensajes a los pasajeros registrados en ese trayecto, informando actualizaciones o coordinando puntos de encuentro.
+
+Una vez que el viaje comienza, la app notifica a todos los pasajeros, y al finalizar, el conductor puede revisar sus viajes completados en Recent Trips.
 
 ## Inspección y adaptación del producto
 
