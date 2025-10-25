@@ -298,10 +298,73 @@ Cerraremos la instancia 2 mañana con la Retrospective y setear las bases para l
 
 ### Minuta 6: Retrospective (25/10/2025)
 
-### Artefactos principales
+### 🎃 Retrospectiva – Sprint (Halloween Edition)
+---
+#### 🧩 Descripción
 
-- Minuta de la retrospectiva con la dinámica utilizada y sus principales resultados.
-- Planificación y seguimiento de las acciones de mejora.
+Durante esta retrospectiva temática de Halloween, el equipo reflexionó sobre el sprint anterior, identificando los principales desafíos, logros y planes para la próxima iteración.  
+Se utilizaron dinámicas visuales para representar lo que nos "asustó", lo que salió "dulce", y lo que "cocinaremos" en el próximo sprint.
+
+---
+
+#### 👻 What spooked us last sprint?
+Aspectos que representaron dificultades o desafíos:
+
+- Acumulamos un poco de trabajo para el final.  
+- Nos retrasamos un poco al comenzar, pero se logró avanzar.  
+- Nos costó usar **Framer** al principio.  
+- Fue un mes de pruebas, lo cual nos jugó en contra.
+
+---
+
+#### 🍬 What’s sweet last sprint?
+Aspectos positivos y logros del sprint:
+
+- Se logró cumplir con todas las **historias de usuario planificadas**.  
+- El equipo trabajó de forma coordinada y con buena comunicación entre roles (diseño, desarrollo y testing).  
+- Se definieron correctamente los **roles de usuario** (administrador, conductor y pasajero) y se implementaron sus vistas principales.  
+- La planificación inicial ayudó a mantener el enfoque en las **tareas prioritarias**.  
+- El ambiente de trabajo fue positivo y permitió que todos pudieran opinar y proponer ideas.  
+- Se logró una **buena división de tareas**, con contribuciones equilibradas.  
+- Se logró un **buen diseño y apariencia** en Framer.  
+- La comunicación dentro del grupo fue **fluida y constante**, especialmente a través del tablero y reuniones rápidas.
+
+---
+
+#### 🧙‍♀️ What’s cooking for the next sprint?
+Planes y objetivos para la próxima iteración:
+
+- Estar **más preparados con Framer**.  
+- Acordar cómo serán las siguientes pantallas.  
+- Continuar con una **reunión breve de 10 minutos** al inicio de la semana para planificar entregas.  
+- Implementar el **seteo de métodos de pago**.  
+- **Actualizar información** del auto del conductor.  
+- Diseñar la **pantalla de términos y condiciones**.
+
+---
+
+#### 🕯️ Keep the witch away, light the candles
+**Feedback sobre la sesión:**
+
+Los integrantes del equipo expresaron su satisfacción con la dinámica, indicando con velas encendidas su nivel de agrado:  
+- 🕯️ *1 candle*: meh  
+- 🕯️🕯️ *2 candles*: liked this  
+- 🕯️🕯️🕯️ *3 candles*: found this amazing  
+
+La mayoría coincidió en que la retrospectiva fue **divertida, productiva y bien organizada**.
+
+---
+
+#### 🧭 Conclusión
+La retrospectiva permitió reconocer los avances logrados, así como los desafíos técnicos iniciales con **Framer**.  
+El equipo mostró una gran capacidad de adaptación, comunicación y coordinación, sentando una base sólida para los próximos desarrollos.
+
+
+---
+![Retro 1](../iteración-2/Retro/1.PNG "Retro 1")
+![Retro 1](../iteración-2/Retro/2.PNG "Retro 2")
+![Retro 1](../iteración-2/Retro/3.PNG "Retro 3")
+![Retro 1](../iteración-2/Retro/4.PNG "Retro 4")
 
 # Construir y validar posibles soluciones del MVP a través de prototipos
 
@@ -555,4 +618,18 @@ Por último, analizamos los hallazgos de usabilidad detectados en las pruebas co
 A continuación se muestran las horas de trabajo del equipo, registrando las grupales e individuales
 
 ![Horas Emiliano Reyes](Horas/HorasEmiliano.png "Emiliano Reyes")
+
+![Horas Juan Ferreira](Horas/HorasJuanma.png "Juan Ferreira")
+
+
+## Links a los ambientes:
+
+### Azure DevOps:
+
+> https://dev.azure.com/Obligatorio1/Carpooling%20universitario/_boards/board/t/Carpooling%20universitario%20Team/Backlog%20items?System.IterationPath=Carpooling%20universitario%5CSprint%202
+
+### Framer:
+
+> https://framer.com/projects/Proyecto-Carpool--oYH9FogtuTUVn9HgMU5H-iTRso
+
 
