@@ -562,7 +562,12 @@ Por último, analizamos los hallazgos de usabilidad detectados en las pruebas co
 
 ## ⌛ Registro de Horas del equipo
 
+A continuación se muestran las horas de trabajo del equipo, registrando las grupales e individuales
+
+![Horas Emiliano Reyes](Horas/HorasEmiliano.png "Emiliano Reyes")
+
 ### Artefactos principales
+
 
 - Minutas de sprint review.
 - Evidencia de los usability testing con usuarios finales.
