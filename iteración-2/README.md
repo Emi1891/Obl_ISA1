@@ -556,3 +556,5 @@ A continuación se muestran las horas de trabajo del equipo, registrando las gru
 
 ![Horas Emiliano Reyes](Horas/HorasEmiliano.png "Emiliano Reyes")
 
+![Horas Juan Croquis](Horas/HorasJuani.png "Juan Croquis")
+
