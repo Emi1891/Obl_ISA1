@@ -551,3 +551,8 @@ Por último, analizamos los hallazgos de usabilidad detectados en las pruebas co
 ![Imagen](Reuniones/Review.PNG "Review")
 
 ## ⌛ Registro de Horas del equipo
+
+A continuación se muestran las horas de trabajo del equipo, registrando las grupales e individuales
+
+![Horas Emiliano Reyes](Horas/HorasEmiliano.png "Emiliano Reyes")
+
