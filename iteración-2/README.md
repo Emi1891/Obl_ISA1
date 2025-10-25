@@ -13,7 +13,7 @@
 
 ## Definición del marco de trabajo
 
-Siguiendo como habiamos establecido los roles con la intención de que en las siguientes iteraciones se roten, favoreciendo así la participación y el aprendizaje de todos.
+Siguiendo como habíamos establecido los roles con la intención de que en las siguientes iteraciones se roten, favoreciendo así la participación y el aprendizaje de todos.
 
 - **Product Owner**: Juan Ferreira
 
@@ -57,10 +57,10 @@ Una historia de usuario o tarea se considera **lista para entrar en un Sprint** 
   El equipo acordó una estimación en puntos de historia o tiempo, y está alineada con la capacidad disponible del Sprint.  
 
 - **Recursos disponibles**  
-  El equipo cuenta con acceso a las herramientas necesarias 
+  El equipo cuenta con acceso a las herramientas necesarias.
 
 - **Conocimientos/capacitación suficiente**  
-  Los miembros tienen claro cómo implementar la historia
+  Los miembros tienen claro cómo implementar la historia.
 
 - **Diseño de UI aprobado**  
   Las pantallas necesarias para la historia (ejemplo: formulario de *Publicar viaje*, vista de *Reservar lugar*) están definidas y detalladas.  
@@ -73,13 +73,13 @@ Una historia de usuario o tarea se considera **lista para entrar en un Sprint** 
 
 ### Minuta 1: Planning 1 (13/10/2025)
 
-Lunes 13 de Octubre, realizamos la primera reunion para preparar el ambiente para la iteración 2. El objetivo de esta reunión fue avanzar y planificar que íbamos a realizar esta iteración (Sprint). Designamos roles, validamos las herramientas a utilizar, definimos el objetivo de la iteración, buscamos consenso sobre cómo aplicar el marco de trabajo SCRUM al contexto del proyecto y que corresponde a cada rol y dejamos preparado el **Product Backlog**. La reunión se dio en clases duró 30 minutos y concluimos que la siguiente reunión continuaremos con la siguiente parte del planning.
+Lunes 13 de Octubre, realizamos la primera reunión para preparar el ambiente para la iteración 2. El objetivo de esta reunión fue avanzar y planificar qué íbamos a realizar en esta iteración (Sprint). Designamos roles, validamos las herramientas a utilizar, definimos el objetivo de la iteración, buscamos consenso sobre cómo aplicar el marco de trabajo SCRUM al contexto del proyecto y qué corresponde a cada rol y dejamos preparado el **Product Backlog**. La reunión se dio en clases, duró 30 minutos y concluimos que en la siguiente reunión continuaremos con la siguiente parte del planning.
 
 ![Planning 1](../iteración-2/Reuniones/Planning1.jpeg "Planning 1")
 
 ### Minuta 2: Planning 2 (14/10/2025)
 
-Martes 14 de Octubre, continuamos con la segunda parte de la planning, finalizando. El objetivo de esta reunión fue continuar con el scope para esta iteración, ambientar el backlog asignandonos las tareas para esta sprint, creamos el proyecto en **Framer** (la herramienta la cual haríamos el prototipo). Creamos algunas tasks para hacer en cada Historia de usuario. También definimos fechas para las siguientes reuniones.
+Martes 14 de Octubre, continuamos con la segunda parte de la planning, finalizando. El objetivo de esta reunión fue continuar con el scope para esta iteración, ambientar el backlog asignándonos las tareas para esta sprint, creamos el proyecto en **Framer** (la herramienta la cual haríamos el prototipo). Creamos algunas tasks para hacer en cada Historia de usuario. También definimos fechas para las siguientes reuniones.
 La reunión duró un total de 1 hora y media y culminamos que nos juntaremos en la próxima reunión para compartir avances de lo asignado.
 
 ![Planning 2](../iteración-2/Reuniones/Planning2.jpeg "Planning 2")
@@ -113,7 +113,7 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
 - **Historia de usuario 11**: Login con usuario y contraseña
   - **Como**: Como usuario registrado (conductor o pasajero)
   - **Quiero**: Iniciar sesión con mi usuario y contraseña para acceder a mis viajes y reservas.
-  - **Para**: Poder acceder a mis viajes publicados, reservas o busqueda de viajes y perfil personal.
+  - **Para**: Poder acceder a mis viajes publicados, reservas o búsqueda de viajes y perfil personal.
   - **Criterios de aceptación**:
     - Al iniciar sesión correctamente, se redirige al usuario a su pantalla principal donde seleccionará su perfil (conductor o pasajero).
     - Debe haber una opción visible de Crear cuenta si no se ha registrado aún.
@@ -153,7 +153,7 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
 - **Historia de usuario 29**: Iniciar sesión como administrador
   - **Como**: Administrador del sistema
   - **Quiero**: Poder iniciar sesión en la aplicación utilizando mis credenciales de administrador.
-  - **Para**: Acceder al panel de control y gestionar usuarios, estadisticas de viajes, notificaciones y configuraciones generales del sistema.
+  - **Para**: Acceder al panel de control y gestionar usuarios, estadísticas de viajes, notificaciones y configuraciones generales del sistema.
   - **Criterios de aceptación**:
     - Si las credenciales son válidas, se debe redirigir al panel de administración.
     - El acceso al panel de administración debe estar restringido a perfiles no administradores.
@@ -184,7 +184,7 @@ Tomamos en cuenta los siguientes factores:
 Utilizamos el **estimador integrado en Azure DevOps** para asignar valores dentro de cada historia elegida para el sprint.  
 En los casos donde hubo diferencias de criterio, el equipo **debatió las estimaciones** y se realizó **una nueva votación** hasta llegar a un consenso.
 
-A continuación se redactan las estimaciónes puestas por el equipo correspondientes a estas Historias de Usuarios (Como definimos antes 1 SP corresponde a 30 minutos).
+A continuación se redactan las estimaciones puestas por el equipo correspondientes a estas Historias de Usuarios (Como definimos antes 1 SP corresponde a 30 minutos).
 
 
 - **Historia de usuario 9**: Seleccionar perfil
@@ -226,16 +226,16 @@ A continuación se redactan las estimaciónes puestas por el equipo correspondie
 
 ### Minuta 3: Daily 1 (17/10/2025)
 
-El Viernes 17 de octubre, realizamos la primera daily de esta iteración 2, con el objetivo coordinar el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos a completar 6 de las 12 propuestas para esta sprint, 4 de las 12 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
-Actualmente el equipo pasa por el período de pruebas de parciales, examenes y entregas. Lo cual afecta un poco la velocidad de esta iteración.
+El Viernes 17 de octubre, realizamos la primera daily de esta iteración 2, con el objetivo de coordinar el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos a completar 6 de las 12 propuestas para esta sprint, 4 de las 12 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
+Actualmente el equipo pasa por el período de pruebas de parciales, exámenes y entregas. Lo cual afecta un poco la velocidad de esta iteración.
 
 ![Daily 1](../iteración-2/Reuniones/Daily1.jpeg "Daily 1")
 ![B5](../iteración-2/Backlog/B5.PNG "B5")
 
 ### Minuta 4: Daily 2 (22/10/2025)
 
-El Miércoles 22 de octubre, nos reunimos para la segunda daily de esta iteración 2, con el objetivo de compartir avances del trabajo realizado,  presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, añadimos 4 pantallas más y escribimos otro par de Historias de Usuario. Compartimos tecnicas y diseños posibles para las pantallas restantes. Para la proxima nos propusimos en cerrar todas las pantallas que quedaban sin terminar, además de coordinar probar un prototipo y sacar feedback.
-Actualmente el equipo pasa por el período de pruebas de parciales, examenes y entregas. Lo cual afecta un poco la velocidad de esta iteración.
+El Miércoles 22 de octubre, nos reunimos para la segunda daily de esta iteración 2, con el objetivo de compartir avances del trabajo realizado,  presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, añadimos 4 pantallas más y escribimos otro par de Historias de Usuario. Compartimos técnicas y diseños posibles para las pantallas restantes. Para la próxima nos propusimos en cerrar todas las pantallas que quedaban sin terminar, además de coordinar probar un prototipo y sacar feedback.
+Actualmente el equipo pasa por el período de pruebas de parciales, exámenes y entregas. Lo cual afecta un poco la velocidad de esta iteración.
 
 ![Daily 2](../iteración-2/Reuniones/Daily2.jpeg "Daily 2")
 
@@ -263,7 +263,7 @@ Para explorar rápidamente el MVP (Minimum Viable Product), optamos por **Framer
 
 ![Framer](../iteración-2/Pantallas/casos.PNG "Framer")
 
-El prototipo de esta primera iteración incluye doce historias de usuario implementadas y 3 pantallas auxiliares (estas corresponden a el menu del usuario: pasajero, conductor o admin) que conectan otras pantallas, pensadas para cubrir el flujo mínimo extremo a extremo:
+El prototipo de esta segunda iteración incluye doce historias de usuario implementadas y 3 pantallas auxiliares (estas corresponden al menú del usuario: pasajero, conductor o admin) que conectan otras pantallas, pensadas para cubrir el flujo mínimo extremo a extremo:
 
 ### Seleccionar perfil HU 9:
 
@@ -277,17 +277,30 @@ Una vez seleccionado el perfil, el usuario puede continuar con el flujo correspo
 
 ### Registrar nuevo usuario HU 10:
 
+En esta pantalla se permite el registro de un usuario sin permisos de administrador. Para completar el registro se deben rellenar todos los campos, los cuales son: username, password, repeated password y email. Una vez completos dichos campos, se crea el usuario interactuando con el botón "Create account".
+
+Las validaciones a realizar en este caso son la utilización de un email que no esté registrado previamente y que la contraseña coincida en los dos campos en los que se ingresa.
+
+![Alta usuario](./Pantallas/AltaUsuario.png "Alta usuario")
+
 ---
 ### Login con usuario y contraseña HU 11: 
 
 La pantalla permite iniciar sesión en la app de carpool. Sobre un fondo ilustrado se presentan dos campos de entrada (Username y Password), el botón de "Sign in", enlaces auxiliares (Sign up, Forgot your password?) que aplican a los flujos de registro, recuperar contraseña o inicio alternativo, un separador "OR" y el botón "Continue with Google" para acceso alterno.
 
-Como validaciones en este caso las casillas no deben ser vacias, se ingresa con nickname o email (escrito correctamente @ y dominio). Validaciones que verifica que el usuario esta registrado. Completando este flujo al presionar "Sign in" inicio sesión correctamente.
+Como validaciones en este caso las casillas no deben ser vacías, se ingresa con nickname o email (escrito correctamente @ y dominio). Validaciones que verifican que el usuario está registrado. Completando este flujo al presionar "Sign in" inició sesión correctamente.
 
 ![IS](../iteración-2/Pantallas/IniciarSesion.PNG "IS")
 
 ---
 ### Dar de alta administradores HU 14:
+
+En el caso de esta pantalla, se utiliza una interfaz un tanto diferente a la de registro de usuario normal, ya que si bien la base es la misma, esta viene a partir de una acción específica del administrador.
+La funcionalidad de la pantalla es igual a la del registro de usuario, a diferencia de que esta genera un usuario con permisos de administrador.
+
+De la mano de una interfaz compartida con el registro de usuario, las validaciones de los campos en esta pantalla son las mismas mencionadas anteriormente.
+
+![Alta administrador](./Pantallas/AltaAdministrador.png "Alta administrador")
 
 ---
 ### Publicar viajes HU 16:
@@ -296,7 +309,17 @@ Como validaciones en este caso las casillas no deben ser vacias, se ingresa con 
 ### Editar viajes publicados HU 18:
 
 ---
-### Reservar lugar en un viaje HU 20: 
+### Reservar lugar en un viaje HU 20:
+
+En este caso, se listan todos los viajes en los cuales aún hay al menos un asiento disponible y que concuerdan con los filtros aplicados en la búsqueda.
+En esta pantalla, el usuario selecciona el viaje para el cual desea reservar un lugar. Una vez seleccionado, se le redirige a la pantalla donde se realiza la reserva.
+
+Para esta acción, la pantalla muestra los detalles básicos del viaje, que son relevantes para el pasajero. En la parte inferior de la pantalla, se muestra constantemente un menú desplegable, en el cual se puede seleccionar la cantidad de asientos que se desean reservar (variando esto según la cantidad de asientos disponibles). Al lado de este menú, se ubica un botón el cual realiza la reserva de los asientos.
+
+En este caso la validación que se realiza es que se haya seleccionado una opción del menú desplegable y a su vez se verifica que no se hayan agotado los lugares mientras se veía la información del viaje.
+
+![Viajes disponibles](Pantallas/ViajesDisponibles.png "Viajes disponibles")
+![Reservar viaje](Pantallas/ReservarViaje.png "Reservar viaje")
 
 ---
 ### Buscar viajes por zona, día y hora HU 22:
@@ -309,7 +332,7 @@ Pantalla para buscar viajes ingresando origen, destino, fecha y hora. Incluye:
   - Barra/tab inferior de navegación.
 
 Al ejecutar la búsqueda, se muestra el listado de resultados con cards que incluyen: nombre y rating del conductor, precio, cupos disponibles, y el trayecto (puntos de subida/bajada).
-Cuando el usuario da click en una de las tarjetas esta automaticamente redireccionará a una pantalla de dicho viaje.
+Cuando el usuario da clic en una de las tarjetas, esta automáticamente lo redireccionará a una pantalla de dicho viaje.
 
 ![Find Trip 1](../iteración-2/Pantallas/BuscarViaje1.PNG "Find Trip 1")
 ![Find Trip 2](../iteración-2/Pantallas/BuscarViaje2.PNG "Find Trip 2")
@@ -317,20 +340,36 @@ Cuando el usuario da click en una de las tarjetas esta automaticamente redirecci
 ---
 ### Dar de baja usuarios HU 23:
 
+En esta pantalla, se le muestra al administrador una lista con todos los usuarios registrados en el sistema (a excepción del mismo). Al lado de cada nombre de usuario se incluye un botón para eliminarlo. En caso de seleccionar dicha opción, salta una ventana pop-up en la cual se le pregunta al administrador si desea eliminar al usuario seleccionado. En caso de no ser así, el botón "Cancel" devuelve al administrador a la lista de usuarios, pero de lo contrario, se selecciona la opción "Delete" la cual confirma la baja del usuario. Una vez se elimina al usuario, se muestra un mensaje en pantalla que confirma el éxito de la operación.
+
+![Usuarios listados](Pantallas/UsuariosRegistrados.png "Usuarios listados")
+![Confirmar baja](Pantallas/ConfirmarBaja.png "Confirmar baja")
+![Baja confirmada](Pantallas/BajaConfirmada.png "Baja confirmada")
+
 ---
 ### Iniciar sesión como administrador HU 29:
 
-A efectos practicos esta pantalla es la misma que de iniciar sesión como usuario normal (pasajero / conductor), solo que redirige a un menu de administrador. Para adaptarlo aparte optamos de que fuera así. En el desarrollo final de la app será integrado a la misma ventana, con las validaciónes correspondientes el al iniciar sesión el sistema se dará cuenta que es un Admin y lo mandará a su lugar correspondiente.
+A efectos prácticos esta pantalla es la misma que de iniciar sesión como usuario normal (pasajero / conductor), solo que redirige a un menú de administrador. Para adaptarlo aparte optamos de que fuera así. En el desarrollo final de la app será integrado a la misma ventana, con las validaciones correspondientes, al iniciar sesión el sistema se dará cuenta que es un Admin y lo mandará a su lugar correspondiente.
 
 ![Admin1](../iteración-2/Pantallas/LoginAdmin.PNG "Admin1")
 
 ---
 ### Marcar estado del viaje HU 32:
 
+Primero se parte desde una pantalla donde se ven todos los viajes activos que tiene el conductor (viajes que ya fueron confirmados y cuyos cupos están cerrados). En esta pantalla se selecciona de una lista de viajes al que se le desea cambiar el estado.
+Una vez seleccionado el viaje deseado, se redirige al usuario a la siguiente pantalla. 
+
+En esta, se muestra la información básica del viaje desde la perspectiva del conductor. En la misma, se ubica un botón en el cual es posible cambiar el estado del viaje. Si se desea marcarlo como iniciado, se presiona el botón "Start trip", el cual cambia de estado para mostrar que efectivamente el viaje está iniciado en el sistema.
+También se puede seleccionar más abajo al pasajero que se quiere contactar, y rellenando la casilla de mensaje se le puede notificar de manera personalizada al pasajero seleccionado que se dirige al punto de encuentro o que se encuentra en el mismo (aunque no hay una obligación de contenido del mensaje).
+De esta forma se puede cambiar el estado del viaje en función a lo que el conductor esté haciendo y seleccione en esta pantalla.
+
+![Viajes activos](Pantallas/ViajesActivos.png "Viajes activos")
+![Información del viaje](Pantallas/InformacionDelViaje.png "Información del viaje")
+
 ---
 ### Definición de políticas iniciales UI HU 39:
 
-Pantalla de configuración para que Administración seten las políticas base del sistema. El layout presenta tarjetas independientes por categoría, cada una con campos de entrada y un botón **Set** que guarda solo esa sección, una flecha que me redireciona al menu del Admin. Las categorías visibles son:
+Pantalla de configuración para que Administración establezca las políticas base del sistema. El layout presenta tarjetas independientes por categoría, cada una con campos de entrada y un botón **Set** que guarda solo esa sección, una flecha que me redireciona al menú del Admin. Las categorías visibles son:
 
 CANCELLATIONS:
   - Free cancel window (min) (entrada numérica).
@@ -354,27 +393,27 @@ NOTIFICATIONS:
 ## Pantallas adicionales:
 
 ### Perfil del pasajero:
-En la parte superior izquierda muestra el botón "Log out" y, al centro, el bloque de perfil con avatar circular, nombre, botón "Edit Profile", para editar el perfil del usuario y rating 4.3 con estrella de puntaje del usuario; debajo aparece una cuadrícula de accesos, con las opciones Driver Mode (cambia a modo conductor), Wallet (billetera), Notifications (me muestra las notificaciones) y Terms and conditions (documento de lectura); más abajo, la sección Trips identificada con ofrece dos tarjetas para Recent Trips y Active Trips; todo se apoya en un estilo limpio con fondo degradado amarillo, tarjetas azules de bordes redondeados e íconos lineales, y se completa con una barra de navegación inferior de tres pestañas donde la central (pin de ubicación) está resaltada como activa.
+En la parte superior izquierda muestra el botón "Log out" y, al centro, el bloque de perfil con avatar circular, nombre, botón "Edit Profile" para editar el perfil del usuario y rating 4.3 con estrella de puntaje del usuario; debajo aparece una cuadrícula de accesos, con las opciones Driver Mode (cambia a modo conductor), Wallet (billetera), Notifications (me muestra las notificaciones) y Terms and conditions (documento de lectura); más abajo, la sección Trips ofrece dos tarjetas para Recent Trips y Active Trips; todo se apoya en un estilo limpio con fondo degradado amarillo, tarjetas azules de bordes redondeados e íconos lineales, y se completa con una barra de navegación inferior de tres pestañas donde la central (pin de ubicación) está resaltada como activa.
 
 ![user](../iteración-2/Pantallas/userProfile.PNG "user")
 
 ### Perfil del conductor:
-Panel de perfil para el rol conductor con botón "Log out" arriba a la izquierda, avatar circular, nombre, botón "Edit Profile" y rating 4.3 con estrella; debajo, accesos rápidos con Passenger Mode (ir al modo pasajero), Car Info (información de el auto y completarla), Notifications y Terms and conditions; sigue la sección Trips con dos tarjetas para Recent Trips y Active trips; el diseño usa tarjetas verdes con bordes redondeados sobre fondo crema y una barra de navegación inferior verde con tres pestañas.
+Panel de perfil para el rol conductor con botón "Log out" arriba a la izquierda, avatar circular, nombre, botón "Edit Profile" y rating 4.3 con estrella; debajo, accesos rápidos con Passenger Mode (ir al modo pasajero), Car Info (información del auto y completarla), Notifications y Terms and conditions; sigue la sección Trips con dos tarjetas para Recent Trips y Active trips; el diseño usa tarjetas verdes con bordes redondeados sobre fondo crema y una barra de navegación inferior verde con tres pestañas.
 
 ![driver](../iteración-2/Pantallas/driverProfile.PNG "driver")
 ### Perfil del Admin:
 
-Panel de administración con imagen de fondo tipo oficina, avatar circular centrado, botones "Log out" y "Edit Profile", nombre, una cuadrícula de módulos en tarjetas naranjas/rojas: User Management (gestión de usuarios), Statistics (Estadisticas de la aplicación), Add new Admin, Manage Reports, Manage comments y Manage Policies; la composición prioriza acciones de back-office con jerarquía clara y contraste alto para operaciones de administración.
+Panel de administración con imagen de fondo tipo oficina, avatar circular centrado, botones "Log out" y "Edit Profile", nombre, una cuadrícula de módulos en tarjetas naranjas/rojas: User Management (gestión de usuarios), Statistics (Estadísticas de la aplicación), Add new Admin, Manage Reports, Manage comments y Manage Policies; la composición prioriza acciones de back-office con jerarquía clara y contraste alto para operaciones de administración.
 
 ![admin](../iteración-2/Pantallas/adminProfile.PNG "admin")
 
 ### Navbar del pasajero:
-En la página de su pérfil, el usuario cuenta con una navigation bar. Esta será la que le permita navegar por toda la aplicación sencillamente. Particularmente, el botón con el signo de pin o ubicación le ofrecerá la opción de buscar un nuevo viaje, los libros de ver su historial de viajes y la persona el ir a su perfil:
+En la página de su perfil, el usuario cuenta con una navigation bar. Esta será la que le permita navegar por toda la aplicación sencillamente. Particularmente, el botón con el signo de pin o ubicación le ofrecerá la opción de buscar un nuevo viaje, los libros de ver su historial de viajes y el icono de persona para ir a su perfil:
 
 ![user](../iteración-2/Pantallas/navP.jpeg "user")
 
 ### Navbar del conductor:
-En la página de su pérfil, el usuario cuenta con una navigation bar. Esta será la que le permita navegar por toda la aplicación sencillamente. Particularmente, el botón con el maleta y agenda le ofrecerá la opción de publicar un nuevo viaje, los libros de ver su historial de viajes y la persona el ir a su perfil:
+En la página de su perfil, el usuario cuenta con una navigation bar. Esta será la que le permita navegar por toda la aplicación sencillamente. Particularmente, el botón con la maleta y agenda le ofrecerá la opción de publicar un nuevo viaje, los libros de ver su historial de viajes y el icono de persona para ir a su perfil:
 
 ![user](../iteración-2/Pantallas/navC.PNG "user")
 
@@ -394,9 +433,9 @@ Para esta instancia, organizamos sesiones con usuarios potenciales que participa
 
 En particular, pedimos a los participantes completar historias de usuario críticas de esta iteración, siendo el flujo de un pasajero para reservar viaje y para el conductor crear un nuevo viaje para el producto. Entre ellas, la que presentó mayor dificultad fue:
 
-  - **Reservar lugar en un viaje HU 20:** Si bien en general esta pantalla no surguieron problemas para completar su flujo, los usuarios suguirieron de implementar una iterfaz a parte para reservar un viaje y no incluirla en la lista de viajes. Esto es debido a que el viaje seria mejor contemplado si se expande la información por dentre de este.
+  - **Reservar lugar en un viaje HU 20:** Si bien en general con esta pantalla no surgieron problemas para completar su flujo, los usuarios sugirieron implementar una interfaz aparte para reservar un viaje y no incluirla en la lista de viajes. Esto es debido a que el viaje sería mejor contemplado si se expande la información dentro de este.
 
-En resumen a los usuarios le fue fácil realizar el flujo dentro de la aplicación y les gusto mucho como adaptamos estilos y paleta de colores en nuestra app. Sin embargo, se lograron encontrar oportunidades de mejora que implementarémos para adaptar dichas acotaciones.
+En resumen a los usuarios le fue fácil realizar el flujo dentro de la aplicación y les gustó mucho cómo adaptamos estilos y paleta de colores en nuestra app. Sin embargo, se lograron encontrar oportunidades de mejora que implementaremos para adaptar dichas acotaciones.
 
 
 ![Prototipo](../iteración-2/Pruebas/Chat1.PNG "Prototipo1")
