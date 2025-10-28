@@ -13,19 +13,125 @@
 
 ## Definición del marco de trabajo
 
-_[Definición del marco de trabajo SCRUM con los acuerdos principales del equipo y evidencia de sus prácticas aplicadas en la iteración. Deben estar los roles definidos para cada integrante del equipo y la justificación de la adaptación del marco de trabajo al contexto de la iteración.]_
+Siguiendo como habíamos establecido los roles con la intención de que en las siguientes iteraciones se roten, favoreciendo así la participación y el aprendizaje de todos.
+
+- **Product Owner**: Juan Croquis
+
+- **Scrum Master**: Juan Ferreira
+
+- **Developer**:  Emiliano Reyes
 
 ### Artefactos principales
 
-- Definición del calendario de eventos con justificación de su adaptación al contexto de la iteración.
-- Roles y responsabilidades definidos para cada integrante del equipo.
-- Políticas de trabajo del equipo:
-  - Definition of Done.
-  - Definition of Ready.
+En el presente Sprint definimos que los eventos se establecerán de la siguiente forma:
+
+- **Sprint Planning**: 2 días (27/10/2025 y )
+- **Daily Scrum**: 3 días ()
+- **Sprint Review**: 1 día ()
+- **Sprint Retrospective**: 1 día ()
+
+# Definition of Done y Definition of Ready – Carpool Universitario
+
+## Definition of Done (DoD)
+
+Un entregable (historia de usuario, funcionalidad o tarea) se considera **terminado** cuando:
+
+- **Funcionalidad implementada**  
+  Ejemplo: el registro de usuario permite crear cuenta como conductor o pasajero.  
+
+- **Funcionalidad testeada**  
+  Pruebas unitarias y funcionales confirman que el login, búsqueda de viajes, reserva y publicación funcionan según lo esperado.  
+
+- **Criterios de aceptación cumplidos**  
+  Cada historia de usuario cuenta con criterios claros (ejemplo:  
+  *“Como pasajero quiero buscar un viaje por horario y zona, para elegir la mejor opción”*),  
+  y deben cumplirse en su totalidad.  
+
+---
+
+## Definition of Ready (DoR)
+
+Una historia de usuario o tarea se considera **lista para entrar en un Sprint** cuando:
+
+- **Estimación de esfuerzo confirmada**  
+  El equipo acordó una estimación en puntos de historia o tiempo, y está alineada con la capacidad disponible del Sprint.  
+
+- **Recursos disponibles**  
+  El equipo cuenta con acceso a las herramientas necesarias.
+
+- **Conocimientos/capacitación suficiente**  
+  Los miembros tienen claro cómo implementar la historia.
+
+- **Diseño de UI aprobado**  
+  Las pantallas necesarias para la historia (ejemplo: formulario de *Publicar viaje*, vista de *Reservar lugar*) están definidas y detalladas.  
+
+- **Criterios de aceptación definidos**  
+  Cada historia de usuario tiene escenarios claros que permitan saber cuándo está “hecha”. 
 
 ## Planificación de la iteración
 
-_[Sprint Backlog para cumplir con el objetivo de la iteración. Debe contener las historias de usuario priorizadas y las tareas planificadas basadas en la capacidad y velocidad disponible del equipo.]_
+### Minuta 1: Planning 1 (27/10/2025)
+
+Lunes 27 de Octubre, realizamos la primera reunión para preparar el ambiente para la iteración 3. El objetivo de esta reunión fue avanzar y planificar qué íbamos a realizar en esta iteración (Sprint). Designamos roles, validamos las herramientas a utilizar, definimos el objetivo de la iteración, buscamos consenso sobre cómo aplicar el marco de trabajo SCRUM al contexto del proyecto y qué corresponde a cada rol y dejamos preparado el **Product Backlog**. La reunión se dio en clases, duró 30 minutos y concluimos que en la siguiente reunión continuaremos con la siguiente parte del planning.
+
+![Planning 1](Reuniones/Planing1.PNG "Planning 1")
+
+
+### Sprint Backlog
+
+![B1](Backlog/B1.PNG "B1")
+![B2](Backlog/B2.PNG "B2")
+![B3](Backlog/B3.PNG "B3")
+![B4](Backlog/B4.PNG "B4")
+
+#### 👥 Asignación de tareas
+
+Durante la **planificación** asumimos distintos roles según la necesidad, pero en la etapa de **desarrollo** trabajaremos los tres de forma colaborativa.  
+Repartimos las tareas de manera **equitativa**, asegurando que cada integrante comience con una **tarea de prioridad 1**.
+
+#### 📚 Historias de usuario
+
+
+> **Nota:** Se añadieron las tasks de redacción de historias de usuarios correspondientes a las cards que vamos a trabajar durante esta Iteración 2, además de la creación de pantallas intermedias necesarias para conectar las pantallas creadas.
+
+Para estimar el esfuerzo de las historias seleccionadas aplicamos la técnica **Planning Poker** basada en **Story Points**.
+
+Tomamos en cuenta los siguientes factores:
+- **Complejidad técnica**
+- **Volumen de trabajo**
+- **Nivel de incertidumbre**
+
+Utilizamos el **estimador integrado en Azure DevOps** para asignar valores dentro de cada historia elegida para el sprint.  
+En los casos donde hubo diferencias de criterio, el equipo **debatió las estimaciones** y se realizó **una nueva votación** hasta llegar a un consenso.
+
+A continuación se redactan las estimaciones puestas por el equipo correspondientes a estas Historias de Usuarios (Como definimos antes 1 SP corresponde a 30 minutos).
+
+- **Historia de usuario 12**: Login con cuenta de Google
+  - 5 SP
+- **Historia de usuario 13**: Editar usuario
+  - 5 SP
+- **Historia de usuario 15**: Recuperar contraseña
+  - 7 SP
+- **Historia de usuario 17**: Evaluar pasajeros según criterios
+  - 3 SP
+- **Historia de usuario 19**: Cancelar viaje/s publicados
+  - 4 SP
+- **Historia de usuario 21**: Evaluar al conductor luego del viaje
+  - 3 SP
+- **Historia de usuario 24**: Gestionar reportes de la comunidad
+  - 6 SP
+- **Historia de usuario 25**: Resolver discrepancias en evaluaciones
+  - 6 SP
+- **Historia de usuario 28**: Recordatorio a pasajeros con reserva
+  - 5 SP
+- **Historia de usuario 33**: Historial de viajes realizados
+(Conductor)
+  - 4 SP
+- **Historia de usuario 36**: Cancelar reserva
+  - 5 SP
+- **Historia de usuario 37**: Historial de viajes realizados
+(Pasajero)
+  - 4 SP
 
 ### Artefactos principales
 
