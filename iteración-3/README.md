@@ -99,6 +99,19 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - El botón de Continuar con Google debe redirigir a un panel a parte.
     - Al iniciar sesión correctamente, se redirige al usuario a su pantalla principal donde seleccionará su perfil (conductor o pasajero).
 
+- **Historia de usuario 13**: Editar usuario
+  - **Como**: Como usuario registrado (conductor, pasajero o administrador).
+  - **Quiero**: Editar la informacion de mi perfil y que se vea reflejada.
+  - **Para**: Actualizar mi informacion almacenada en la aplicación.
+  - **Criterios de aceptación**:
+    - Que tenga los siguientes campos a modificar:
+      - Foto de perfil
+      - Nombre de usuario
+      - Contraseña
+      - Email
+    - El botón de guardar cambios debe aplicar los mismos y redirigir al usuario a la pantalla de información de su perfil.
+    - El botón de regreso debe redirigir al usuario a la pantalla de información de su perfil sin guardar ningun cambio realizado.
+
 - **Historia de usuario 17**: Evaluar pasajeros según criterios
   - **Como**: Conductor que ha finalizado un viaje
   - **Quiero**: Seleccionar a cada pasajero y calificar su comportamiento o cumplimiento durante el viaje
@@ -108,6 +121,16 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - Debe poder seleccionar un pasajero específico y asignarle una calificación en estrellas (1 a 5).
     - Opcionalmente puede escribir una breve reseña o comentario.
     - El sistema debe permitir iniciar una disputa si el conductor tuvo un problema con un pasajero.
+
+- **Historia de usuario 19**: Cancelar viaje/s publicados
+  - **Como**: Conductor con al menos un viaje activo
+  - **Quiero**: Seleccionar un viaje activo y cancelarlo
+  - **Para**: Evitar que el viaje siga su curso y se notifique a los pasajeros.
+  - **Criterios de adaptación**:
+    - Al ver los viajes activos, el conductor debe poder acceder a la información del viaje a cancelar.
+    - El botón de cancelar viaje debe validar que realmente se desea cancelar el viaje.
+    - Si se presiona la opcion positiva se cancela el viaje (notificando a los pasajeros del mismo) y se redirige al conductor a la vista de sus viajes activos.
+    - En caso de presionar la opcion negativa, se mantiene al conductor en la vista de la información del viaje.
 
 - **Historia de usuario 21**: Evaluar al conductor luego del viaje
   - **Como**: Pasajero que ha finalizado un viaje
