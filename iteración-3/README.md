@@ -91,8 +91,35 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
 
 #### 📚 Historias de usuario
 
+- **Historia de usuario 12**: Login con cuenta de Google
+  - **Como**: Como usuario registrado (conductor o pasajero)
+  - **Quiero**: Iniciar sesión con mi usuario de Google para acceder a mis viajes y reservas.
+  - **Para**: Poder acceder a mis viajes publicados, reservas o búsqueda de viajes y perfil personal.
+  - **Criterios de aceptación**:
+    - El botón de Continuar con Google debe redirigir a un panel a parte.
+    - Al iniciar sesión correctamente, se redirige al usuario a su pantalla principal donde seleccionará su perfil (conductor o pasajero).
 
-> **Nota:** Se añadieron las tasks de redacción de historias de usuarios correspondientes a las cards que vamos a trabajar durante esta Iteración 2, además de la creación de pantallas intermedias necesarias para conectar las pantallas creadas.
+- **Historia de usuario 17**: Evaluar pasajeros según criterios
+  - **Como**: Conductor que ha finalizado un viaje
+  - **Quiero**: Seleccionar a cada pasajero y calificar su comportamiento o cumplimiento durante el viaje
+  - **Para**: Mantener un registro de buenas prácticas, mejorar la confianza y seguridad dentro de la comunidad de usuarios
+  - **Criterios de aceptación**:
+    - Al finalizar un viaje, el conductor puede acceder a la pantalla de historial y ver la lista de pasajeros.
+    - Debe poder seleccionar un pasajero específico y asignarle una calificación en estrellas (1 a 5).
+    - Opcionalmente puede escribir una breve reseña o comentario.
+    - El sistema debe permitir iniciar una disputa si el conductor tuvo un problema con un pasajero.
+
+- **Historia de usuario 21**: Evaluar al conductor luego del viaje
+  - **Como**: Pasajero que ha finalizado un viaje
+  - **Quiero**: Calificar la experiencia con mi conductor y dejar una reseña breve
+  - **Para**: Contribuir a la reputación del conductor y mejorar la calidad del servicio para futuros usuarios
+  - **Criterios de aceptación**:
+    - Al finalizar un viaje, debe mostrarse la pantalla de historial con los datos del conductor y la opción de "Enviar reseña".
+    - El pasajero puede asignar una calificación en estrellas (1 a 5).
+    - Opcionalmente puede escribir una breve reseña o comentario.
+    - El pasajero tendrá la opción de abrir un debate si hubo un problema.
+
+> **Nota:** Se añadieron las tasks de redacción de historias de usuarios correspondientes a las cards que vamos a trabajar durante esta Iteración 3, además de la creación de pantallas intermedias necesarias para conectar las pantallas creadas.
 
 Para estimar el esfuerzo de las historias seleccionadas aplicamos la técnica **Planning Poker** basada en **Story Points**.
 
