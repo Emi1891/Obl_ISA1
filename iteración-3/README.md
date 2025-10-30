@@ -25,10 +25,10 @@ Siguiendo como habíamos establecido los roles con la intención de que en las s
 
 En el presente Sprint definimos que los eventos se establecerán de la siguiente forma:
 
-- **Sprint Planning**: 2 días (27/10/2025 y )
-- **Daily Scrum**: 3 días ()
-- **Sprint Review**: 1 día ()
-- **Sprint Retrospective**: 1 día ()
+- **Sprint Planning**: 2 días (27/10/2025 y 29/10/2025)
+- **Daily Scrum**: 3 días (31/10/2025, 03/11/2025 y 05/11/2025)
+- **Sprint Review**: 1 día (06/11/2025)
+- **Sprint Retrospective**: 1 día (06/11/2025)
 
 # Definition of Done y Definition of Ready – Carpool Universitario
 
@@ -76,6 +76,18 @@ Lunes 27 de Octubre, realizamos la primera reunión para preparar el ambiente pa
 
 ![Planning 1](Reuniones/Planing1.PNG "Planning 1")
 
+### Minuta 2: Planning 2 (29/10/2025)
+
+Miércoles 29 de Octubre, realizamos la segunda parte de la planning. El objetivo fue terminar de coordinar las tareas y fechas para la sprint. Se hablo y discutio de los nuevos casos a agregar, siendo estos dos "Agregar una opción de chat previo al viaje" y "Permitir que un pasajero frecuente marque “favoritos” a ciertos conductores", los cuales se crearon el el board y se estimaron. Se añadio el caso de cerrar sesión, si bien estaba implementados llegamos a la desición de crearle su propia HU. Se actualizó el Story Map de la iteración 3.
+
+![Planning 2](Reuniones/Planning2.jpeg "Planning 2")
+
+### Story Map
+
+Story Map actualizado para reflejar las nuevas actualizaciones que el cliente pidio para ser incluidas:
+
+![SM1](Img/StoryMap.jpg "SM")
+![SM2](Img/SMIteracion3.PNG "SM")
 
 ### Sprint Backlog
 
@@ -83,6 +95,7 @@ Lunes 27 de Octubre, realizamos la primera reunión para preparar el ambiente pa
 ![B2](Backlog/B2.PNG "B2")
 ![B3](Backlog/B3.PNG "B3")
 ![B4](Backlog/B4.PNG "B4")
+![B4](Backlog/B5.PNG "B5")
 
 #### 👥 Asignación de tareas
 
@@ -142,7 +155,18 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - Opcionalmente puede escribir una breve reseña o comentario.
     - El pasajero tendrá la opción de abrir un debate si hubo un problema.
 
+- **Historia de usuario 40**: Cerrar Sesión
+  - **Como**: Como usuario loggeado (Pasajero, Conductor o Admin)
+  - **Quiero**: Cerrar la sesión de mi cuenta en la aplicación 
+  - **Para**: Garantizar la seguridad de mi cuenta y evitar el acceso no autorizado a mi información personal
+  - **Criterios de aceptación**:
+    - Debe existir un botón o enlace visible con la opción “Cerrar sesión” en el menú o perfil del usuario.
+    - El usuario puede cerrar sesión desde su perfil.
+    - Al cerrar sesión, se redirige a la pantalla de inicio.
+
 > **Nota:** Se añadieron las tasks de redacción de historias de usuarios correspondientes a las cards que vamos a trabajar durante esta Iteración 3, además de la creación de pantallas intermedias necesarias para conectar las pantallas creadas.
+---
+#### 🧮 Estimación del esfuerzo
 
 Para estimar el esfuerzo de las historias seleccionadas aplicamos la técnica **Planning Poker** basada en **Story Points**.
 
@@ -183,6 +207,16 @@ A continuación se redactan las estimaciones puestas por el equipo correspondien
 (Pasajero)
   - 4 SP
 
+**Se añaden también las actualizaciones de las siguientes y nuevas Historias de Usuarios:**
+
+- **Historia de usuario 40**: Cerrar Sesión
+  - 1 SP
+- **Historia de usuario 41**: Agregar una opción de chat previo al viaje
+  - 4 SP
+- **Historia de usuario 42**: Permitir que un pasajero frecuente marque “favoritos” a ciertos conductores
+  - 3 SP
+
+--- 
 ### Artefactos principales
 
 - Minuta de la sprint planning con su agenda, actividades y resultados.
