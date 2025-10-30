@@ -44,7 +44,7 @@ Un entregable (historia de usuario, funcionalidad o tarea) se considera **termin
 
 - **Criterios de aceptación cumplidos**  
   Cada historia de usuario cuenta con criterios claros (ejemplo:  
-  *“Como pasajero quiero buscar un viaje por horario y zona, para elegir la mejor opción”*),  
+  *"Como pasajero quiero buscar un viaje por horario y zona, para elegir la mejor opción"*),  
   y deben cumplirse en su totalidad.  
 
 ---
@@ -66,7 +66,7 @@ Una historia de usuario o tarea se considera **lista para entrar en un Sprint** 
   Las pantallas necesarias para la historia (ejemplo: formulario de *Publicar viaje*, vista de *Reservar lugar*) están definidas y detalladas.  
 
 - **Criterios de aceptación definidos**  
-  Cada historia de usuario tiene escenarios claros que permitan saber cuándo está “hecha”. 
+  Cada historia de usuario tiene escenarios claros que permitan saber cuándo está "hecha". 
 
 ## Planificación de la iteración
 
@@ -78,7 +78,7 @@ Lunes 27 de Octubre, realizamos la primera reunión para preparar el ambiente pa
 
 ### Minuta 2: Planning 2 (29/10/2025)
 
-Miércoles 29 de Octubre, realizamos la segunda parte de la planning. El objetivo fue terminar de coordinar las tareas y fechas para la sprint. Se hablo y discutio de los nuevos casos a agregar, siendo estos dos "Agregar una opción de chat previo al viaje" y "Permitir que un pasajero frecuente marque “favoritos” a ciertos conductores", los cuales se crearon el el board y se estimaron. Se añadio el caso de cerrar sesión, si bien estaba implementados llegamos a la desición de crearle su propia HU. Se actualizó el Story Map de la iteración 3.
+Miércoles 29 de Octubre, realizamos la segunda parte de la planning. El objetivo fue terminar de coordinar las tareas y fechas para la sprint. Se hablo y discutio de los nuevos casos a agregar, siendo estos dos "Agregar una opción de chat previo al viaje" y "Permitir que un pasajero frecuente marque "favoritos" a ciertos conductores", los cuales se crearon el el board y se estimaron. Se añadio el caso de cerrar sesión, si bien estaba implementados llegamos a la desición de crearle su propia HU. Se actualizó el Story Map de la iteración 3.
 
 ![Planning 2](Reuniones/Planning2.jpeg "Planning 2")
 
@@ -160,9 +160,19 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
   - **Quiero**: Cerrar la sesión de mi cuenta en la aplicación 
   - **Para**: Garantizar la seguridad de mi cuenta y evitar el acceso no autorizado a mi información personal
   - **Criterios de aceptación**:
-    - Debe existir un botón o enlace visible con la opción “Cerrar sesión” en el menú o perfil del usuario.
+    - Debe existir un botón o enlace visible con la opción "Cerrar sesión" en el menú o perfil del usuario.
     - El usuario puede cerrar sesión desde su perfil.
     - Al cerrar sesión, se redirige a la pantalla de inicio.
+
+- **Historia de usuario 42**: Permitir que un pasajero frecuente marque "favoritos" a ciertos conductores
+  - **Como**: Como usuario loggeado (Pasajero)
+  - **Quiero**: Poder marcar ciertos conductores como "favoritos"
+  - **Para**: Facilitar futuras reservas y priorizar viajes con conductores de confianza o con quienes tuve buenas experiencias
+  - **Criterios de aceptación**:
+    - Despues de haber realizado un viaje el usuario podrá revisar su historial de viajes y guardar en favoritos un conductor
+    - Existe un botón de corazón para añadir a favorito a un conductor deseado.
+    - El pasajero puede visualizar y gestionar su lista de conductores favoritos desde su perfil o un apartado dedicado.
+    - Cuando se selecciona un conductor de la lista, se muestra todos sus proximos viajes
 
 > **Nota:** Se añadieron las tasks de redacción de historias de usuarios correspondientes a las cards que vamos a trabajar durante esta Iteración 3, además de la creación de pantallas intermedias necesarias para conectar las pantallas creadas.
 ---
@@ -213,7 +223,7 @@ A continuación se redactan las estimaciones puestas por el equipo correspondien
   - 1 SP
 - **Historia de usuario 41**: Agregar una opción de chat previo al viaje
   - 4 SP
-- **Historia de usuario 42**: Permitir que un pasajero frecuente marque “favoritos” a ciertos conductores
+- **Historia de usuario 42**: Permitir que un pasajero frecuente marque "favoritos" a ciertos conductores
   - 3 SP
 
 --- 
@@ -252,12 +262,66 @@ _[Existe evidencia sobre la inspección del proceso con aprendizajes principales
 
 ## Prototipos con posibles soluciones
 
-_[Existen diferentes propuestas de solución para entregar valor y resolver el problema identificado implementado a través de prototipos. Los prototipos deberán ser exportados en algún formato de imagen (como png o jpg) a efectos de poder ser visualizados fácilmente dentro del propio repo de github.]_
+El prototipo de esta tercera iteración incluye quince historias de usuario implementadas y sus derivados componentes para completar el caso que conectan otras pantallas, pensadas para cubrir el flujo mínimo extremo a extremo:
 
-### Artefactos principales
+### Login con cuenta de Google HU 12
 
-- Prototipos interactivos para ser navegados.
-- Prototipos asociados como bocetos a las historias de usuario.
+Esta pantalla corresponde al inicio de sesión con cuenta de Google, una funcionalidad que permite al usuario acceder rápidamente sin necesidad de crear una cuenta manualmente dentro de la aplicación. En el centro se muestra la interfaz oficial de autenticación de Google. En la parte inferior derecha se ubica el botón azul "Next", que continúa a la pantalla de seleccionar el perfil. Además, un ícono de flecha hacia la izquierda en la esquina superior izquierda permite volver a la pantalla anterior.
+
+![google](Pantallas/google.PNG "google")
+
+### Editar usuario HU 13
+
+### Recuperar contraseña HU 15
+
+### Evaluar pasajeros según criterios HU 17
+
+Esta pantalla de un viaje pasado hay un apartado para dejarle una review a cada pasajero, tiene un apartado que corresponde al flujo de evaluación de pasajeros según distintos criterios luego de finalizado un viaje. En la parte superior se muestra el mensaje "How was your trip? Select a passenger and give a feedback", que orienta al conductor a seleccionar a uno de los pasajeros del viaje para dejar una reseña individual. Debajo, hay un menú desplegable con la etiqueta "Users", donde el conductor elige al pasajero a evaluar. Luego, un campo de texto gris claro permite escribir comentarios específicos sobre aspectos como puntualidad, comportamiento o comunicación durante el viaje. Más abajo, se incluye un sistema de estrellas para calificar la experiencia y finalmente un botón verde oscuro con el texto "Send a review", que envía la valoración y el comentario seleccionados. La pantalla mantiene una estructura clara y funcional, permitiendo que el conductor brinde retroalimentación de forma rápida, ordenada y centrada en la calidad del viaje compartido.
+
+![user](Pantallas/HistoryCardConductor.PNG "user")![user](Pantallas/evaluatePasajero.PNG "user")
+
+### Cancelar viaje/s publicados HU 19
+
+### Evaluar al conductor luego del viaje HU 21
+
+Esta pantalla de un viaje pasado hay un apartado para dejarle una review al conductor, este permite al pasajero evaluar al conductor luego de finalizar un viaje. En la parte superior se muestra una breve invitación para dejar una reseña: "How was your trip? Send a review to your driver". Debajo, aparece un componente de valoración con estrellas, donde el usuario puede seleccionar de una a cinco según su experiencia. Luego, un campo de texto gris claro con el mensaje "Send a review" permite escribir comentarios adicionales sobre el viaje o el conductor. Finalmente, un botón verde oscuro con el texto "Send a review" permite enviar la calificación y el comentario. La pantalla transmite una estética limpia, intuitiva y centrada en la acción principal, facilitando que el usuario brinde retroalimentación de forma rápida y directa.
+
+![user](Pantallas/HistoryCardPasajero.PNG "user")![user](Pantallas/evaluatedriver.PNG "user")
+
+### Gestionar reportes de la comunidad HU 24
+
+### Resolver discrepancias en evaluaciones HU 25
+
+### Recordatorio a pasajeros con reserva HU 28
+
+### Historial de viajes realizados (Conductor) HU 33
+
+### Cancelar reserva HU 36
+
+### Historial de viajes realizados (Pasajero) HU 37
+
+### Cerrar Sesión HU 40
+
+En la parte superior dentro de cada perfil de usuario, siendo este conductor, pasajero o admin, posee un boton de Log out que le permitirá cerrar sesión, este me redigirá automaticamente al inicio de la pantalla, para que vuelva a iniciar sesión denuevo.
+
+![user](Pantallas/LogOut1.PNG "user")
+![user](Pantallas/LogOut2.PNG "user")
+![user](Pantallas/LogOut3.PNG "user")
+
+
+### Agregar una opción de chat previo al viaje HU 41
+
+### Permitir que un pasajero frecuente marque "favoritos" a ciertos conductores HU 42
+
+Dentro de un viaje ubicado en el historial de estos, en la parte superior nos permite que un pasajero frecuente marque a un conductor como favorito. Muestra el nombre y la calificación promedio del conductor junto a su avatar, y un botón con un ícono de corazón acompañado del texto “Add the driver to your favorites”. Al seleccionarlo, el pasajero puede guardar al conductor en su lista de favoritos para facilitar futuras reservas o viajes con este.
+
+![user](Pantallas/HistoryCardPasajero.PNG "user")
+![user](Pantallas/FavoriteAdd.PNG "user")
+
+Dentro de User Profile hay un apartado donde al seleccionar conductores favoritos, se nos listarán todos los conductores y podremos ver todos sus viajes proximos. Lo cual el flujo siguiente es el previamente visto de reservar un lugar.
+
+![user](Pantallas/userProfile.PNG "user")
+![user](Pantallas/FavoriteDrivers.PNG "user")
 
 ## Inspección y adaptación del producto
 
@@ -270,3 +334,19 @@ _[Existe evidencia de instancias de inspección y validación del producto con u
   - Descripción de las tareas propuestas a los usuarios finales.
   - Cobertura obtenida de validación de los usuarios de la aplicación.
 - Feedback recibido de los usuarios finales con la priorización de las propuestas de cambio.
+
+## ⌛ Registro de Horas del equipo
+
+A continuación se muestran las horas de trabajo del equipo, registrando las grupales e individuales
+
+
+
+## Links a los ambientes:
+
+### Azure DevOps:
+
+> https://dev.azure.com/Obligatorio1/Carpooling%20universitario/_boards/board/t/Carpooling%20universitario%20Team/Backlog%20items?System.IterationPath=Carpooling%20universitario%5CSprint%202
+
+### Framer:
+
+> https://framer.com/projects/Proyecto-Carpool--oYH9FogtuTUVn9HgMU5H-iTRso
