@@ -285,6 +285,18 @@ Esta pantalla corresponde al inicio de sesión con cuenta de Google, una funcion
 
 ### Recuperar contraseña HU 15
 
+El usuario inicia en la pantalla principal y al darle recuperar contraseña, comenzando el flujo de recuperar contraseña, este permite al usuario restablecer su acceso de forma rápida y segura. Primero, ingresa su correo o usuario para recibir un código temporal. Luego, introduce ese código en la siguiente pantalla para validar su identidad. Una vez verificado, puede crear y confirmar una nueva contraseña. Finalmente, el sistema muestra un mensaje de confirmación indicando que el cambio se realizó correctamente, volviendo asi al menu principal donde podra volver a iniciar.
+
+<p align="center">
+  <img src="Pantallas/RecuperarContraseña1.PNG" alt="Pantalla principal" width="300"/>
+  <img src="Pantallas/RecuperarContraseña2.PNG" alt="Detalle de conductor" width="300"/>
+</p>
+
+<p align="center">
+  <img src="Pantallas/RecuperarContraseña3.PNG" alt="Pantalla principal" width="300"/>
+  <img src="Pantallas/RecuperarContraseña4.PNG" alt="Detalle de conductor" width="300"/>
+</p>
+
 ### Evaluar pasajeros según criterios HU 17
 
 Esta pantalla de un viaje pasado hay un apartado para dejarle una review a cada pasajero, tiene un apartado que corresponde al flujo de evaluación de pasajeros según distintos criterios luego de finalizado un viaje. En la parte superior se muestra el mensaje "How was your trip? Select a passenger and give a feedback", que orienta al conductor a seleccionar a uno de los pasajeros del viaje para dejar una reseña individual. Debajo, hay un menú desplegable con la etiqueta "Users", donde el conductor elige al pasajero a evaluar. Luego, un campo de texto gris claro permite escribir comentarios específicos sobre aspectos como puntualidad, comportamiento o comunicación durante el viaje. Más abajo, se incluye un sistema de estrellas para calificar la experiencia y finalmente un botón verde oscuro con el texto "Send a review", que envía la valoración y el comentario seleccionados. La pantalla mantiene una estructura clara y funcional, permitiendo que el conductor brinde retroalimentación de forma rápida, ordenada y centrada en la calidad del viaje compartido.
