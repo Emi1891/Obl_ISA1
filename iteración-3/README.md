@@ -125,6 +125,17 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - El botón de guardar cambios debe aplicar los mismos y redirigir al usuario a la pantalla de información de su perfil.
     - El botón de regreso debe redirigir al usuario a la pantalla de información de su perfil sin guardar ningun cambio realizado.
 
+- **Historia de usuario 15**: Recuperar contraseña
+  - **Como**: Usuario registrado que olvidó su contraseña
+  - **Quiero**: Poder recuperar el acceso a mi cuenta mediante mi correo electrónico registrado
+  - **Para**: Restablecer mi contraseña de forma segura y continuar utilizando la aplicación
+  - **Criterios de aceptación**:
+    - En la pantalla de inicio de sesión debe existir un enlace o botón "¿Olvidaste tu contraseña?".
+    - Al seleccionarlo, el sistema debe solicitar el correo electrónico asociado a la cuenta.
+    - El sistema debe enviar a un correo el código temporal para restablecer la contraseña.
+    - Despues de ingresar el código el usuario restablece la contraseña
+    - Al finalizar la nueva contraseña se debe redirigir a iniciar sesión
+
 - **Historia de usuario 17**: Evaluar pasajeros según criterios
   - **Como**: Conductor que ha finalizado un viaje
   - **Quiero**: Seleccionar a cada pasajero y calificar su comportamiento o cumplimiento durante el viaje
@@ -313,7 +324,7 @@ En la parte superior dentro de cada perfil de usuario, siendo este conductor, pa
 
 ### Permitir que un pasajero frecuente marque "favoritos" a ciertos conductores HU 42
 
-Dentro de un viaje ubicado en el historial de estos, en la parte superior nos permite que un pasajero frecuente marque a un conductor como favorito. Muestra el nombre y la calificación promedio del conductor junto a su avatar, y un botón con un ícono de corazón acompañado del texto “Add the driver to your favorites”. Al seleccionarlo, el pasajero puede guardar al conductor en su lista de favoritos para facilitar futuras reservas o viajes con este.
+Dentro de un viaje ubicado en el historial de estos, en la parte superior nos permite que un pasajero frecuente marque a un conductor como favorito. Muestra el nombre y la calificación promedio del conductor junto a su avatar, y un botón con un ícono de corazón acompañado del texto "Add the driver to your favorites". Al seleccionarlo, el pasajero puede guardar al conductor en su lista de favoritos para facilitar futuras reservas o viajes con este.
 
 ![user](Pantallas/HistoryCardPasajero.PNG "user")
 ![user](Pantallas/FavoriteAdd.PNG "user")
