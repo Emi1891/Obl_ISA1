@@ -183,6 +183,16 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - El usuario puede cerrar sesión desde su perfil.
     - Al cerrar sesión, se redirige a la pantalla de inicio.
 
+- **Historia de usuario 41**: Chat previo al viaje
+  - **Como**: Pasajero o conductor con un viaje próximo
+  - **Quiero**: Acceder a una opción de chat vinculada al viaje antes de que comience
+  - **Para**: Poder coordinar detalles, confirmar horarios o puntos de encuentro antes del viaje
+  - **Criterios de aceptación**:
+    - Debe existir un botón o enlace para acceder al chat desde la pantalla del perfil del usuario (tanto para el pasajero como para el conductor).
+    - El chat debe mostrar únicamente los mensajes correspondientes a ese viaje específico.
+    - Solo pueden participar los usuarios involucrados en el viaje (conductor y pasajeros confirmados).
+    - Una vez finalizado el viaje, el chat se desactiva o se archiva.
+
 - **Historia de usuario 42**: Permitir que un pasajero frecuente marque "favoritos" a ciertos conductores
   - **Como**: Como usuario loggeado (Pasajero)
   - **Quiero**: Poder marcar ciertos conductores como "favoritos"
@@ -240,7 +250,7 @@ A continuación se redactan las estimaciones puestas por el equipo correspondien
 
 - **Historia de usuario 40**: Cerrar Sesión
   - 1 SP
-- **Historia de usuario 41**: Agregar una opción de chat previo al viaje
+- **Historia de usuario 41**: Chat previo al viaje
   - 4 SP
 - **Historia de usuario 42**: Permitir que un pasajero frecuente marque "favoritos" a ciertos conductores
   - 3 SP
@@ -257,7 +267,15 @@ A continuación se redactan las estimaciones puestas por el equipo correspondien
 
 ## Seguimiento de la iteración
 
-_[Existe evidencia sobre el registro de actividades y horas de cada integrante del equipo con el seguimiento general de cada iteración del proyecto sobre lo planificado inicialmente.]_
+### Minuta 3: Daily 1 (31/10/2025)
+
+El viernes 31 de octubre, realizamos la primera daily de esta iteración 3, con el objetivo de coordinar el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos a completar 10 de las 15 propuestas para esta sprint, 10 de las 15 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
+El equipo se encuentra preparando una buena versión la cual será mostrada como prototipo a usuarios para Validarlo.
+
+![Daily](Reuniones/Daily1.jpeg "D")
+
+### Minuta 4: Daily 2 (03/11/2025)
+### Minuta 5: Daily 3 (05/11/2025)
 
 ### Artefactos principales
 
@@ -365,7 +383,20 @@ En la parte superior dentro de cada perfil de usuario, siendo este conductor, pa
 ![user](Pantallas/LogOut3.PNG "user")
 
 
-### Agregar una opción de chat previo al viaje HU 41
+### Chat previo al viaje HU 41
+
+En la parte de las opciónes dentro de cada perfil de usuario, siendo este conductor o pasajero, posee un boton de Chat que le permitirá ver una lista de chats de sus viajes activos.
+
+<p align="center">
+  <img src="Pantallas/ChatDriver.PNG" alt="Pantalla principal" width="300"/>
+  <img src="Pantallas/ChatUser.PNG" alt="Detalle de conductor" width="300"/>
+</p>
+
+Al ingresar se lo moverá a una pantalla la cual tendrá una lista que al entrar se los redireccionará a una pantalla con un chat donde participan el conductor y sus pasajeror aceptados para ese viaje, donde podrán hablar e intercambiar ideas y coordinar su viaje para que sea lo más placentero posible.
+
+<img src="Pantallas/ListaChatD.PNG" alt="Pantalla lista Conductor" height="320">
+<img src="Pantallas/ListaChatP.PNG" alt="Pantalla lista Pasajero" height="320">
+<img src="Pantallas/ChatPrincipal.PNG" alt="Chat" height="320">
 
 ### Permitir que un pasajero frecuente marque "favoritos" a ciertos conductores HU 42
 
