@@ -166,6 +166,14 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - Opcionalmente puede escribir una breve reseña o comentario.
     - El pasajero tendrá la opción de abrir un debate si hubo un problema.
 
+- **Historia de usuario 36**: Cancelar reserva
+  - **Como**: Pasajero que tiene uno o más viajes activos
+  - **Quiero**: Darme de baja del viaje
+  - **Para**: Liberar mi asiento y realizar un reembolso del dinero del pasaje
+  - **Criterios de aceptación**:
+    - Al dar de baja al pasajero del viaje, se notifica al conductor lo sucedido.
+    - El pasajero debe recibir un reembolso del dinero del pasaje en caso de que se de de baja 24 o más horas antes del inicio del viaje.
+
 - **Historia de usuario 40**: Cerrar Sesión
   - **Como**: Como usuario loggeado (Pasajero, Conductor o Admin)
   - **Quiero**: Cerrar la sesión de mi cuenta en la aplicación 
@@ -283,6 +291,16 @@ Esta pantalla corresponde al inicio de sesión con cuenta de Google, una funcion
 
 ### Editar usuario HU 13
 
+El usuario parte de la pantalla del perfil segun su rol (pasajero, conductor o administrador) y selecciona el botón de editar perfil. Una vez seleccionado el mismo, comienza el flujo de la edición del usuario. Para los 3 disitintos tipos de usuario el flujo es el mismo. En la pantalla de edición, aparecen los campos relacionados a todos los datos que pueden ser editados. Se incluye tambien un campo en el cual se puede agregar o cambiar la foto de perfil. Una vez completados los datos que se desean cambiar, el usuario debe presionar el botn de guardar cambios para que estos se vean reflejados. Una vez presionado este botón, se redirige al usuario nuevamente a la vista de su perfil. En caso de que el usuario desee volver hacia atrás sin cambiar información, solo debe presionar el botón de regresar ubicado en la esquina superior izquierda.
+
+Para poder guardar los cambios de los datos editados, debe haber al menos un campo completo, de lo contrario no permite avanzar y se debera volver hacia atras en caso de querer abandonar esta pantalla. Asi mismo, solo se aplican los cambios de los campos que fueron completados, es decir, los campos que se dejen en blanco mantendran los datos previamente configurados.
+Ademas, al momento de ingresar los nuevos valores en cada campo, se realizan las mismas validaciones que al crear un usuario.
+
+| **Vista pasajero** | **Vista conductor** | **Vista administrador** |
+| --- | --- | --- |
+| <img src="Pantallas/Editar perfil Pasajero.png" alt="Pasajero" height="420"> | <img src="Pantallas/Editar perfil Conductor.png" alt="Conductor" height="420"> | <img src="Pantallas/Editar perfil Admin.png" alt="Administrador" height="420"> |
+
+
 ### Recuperar contraseña HU 15
 
 El usuario inicia en la pantalla principal y al darle recuperar contraseña, comenzando el flujo de recuperar contraseña, este permite al usuario restablecer su acceso de forma rápida y segura. Primero, ingresa su correo o usuario para recibir un código temporal. Luego, introduce ese código en la siguiente pantalla para validar su identidad. Una vez verificado, puede crear y confirmar una nueva contraseña. Finalmente, el sistema muestra un mensaje de confirmación indicando que el cambio se realizó correctamente, volviendo asi al menu principal donde podra volver a iniciar.
@@ -305,6 +323,13 @@ Esta pantalla de un viaje pasado hay un apartado para dejarle una review a cada 
 
 ### Cancelar viaje/s publicados HU 19
 
+Esta pantalla es parte de la vista de la información del viaje del conductor. En este caso, se selecciona el botón de cancelar viaje que se encuentra debajo de los botones de iniciar y editar viaje. Una vez presionado, este botón acciona una ventana emergente en la cual se pide la confirmación del conductor para cancelar el viaje. Si el conductor presiona que si, se le redirige a la pantalla de sus viajes activos y se notifica a todos los usuarios la cancelacion del viaje. En caso de presionar que no, se cierra la ventana emergente y se vuelve a la vista de la información del viaje.
+
+<img src="Pantallas/Viajes activos conductor.png" alt="Viajes activos conductor" height="520">
+<img src="Pantallas/Info viaje conductor.png" alt="Info viaje conductor" height="520">
+<img src="Pantallas/Confirmacion cancelar viaje.png" alt="Confirmación cancelar viaje" height="520">
+
+
 ### Evaluar al conductor luego del viaje HU 21
 
 Esta pantalla de un viaje pasado hay un apartado para dejarle una review al conductor, este permite al pasajero evaluar al conductor luego de finalizar un viaje. En la parte superior se muestra una breve invitación para dejar una reseña: "How was your trip? Send a review to your driver". Debajo, aparece un componente de valoración con estrellas, donde el usuario puede seleccionar de una a cinco según su experiencia. Luego, un campo de texto gris claro con el mensaje "Send a review" permite escribir comentarios adicionales sobre el viaje o el conductor. Finalmente, un botón verde oscuro con el texto "Send a review" permite enviar la calificación y el comentario. La pantalla transmite una estética limpia, intuitiva y centrada en la acción principal, facilitando que el usuario brinde retroalimentación de forma rápida y directa.
@@ -320,6 +345,14 @@ Esta pantalla de un viaje pasado hay un apartado para dejarle una review al cond
 ### Historial de viajes realizados (Conductor) HU 33
 
 ### Cancelar reserva HU 36
+
+Esta pantalla, al igual que la de cancelar viaje, parte de la vista de viajes activos, pero en este caso del pasajero. Una vez en esta vista, se selecciona el viaje al cual se quiere dar de baja. Una vez seleccionado, se redirige al usuario a la pantalla de información del viaje. Una vez ahí, debajo del botón de enviar mensaje al conductor, se encuentra el de darse de baja. Si el usuario selecciona esta opción, salta una ventana emergente preguntando por la confirmación de la acción. En caso de seleccionar que si, el usuario es redirigido a la vista de sus viajes activos, dándolo de baja del viaje seleccionado inicialmente. En caso de que seleccione que no, la ventana emergente se cierra y se vuelve a la vista de la información del viaje.
+
+Al momento de dar de baja al usuario, se valida que el mismo se este dando de baja al menos 24 horas antes del viaje para realizar la devolución del dinero abonado por el asiento. En caso de no cumplir con este límite de tiempo, se da de baja al usuario pero no se le reintegra el dinero. Además, contamos con un plazo de 4 días hábiles para realizar el reembolso (toda esta información está disponible en los terminos y condiciones de la aplicación).
+
+<img src="Pantallas/Viajes activos pasajero.png" alt="Viajes activos pasajero" height="520">
+<img src="Pantallas/Info viaje pasajero.png" alt="Info viaje pasajero" height="520">
+<img src="Pantallas/Confirmacion baja viaje.png" alt="Confirmacion baja de viaje" height="520">
 
 ### Historial de viajes realizados (Pasajero) HU 37
 
