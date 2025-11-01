@@ -166,6 +166,15 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - Opcionalmente puede escribir una breve reseña o comentario.
     - El pasajero tendrá la opción de abrir un debate si hubo un problema.
 
+- **Historia de usuario 25**: Resolver discrepancias en evaluaciones
+  - **Como**: Administrador
+  - **Quiero**: Leer las opiniones tanto del conductor como del pasajero
+  - **Para**: Poder resolver el conflicto y solucionar el caso
+  - **Criterios de aceptación**:
+    - Se debe enseñar una lista con todos los casos de discrepancia sin resolver.
+    - El administrador debe tener acceso a un chat entre el conductor y el pasajero para cada caso.
+    - El administrador debe poder enviar mensajes en dicho chat.
+
 - **Historia de usuario 36**: Cancelar reserva
   - **Como**: Pasajero que tiene uno o más viajes activos
   - **Quiero**: Darme de baja del viaje
@@ -316,7 +325,7 @@ Ademas, al momento de ingresar los nuevos valores en cada campo, se realizan las
 
 | **Vista pasajero** | **Vista conductor** | **Vista administrador** |
 | --- | --- | --- |
-| <img src="Pantallas/Editar perfil Pasajero.png" alt="Pasajero" height="420"> | <img src="Pantallas/Editar perfil Conductor.png" alt="Conductor" height="420"> | <img src="Pantallas/Editar perfil Admin.png" alt="Administrador" height="420"> |
+| <img src="Pantallas/Editar perfil Pasajero.png" alt="Pasajero" height="400"> | <img src="Pantallas/Editar perfil Conductor.png" alt="Conductor" height="400"> | <img src="Pantallas/Editar perfil Admin.png" alt="Administrador" height="400"> |
 
 
 ### Recuperar contraseña HU 15
@@ -343,10 +352,11 @@ Esta pantalla de un viaje pasado hay un apartado para dejarle una review a cada 
 
 Esta pantalla es parte de la vista de la información del viaje del conductor. En este caso, se selecciona el botón de cancelar viaje que se encuentra debajo de los botones de iniciar y editar viaje. Una vez presionado, este botón acciona una ventana emergente en la cual se pide la confirmación del conductor para cancelar el viaje. Si el conductor presiona que si, se le redirige a la pantalla de sus viajes activos y se notifica a todos los usuarios la cancelacion del viaje. En caso de presionar que no, se cierra la ventana emergente y se vuelve a la vista de la información del viaje.
 
-<img src="Pantallas/Viajes activos conductor.png" alt="Viajes activos conductor" height="520">
-<img src="Pantallas/Info viaje conductor.png" alt="Info viaje conductor" height="520">
-<img src="Pantallas/Confirmacion cancelar viaje.png" alt="Confirmación cancelar viaje" height="520">
-
+<p>
+  <img src="Pantallas/Viajes activos conductor.png" alt="Viajes activos conductor" height="520">
+  <img src="Pantallas/Info viaje conductor.png" alt="Info viaje conductor" height="520">
+  <img src="Pantallas/Confirmacion cancelar viaje.png" alt="Confirmación cancelar viaje" height="520">
+<p/>
 
 ### Evaluar al conductor luego del viaje HU 21
 
@@ -358,6 +368,21 @@ Esta pantalla de un viaje pasado hay un apartado para dejarle una review al cond
 
 ### Resolver discrepancias en evaluaciones HU 25
 
+El flujo de este caso parte en la pantalla del perfil del administrador. En esta se encuentra un botón para gestionar las discrepancias o disputas. Una vez presionado este botón, se redirige al administrador a una pantalla que contiene una lista de todos los casos de discrepancia que hay en el sistema. En esta pantalla también se incluye una opción para filtrar según convenga los distintos casos. Una vez se ubica el caso deseado, se presiona sobre el mismo. Esto redirige al administrador a la vista propia del caso seleccionado. En esta se ve un chat entre el conductor y el pasajero. Además, en esta pantalla, se le da la opción al administrador de intervenir en la conversación, mostrando sus mensajes de una manera distintiva en un recuadro negro. 
+En caso de tener decidido a quien se le da la razón, se selecciona uno de los dos botones que aparecen debajo de la conversación. Al accionar cualquiera de estos dos botones se abre una ventana emergente a modo de confirmación de la elección seleccionada. En caso de estar decidido, selecciona que si y se muestra un mensaje de éxito en la pantalla, donde tocando en cualquier lugar de la pantalla se lo redirige nuevamente a la lista de casos activos. Sin embargo, en caso de seleccionar que no, se cierra la ventana emergente y se vuelve a la vista del caso específico. Además, si el adminstrador quiere ver el caso actual pero aún no quiere resolverlo, este puede volver a la pantalla de casos activos presionando el botón de regresar ubicado en la esquina superior izquierda de la pantalla.
+
+<p>
+  <img src="Pantallas/Perfil admin.png" alt="Perfil adminstrador" height="400"/>
+  <img src="Pantallas/Lista casos.png" alt="Lista de casos activos" height="400"/>
+  <img src="Pantallas/Detalles caso.png" alt="Detalles del caso" height="400"/>
+</p>
+
+<p>
+  <img src="Pantallas/Confirmar caso conductor.png" alt="Confirmar caso conductor" height="400"/>
+  <img src="Pantallas/Confirmar caso pasajero.png" alt="Confirmar caso pasajero" height="400"/>
+  <img src="Pantallas/Caso resuelto.png" alt="Caso resuelto" height="400"/>
+</p>
+
 ### Recordatorio a pasajeros con reserva HU 28
 
 ### Historial de viajes realizados (Conductor) HU 33
@@ -368,9 +393,11 @@ Esta pantalla, al igual que la de cancelar viaje, parte de la vista de viajes ac
 
 Al momento de dar de baja al usuario, se valida que el mismo se este dando de baja al menos 24 horas antes del viaje para realizar la devolución del dinero abonado por el asiento. En caso de no cumplir con este límite de tiempo, se da de baja al usuario pero no se le reintegra el dinero. Además, contamos con un plazo de 4 días hábiles para realizar el reembolso (toda esta información está disponible en los terminos y condiciones de la aplicación).
 
-<img src="Pantallas/Viajes activos pasajero.png" alt="Viajes activos pasajero" height="520">
-<img src="Pantallas/Info viaje pasajero.png" alt="Info viaje pasajero" height="520">
-<img src="Pantallas/Confirmacion baja viaje.png" alt="Confirmacion baja de viaje" height="520">
+<p>
+  <img src="Pantallas/Viajes activos pasajero.png" alt="Viajes activos pasajero" height="520">
+  <img src="Pantallas/Info viaje pasajero.png" alt="Info viaje pasajero" height="520">
+  <img src="Pantallas/Confirmacion baja viaje.png" alt="Confirmacion baja de viaje" height="520">
+<p/>
 
 ### Historial de viajes realizados (Pasajero) HU 37
 
@@ -388,8 +415,8 @@ En la parte superior dentro de cada perfil de usuario, siendo este conductor, pa
 En la parte de las opciónes dentro de cada perfil de usuario, siendo este conductor o pasajero, posee un boton de Chat que le permitirá ver una lista de chats de sus viajes activos.
 
 <p align="center">
-  <img src="Pantallas/ChatDriver.PNG" alt="Pantalla principal" width="300"/>
-  <img src="Pantallas/ChatUser.PNG" alt="Detalle de conductor" width="300"/>
+  <img src="Pantallas/ChatDriver.PNG" alt="Chat conductor" width="300"/>
+  <img src="Pantallas/ChatUser.PNG" alt="Chat pasajero" width="300"/>
 </p>
 
 Al ingresar se lo moverá a una pantalla la cual tendrá una lista que al entrar se los redireccionará a una pantalla con un chat donde participan el conductor y sus pasajeror aceptados para ese viaje, donde podrán hablar e intercambiar ideas y coordinar su viaje para que sea lo más placentero posible.
