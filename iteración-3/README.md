@@ -166,6 +166,16 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - Opcionalmente puede escribir una breve reseña o comentario.
     - El pasajero tendrá la opción de abrir un debate si hubo un problema.
 
+- **Historia de usuario 24**: Gestionar reportes de la comunidad
+  - **Como**: Administrador
+  - **Quiero**: Visualizar, revisar y gestionar los reportes realizados por los usuarios sobre conductores, pasajeros o viajes
+  - **Para**: Mantener un ambiente seguro, confiable y moderado dentro de la plataforma.
+  - **Criterios de aceptación**:
+    - Debe existir una sección dentro del panel del administrador llamada “Community Reports” o similar.
+    - La pantalla debe mostrar una lista de reportes, indicando: usuario reportado, usuario que reportó, motivo del reporte y fecha.
+    - El administrador debe poder filtrar los reportes por categoría (comportamiento, incumplimiento, fraude, etc).
+    - Si el reporte se resuelve, el sistema debe marcarlo como resuelto y ya no debe aparecer en la lista de pendientes.
+
 - **Historia de usuario 25**: Resolver discrepancias en evaluaciones
   - **Como**: Administrador
   - **Quiero**: Leer las opiniones tanto del conductor como del pasajero
@@ -175,6 +185,26 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - El administrador debe tener acceso a un chat entre el conductor y el pasajero para cada caso.
     - El administrador debe poder enviar mensajes en dicho chat.
 
+- **Historia de usuario 28**: Recordatorio a pasajeros con reserva
+  - **Como**: Pasajero que tiene una reserva confirmada en un viaje.
+  - **Quiero**: Recibir un recordatorio antes del horario de salida del viaje.
+  - **Para**: Asegurarme de no olvidar el viaje y llegar a tiempo al punto de encuentro.
+  - **Criterios de aceptación**:
+    - El sistema debe enviar una notificación automática a los pasajeros que tengan una reserva activa.
+    - El recordatorio debe enviarse 15 minutos antes del horario programado del viaje.
+    - La notificación debe incluir información relevante del viaje: origen, destino, conductor y horario.
+    - Si el viaje es modificado por el conductor (hora o punto de encuentro), el recordatorio debe ajustarse automáticamente.
+    - Si el viaje es cancelado antes del envío del recordatorio, no debe enviarse la notificación y el pasajero debe recibir una notificación de cancelación en su lugar.
+
+- **Historia de usuario 33**: Historial de viajes realizados (Conductor)
+  - **Como**: Usuario conductor registrado
+  - **Quiero**: Ver un historial de los viajes que he completado como conductor.
+  - **Para**: Poder llevar un registro de mis viajes ofrecidos, organizar mis ganancias y mantener control de mi actividad como conductor.
+  - **Criterios de aceptación**:
+    - La pantalla debe mostrar los viajes completados en los que el usuario actuó como conductor, ordenados por fecha (más reciente primero).
+    - Debe mostrarse información clave del viaje: origen, destino, fecha, horario, cantidad de pasajeros, y costo total recaudado.
+    - Debe existir una opción para ver más detalles del viaje como: ruta propuesta, vehículo utilizado, y evaluaciones recibidas.
+
 - **Historia de usuario 36**: Cancelar reserva
   - **Como**: Pasajero que tiene uno o más viajes activos
   - **Quiero**: Darme de baja del viaje
@@ -182,6 +212,15 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
   - **Criterios de aceptación**:
     - Al dar de baja al pasajero del viaje, se notifica al conductor lo sucedido.
     - El pasajero debe recibir un reembolso del dinero del pasaje en caso de que se de de baja 24 o más horas antes del inicio del viaje.
+
+- **Historia de usuario 37**: Historial de viajes realizados (Pasajero)
+  - **Como**: Usuario pasajero registrado
+  - **Quiero**: Poder visualizar un listado de los viajes que he realizado.
+  - **Para**: Recordar con quién viajé, cuándo y hacia dónde, y poder evaluar mi experiencia.
+  - **Criterios de aceptación**:
+    - La pantalla debe mostrar los viajes completados por el pasajero, ordenados del más reciente al más antiguo.
+    - Se debe poder ver la siguiente información básica del viaje: origen, destino, fecha, horario y conductor.
+    - Debe existir una opción para ver más detalles del viaje (por ejemplo: vehículo, comentarios previamente hechos, costo pagado, cantidad de asientos reservados).
 
 - **Historia de usuario 40**: Cerrar Sesión
   - **Como**: Como usuario loggeado (Pasajero, Conductor o Admin)
@@ -356,7 +395,7 @@ Esta pantalla es parte de la vista de la información del viaje del conductor. E
   <img src="Pantallas/Viajes activos conductor.png" alt="Viajes activos conductor" height="520">
   <img src="Pantallas/Info viaje conductor.png" alt="Info viaje conductor" height="520">
   <img src="Pantallas/Confirmacion cancelar viaje.png" alt="Confirmación cancelar viaje" height="520">
-<p/>
+</p>
 
 ### Evaluar al conductor luego del viaje HU 21
 
@@ -385,7 +424,15 @@ En caso de tener decidido a quien se le da la razón, se selecciona uno de los d
 
 ### Recordatorio a pasajeros con reserva HU 28
 
+Esta funcionalidad no requiere intervención manual del usuario, pero sí se visualiza su efecto dentro de la aplicación. Cuando un pasajero tiene una reserva confirmada en un viaje, el sistema envía una notificación automática antes del horario pautado. La notificación aparece tanto en la barra superior del dispositivo como dentro de la sección “Notifications” del perfil del pasajero. El mensaje incluye información clave como: nombre del conductor, destino, horario del viaje y recordatorio del punto de encuentro. Si el viaje sufre cambios o es cancelado, el texto se ajusta automáticamente para reflejar esta nueva situación. De este modo, la aplicación se asegura de mantener informado al pasajero, evitando olvidos y mejorando la organización previa al viaje.
+
+![user](Pantallas/NotificacionUsuario.png "user")
+
 ### Historial de viajes realizados (Conductor) HU 33
+
+Esta pantalla muestra al conductor un registro de los viajes que ya han sido completados. En la cabecera se presenta el título “Recent Trips”, indicando la naturaleza retrospectiva de la vista. Debajo, se despliega una lista con cada viaje pasado, mostrando información clave: origen, destino, fecha, horario y cantidad de pasajeros transportados. Al seleccionar un viaje, el conductor accede a un detalle donde puede ver el vehículo utilizado, los nombres de los pasajeros que participaron y las calificaciones recibidas. Si el viaje aún no ha sido evaluado, se muestra un aviso que invita al conductor a revisar puntuaciones o responder comentarios. La pantalla se organiza de manera clara y cronológica, facilitando que el conductor lleve control de su actividad y del historial económico asociado a los viajes completados.
+
+![user](Pantallas/HistorialConductor.png "user")
 
 ### Cancelar reserva HU 36
 
@@ -397,9 +444,13 @@ Al momento de dar de baja al usuario, se valida que el mismo se este dando de ba
   <img src="Pantallas/Viajes activos pasajero.png" alt="Viajes activos pasajero" height="520">
   <img src="Pantallas/Info viaje pasajero.png" alt="Info viaje pasajero" height="520">
   <img src="Pantallas/Confirmacion baja viaje.png" alt="Confirmacion baja de viaje" height="520">
-<p/>
+</p>
 
 ### Historial de viajes realizados (Pasajero) HU 37
+
+Esta pantalla permite al pasajero revisar los viajes en los que ha participado. El título "Recent Trips” aparece en la parte superior, seguido por un listado de viajes ordenados desde el más reciente hacia atrás. Cada tarjeta incluye la información principal: conductor, ruta, fecha y horario del viaje. Si el pasajero selecciona un viaje, accede a un detalle donde puede ver información ampliada del conductor, el vehículo, otros pasajeros que compartieron el viaje y la opción de dejar una calificación si aún no lo ha hecho.
+
+![user](Pantallas/HistorialPasajero.png "user")
 
 ### Cerrar Sesión HU 40
 
