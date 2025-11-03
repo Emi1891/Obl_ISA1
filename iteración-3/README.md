@@ -318,11 +318,17 @@ A continuación se redactan las estimaciones puestas por el equipo correspondien
 ### Minuta 3: Daily 1 (31/10/2025)
 
 El viernes 31 de octubre, realizamos la primera daily de esta iteración 3, con el objetivo de coordinar el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos a completar 10 de las 15 propuestas para esta sprint, 10 de las 15 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
-El equipo se encuentra preparando una buena versión la cual será mostrada como prototipo a usuarios para Validarlo.
+El equipo se encuentra preparando una buena versión la cual será mostrada como prototipo a usuarios para validarlo.
 
 ![Daily](Reuniones/Daily1.jpeg "D")
 
 ### Minuta 4: Daily 2 (03/11/2025)
+
+El lunes 03 de noviembre, realizamos la segunda daily de esta iteración 3, con el objetivo de continuar con el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos solo nos queda por terminar 1 para esta sprint, 14 de las 15 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
+El equipo tiene una versión lo suficientemente estable la cual será mostrada como prototipo a usuarios para validarlo.
+
+![Daily](Reuniones/Daily2.jpeg "D")
+
 ### Minuta 5: Daily 3 (05/11/2025)
 
 ### Artefactos principales
