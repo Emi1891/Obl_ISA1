@@ -225,6 +225,15 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - Debe mostrarse información clave del viaje: origen, destino, fecha, horario, cantidad de pasajeros, y costo total recaudado.
     - Debe existir una opción para ver más detalles del viaje como: ruta propuesta, vehículo utilizado, y evaluaciones recibidas.
 
+- **Historia de usuario 34**: Aviso cuando un pasajero reserve un viaje
+  - **Como**: Conductor que publicó un viaje
+  - **Quiero**: Ser notificado cuando un pasajero reserve uno o más lugares.
+  - **Para**: Estar al tanto de la ocupación del viaje y organizarme en base a los pasajeros confirmados.
+  - **Criterios de aceptación**:
+    - Cuando un pasajero realiza una reserva, el sistema debe enviar automáticamente una notificación al conductor.
+    - La notificación debe mostrar el nombre del pasajero y la cantidad de lugares reservados.
+    - El número de asientos disponibles debe actualizarse automáticamente en el viaje.
+
 - **Historia de usuario 36**: Cancelar reserva
   - **Como**: Pasajero que tiene uno o más viajes activos
   - **Quiero**: Darme de baja del viaje
