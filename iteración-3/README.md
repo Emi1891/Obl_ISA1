@@ -477,7 +477,10 @@ En caso de tener decidido a quien se le da la razón, se selecciona uno de los d
 
 ###  Aviso cuando un conductor está atrasado o demorado HU 26, Aviso cuando un conductor cancela un viaje con reservas HU 27 y Recordatorio a pasajeros con reserva HU 28
 
-Esta funcionalidad no requiere intervención manual del usuario, pero sí se visualiza su efecto dentro de la aplicación. Cuando un pasajero tiene una reserva confirmada en un viaje, el sistema envía una notificación automática antes del horario pautado. La notificación aparece tanto en la barra superior del dispositivo como dentro de la sección “Notifications” del perfil del pasajero. El mensaje incluye información clave como: nombre del conductor, destino, horario del viaje y recordatorio del punto de encuentro. Si el viaje sufre cambios o es cancelado, el texto se ajusta automáticamente para reflejar esta nueva situación. De este modo, la aplicación se asegura de mantener informado al pasajero, evitando olvidos y mejorando la organización previa al viaje.
+Estas funciones se ejecutan de manera automática sin requerir acciones directas del usuario. Cuando un pasajero tiene una reserva confirmada en un viaje, el sistema envía un recordatorio antes del horario pactado de salida. La notificación aparece tanto en la barra del dispositivo como dentro de la sección “Notifications” en el perfil del pasajero, mostrando información relevante como el nombre del conductor, destino y hora del encuentro.
+Si el conductor marca el viaje como “Demorado”, el pasajero recibe una notificación informando el atraso y, si corresponde, el tiempo estimado de espera.
+En caso de que el conductor cancele un viaje con reservas, el sistema envía automáticamente un aviso indicando que el viaje ha sido cancelado y el viaje deja de aparecer como disponible.
+De este modo, el sistema garantiza que el pasajero se mantenga informado en tiempo real sobre cualquier cambio, evitando confusiones o esperas innecesarias y mejorando la experiencia de organización previa al viaje.
 
 ![user](Pantallas/NotificacionUsuario.png "user")
 
@@ -489,6 +492,10 @@ Esta pantalla muestra al conductor un registro de los viajes que ya han sido com
 
 ### Aviso cuando un pasajero reserve un viaje HU 34 y Aviso cuando un pasajero cancele un viaje HU 35
 
+Estas funciones se activan automáticamente cuando un pasajero interactúa con un viaje publicado.
+Cuando un pasajero reserva uno o más asientos en un viaje, el conductor recibe una notificación inmediata. Esta notificación se muestra tanto en la barra del dispositivo como dentro de la sección “Notifications” de su perfil, e incluye datos como el nombre del pasajero, cantidad de asientos reservados y el viaje al que corresponde.
+Del mismo modo, si el pasajero decide cancelar su reserva, el sistema envía una notificación automática al conductor informando la cancelación, ajustando el número de asientos disponibles del viaje y reflejando el cambio en tiempo real dentro de la pantalla de viajes activos.
+Así, el sistema mantiene al conductor informado sobre quién se unirá al viaje y cualquier cambio que pueda afectar la planificación, garantizando claridad, organización y una mejor coordinación entre las partes.
 
 ### Cancelar reserva HU 36
 
