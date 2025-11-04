@@ -185,6 +185,16 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - El administrador debe tener acceso a un chat entre el conductor y el pasajero para cada caso.
     - El administrador debe poder enviar mensajes en dicho chat.
 
+- **Historia de usuario 26**: Aviso cuando un conductor está atrasado o demorado
+  - **Como**: Pasajero con reserva en un viaje.
+  - **Quiero**: Recibir una notificación si el conductor está atrasado o demorando la salida.
+  - **Para**: Poder reorganizarme y saber si el viaje comenzará más tarde de lo previsto.
+  - **Criterios de aceptación**:
+    - El conductor puede marcar su estado como "Demorado" desde la pantalla del viaje activo.
+    - Cuando se marque el estado como “Demorado”, todos los pasajeros con reserva reciben una notificación en la aplicación.
+    - La notificación debe incluir: tiempo estimado de demora (si se ingresó) y un mensaje aclaratorio.
+    - El pasajero debe poder ver el estado actualizado también en la pantalla de información del viaje.
+
 - **Historia de usuario 28**: Recordatorio a pasajeros con reserva
   - **Como**: Pasajero que tiene una reserva confirmada en un viaje.
   - **Quiero**: Recibir un recordatorio antes del horario de salida del viaje.
