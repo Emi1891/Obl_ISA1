@@ -84,10 +84,10 @@ Miércoles 29 de Octubre, realizamos la segunda parte de la planning. El objetiv
 
 ### Story Map
 
-Story Map actualizado para reflejar las nuevas actualizaciones que el cliente pidio para ser incluidas:
+Story Map actualizado para reflejar las nuevas actualizaciones que el cliente pidio para ser incluidas y dado al buen ritmo del equipo se logro hacer carry in de 4 tareas más para esta iteración:
 
 ![SM1](Img/StoryMap.jpg "SM")
-![SM2](Img/SMIteracion3.PNG "SM")
+![SM2](Img/SMIteracion3.jpg "SM")
 
 ### Sprint Backlog
 
@@ -296,6 +296,15 @@ A continuación se redactan las estimaciones puestas por el equipo correspondien
 
 **Se añaden también las actualizaciones de las siguientes y nuevas Historias de Usuarios:**
 
+- **Historia de usuario 26**: Aviso cuando un conductor está atrasado o demorado
+  - 2 SP
+- **Historia de usuario 27**: Aviso cuando un conductor cancela un viaje con reservas
+  - 2 SP
+- **Historia de usuario 34**: Aviso cuando un pasajero reserve un viaje
+  - 2 SP
+- **Historia de usuario 35**: Aviso cuando un pasajero cancele un viaje
+  - 2 SP
+
 - **Historia de usuario 40**: Cerrar Sesión
   - 1 SP
 - **Historia de usuario 41**: Chat previo al viaje
@@ -317,14 +326,14 @@ A continuación se redactan las estimaciones puestas por el equipo correspondien
 
 ### Minuta 3: Daily 1 (31/10/2025)
 
-El viernes 31 de octubre, realizamos la primera daily de esta iteración 3, con el objetivo de coordinar el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos a completar 10 de las 15 propuestas para esta sprint, 10 de las 15 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
+El viernes 31 de octubre, realizamos la primera daily de esta iteración 3, con el objetivo de coordinar el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos a completar 10 de las 19 propuestas para esta sprint, 10 de las 19 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
 El equipo se encuentra preparando una buena versión la cual será mostrada como prototipo a usuarios para validarlo.
 
 ![Daily](Reuniones/Daily1.jpeg "D")
 
 ### Minuta 4: Daily 2 (03/11/2025)
 
-El lunes 03 de noviembre, realizamos la segunda daily de esta iteración 3, con el objetivo de continuar con el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos solo nos queda por terminar 1 para esta sprint, 14 de las 15 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
+El lunes 03 de noviembre, realizamos la segunda daily de esta iteración 3, con el objetivo de continuar con el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos solo nos queda por terminar 5 para esta sprint, 14 de las 19 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
 El equipo tiene una versión lo suficientemente estable la cual será mostrada como prototipo a usuarios para validarlo.
 
 ![Daily](Reuniones/Daily2.jpeg "D")
@@ -428,7 +437,7 @@ En caso de tener decidido a quien se le da la razón, se selecciona uno de los d
   <img src="Pantallas/Caso resuelto.png" alt="Caso resuelto" height="400"/>
 </p>
 
-### Recordatorio a pasajeros con reserva HU 28
+###  Aviso cuando un conductor está atrasado o demorado HU 26, Aviso cuando un conductor cancela un viaje con reservas HU 27 y Recordatorio a pasajeros con reserva HU 28
 
 Esta funcionalidad no requiere intervención manual del usuario, pero sí se visualiza su efecto dentro de la aplicación. Cuando un pasajero tiene una reserva confirmada en un viaje, el sistema envía una notificación automática antes del horario pautado. La notificación aparece tanto en la barra superior del dispositivo como dentro de la sección “Notifications” del perfil del pasajero. El mensaje incluye información clave como: nombre del conductor, destino, horario del viaje y recordatorio del punto de encuentro. Si el viaje sufre cambios o es cancelado, el texto se ajusta automáticamente para reflejar esta nueva situación. De este modo, la aplicación se asegura de mantener informado al pasajero, evitando olvidos y mejorando la organización previa al viaje.
 
@@ -439,6 +448,9 @@ Esta funcionalidad no requiere intervención manual del usuario, pero sí se vis
 Esta pantalla muestra al conductor un registro de los viajes que ya han sido completados. En la cabecera se presenta el título “Recent Trips”, indicando la naturaleza retrospectiva de la vista. Debajo, se despliega una lista con cada viaje pasado, mostrando información clave: origen, destino, fecha, horario y cantidad de pasajeros transportados. Al seleccionar un viaje, el conductor accede a un detalle donde puede ver el vehículo utilizado, los nombres de los pasajeros que participaron y las calificaciones recibidas. Si el viaje aún no ha sido evaluado, se muestra un aviso que invita al conductor a revisar puntuaciones o responder comentarios. La pantalla se organiza de manera clara y cronológica, facilitando que el conductor lleve control de su actividad y del historial económico asociado a los viajes completados.
 
 ![user](Pantallas/HistorialConductor.png "user")
+
+### Aviso cuando un pasajero reserve un viaje HU 34 y Aviso cuando un pasajero cancele un viaje HU 35
+
 
 ### Cancelar reserva HU 36
 
