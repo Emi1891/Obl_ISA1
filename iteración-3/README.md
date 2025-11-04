@@ -195,6 +195,16 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - La notificación debe incluir: tiempo estimado de demora (si se ingresó) y un mensaje aclaratorio.
     - El pasajero debe poder ver el estado actualizado también en la pantalla de información del viaje.
 
+- **Historia de usuario 27**: Aviso cuando un conductor cancela un viaje con reservas
+  - **Como**: Pasajero con un asiento reservado
+  - **Quiero**: Recibir un aviso cuando el conductor cancele el viaje.
+  - **Para**: No quedarme esperando y poder buscar otra alternativa de transporte.
+  - **Criterios de aceptación**:
+    - Cuando el conductor cancela un viaje que tiene al menos una reserva, el sistema debe enviar una notificación automática a todos los pasajeros que se hayan registrado.
+    - En la notificación debe verse: nombre del viaje, fecha y hora, y el mensaje “Viaje cancelado”.
+    - El viaje debe pasar al estado Cancelado y ya no debe aparecer como disponible en listados de búsqueda.
+    - Los pasajeros deben ver el viaje cancelado en su Historial, con un indicador de cancelación.
+
 - **Historia de usuario 28**: Recordatorio a pasajeros con reserva
   - **Como**: Pasajero que tiene una reserva confirmada en un viaje.
   - **Quiero**: Recibir un recordatorio antes del horario de salida del viaje.
