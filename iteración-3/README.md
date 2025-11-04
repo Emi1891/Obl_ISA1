@@ -234,6 +234,15 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - La notificación debe mostrar el nombre del pasajero y la cantidad de lugares reservados.
     - El número de asientos disponibles debe actualizarse automáticamente en el viaje.
 
+- **Historia de usuario 35**: Aviso cuando un pasajero cancele un viaje
+  - **Como**: Conductor que publicó un viaje
+  - **Quiero**: Ser notificado cuando un pasajero cancele su reserva.
+  - **Para**: Saber que se liberaron lugares y permitir que otros pasajeros puedan reservar.
+  - **Criterios de aceptación**:
+    - Cuando un pasajero cancela su reserva, el sistema debe enviar automáticamente una notificación al conductor.
+    - La notificación debe incluir el nombre del pasajero y la cantidad de lugares liberados.
+    - La disponibilidad del viaje debe actualizarse correctamente.
+
 - **Historia de usuario 36**: Cancelar reserva
   - **Como**: Pasajero que tiene uno o más viajes activos
   - **Quiero**: Darme de baja del viaje
