@@ -378,14 +378,10 @@ El equipo tiene una versión lo suficientemente estable la cual será mostrada c
 
 ### Minuta 5: Daily 3 (05/11/2025)
 
-### Artefactos principales
+El lunes 05 de noviembre, realizamos la última daily de esta iteración 3, con el objetivo de redondear con el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos solo logramos completar todas las propuestas para esta sprint, 19 de las 19 historias de usuarios. 
+El equipo ya realizó las validaciones necesarias con usuarios las cuales se estarán compartiendo en la reunión que tendremos de la Review.
 
-- Minuta de daily scrum describiendo la coordinación del trabajo de cada integrante del equipo.
-  - ¿Que logramos hacer?
-  - ¿Qué planificamos hacer?
-  - ¿Qué impedimentos tenemos?
-- Registro y reporte de horas de cada integrante del equipo con sus actividades principales.
-- Seguimiento visual de la iteración con burndown y/o burnup charts.
+![Daily](Reuniones/Daily3.jpeg "D")
 
 ## Inspección y adaptación del proceso
 
