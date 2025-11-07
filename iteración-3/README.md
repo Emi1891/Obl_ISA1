@@ -596,22 +596,22 @@ Esta pantalla permite al pasajero revisar los viajes en los que ha participado. 
 Esta pantalla es más visual donde denotamos algunas estadisticas de uso en la aplicación de las cuales destacamos:
 
 - #### Tasa de ocupación promedio por viaje
-        Mide el promedio de pasajeros por vehículo respecto a la capacidad total, muestra qué tan bien se está aprovechando el sistema de carpool.
+  Mide el promedio de pasajeros por vehículo respecto a la capacidad total, muestra qué tan bien se está aprovechando el sistema de carpool.
 
 - #### Distribución de viajes por zonas o campus
-        Mide el porcentaje de viajes iniciados o finalizados en cada zona (por ejemplo: Pocitos, Centro, Carrasco, etc.), permite identificar las zonas con mayor demanda y ajustar puntos de encuentro o incentivos.
+  Mide el porcentaje de viajes iniciados o finalizados en cada zona (por ejemplo: Pocitos, Centro, Carrasco, etc.), permite identificar las zonas con mayor demanda y ajustar puntos de encuentro o incentivos.
 
 - #### Horarios pico de viajes
-        Mide la cantidad de viajes iniciados por franja horaria, permite gestionar la disponibilidad de conductores en horas críticas (ingreso y salida de clases).
+  Mide la cantidad de viajes iniciados por franja horaria, permite gestionar la disponibilidad de conductores en horas críticas (ingreso y salida de clases).
 
 - #### Relación entre rol de usuario (conductor/pasajero)
-        Mide la proporción de usuarios que actúan como conductores vs. pasajeros, equilibra la comunidad y muestra si faltan más conductores o pasajeros.
+  Mide la proporción de usuarios que actúan como conductores vs. pasajeros, equilibra la comunidad y muestra si faltan más conductores o pasajeros.
 
 - #### Nivel promedio de satisfacción
-        Mide la calificación promedio de los viajes (por estrellas o puntaje 1–5), mide la calidad del servicio y la experiencia del usuario.
+  Mide la calificación promedio de los viajes (por estrellas o puntaje 1–5), mide la calidad del servicio y la experiencia del usuario.
 
 - #### Kilómetros compartidos / ahorro estimado de CO₂
-        Mide el total de kilómetros recorridos en carpool y reducción de emisiones estimada respecto a viajes individuales, muestra el impacto ambiental positivo del sistema, ideal para reportes institucionales.
+  Mide el total de kilómetros recorridos en carpool y reducción de emisiones estimada respecto a viajes individuales, muestra el impacto ambiental positivo del sistema, ideal para reportes institucionales.
         
 <p style="text-align: center;">
   <img src="Pantallas/Estadisticas.PNG" alt="Viajes activos pasajero" height="520">
