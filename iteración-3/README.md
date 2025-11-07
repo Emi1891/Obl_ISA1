@@ -472,6 +472,19 @@ Esta pantalla de un viaje pasado hay un apartado para dejarle una review al cond
 
 ### Gestionar reportes de la comunidad HU 24
 
+El flujo comienza en el perfil del administrador, donde se encuentra la opción “Manage Reports”.
+Al seleccionarla, se accede a una pantalla con dos pestañas: reportes de conductores y reportes de pasajeros. Cada pestaña muestra una lista de usuarios que han recibido reportes, indicando la cantidad total y el motivo más frecuente.Al seleccionar un usuario, se muestra una lista con todos los reportes asociados a él, diferenciando cuáles ya fueron revisados y cuáles aún están pendientes.Cuando el administrador selecciona un reporte en particular, se despliega la descripción completa del incidente. En esta misma pantalla se encuentran las acciones disponibles:
+- Notificar a los usuarios involucrados, en caso de necesitar aclaraciones.
+- Marcar el reporte como revisado, si el administrador considera que ya se gestionó.
+- Banear al usuario, en caso de que el incidente lo justifique.
+Al realizar cualquiera de estas acciones, se aplica inmediatamente y el administrador puede volver a la lista usando el botón de retroceso en la esquina superior izquierda.
+
+<p>
+  <img src="Pantallas/ManageReport.png" alt="Gestionar Reportes" height="400"/>
+  <img src="Pantallas/ReportList.png" alt="Lista de reportes" height="400"/>
+  <img src="Pantallas/ReportInfo.png" alt="Informacion del reporte" height="400"/>
+</p>
+
 ### Resolver discrepancias en evaluaciones HU 25
 
 El flujo de este caso parte en la pantalla del perfil del administrador. En esta se encuentra un botón para gestionar las discrepancias o disputas. Una vez presionado este botón, se redirige al administrador a una pantalla que contiene una lista de todos los casos de discrepancia que hay en el sistema. En esta pantalla también se incluye una opción para filtrar según convenga los distintos casos. Una vez se ubica el caso deseado, se presiona sobre el mismo. Esto redirige al administrador a la vista propia del caso seleccionado. En esta se ve un chat entre el conductor y el pasajero. Además, en esta pantalla, se le da la opción al administrador de intervenir en la conversación, mostrando sus mensajes de una manera distintiva en un recuadro negro. 
