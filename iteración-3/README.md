@@ -398,9 +398,66 @@ El equipo ya realizó las validaciones necesarias con usuarios las cuales se est
 
 ## Inspección y adaptación del proceso
 
-### Minuta 6: Retrospective (07/11/2025)
+### Minuta 6: Retrospective ⛵ (07/11/2025)
 
+#### 🧩 Descripción
+Durante esta retrospectiva tipo *Sailboat*, el equipo reflexionó sobre el avance del sprint, identificando los factores que impulsaron el progreso, los que lo frenaron, las referencias positivas que guiaron al grupo, los riesgos futuros y los objetivos hacia los que se navega.
 
+---
+
+#### 🌬️ The Winds that Move Us Forward
+**Factores que nos impulsaron a avanzar:**
+- Claridad en los objetivos del sprint.  
+- Buena comunicación entre los miembros del equipo.  
+- Colaboración efectiva entre roles.  
+- Buena organización con las herramientas.  
+- Compromiso del equipo y cumplimiento de tareas.  
+- Mejora con el manejo de las herramientas como **Framer**.  
+
+---
+
+#### ⚓ The Anchors that Weigh Us Down
+**Factores que nos frenaron o dificultaron el avance:**
+- Dificultad para coordinar horarios entre clases, trabajo y el proyecto.  
+- Dificultad con las herramientas al principio.  
+- Falta de tiempo por parciales o entregas de otras materias.  
+
+---
+
+#### 🌟 The Stars that Lit the Way
+**Factores que nos guiaron o inspiraron:**
+- Buena actitud y disposición del equipo.  
+- Se logró cumplir con todas las historias de usuario planificadas.  
+- Reuniones efectivas y enfocadas.  
+- Presentaciones o entregas bien recibidas que generaron confianza.  
+
+---
+
+#### 🏝️ The Treasure We’re Sailing Towards
+**Objetivos y metas del equipo:**
+- Se logró un buen diseño y apariencia en **Framer**.  
+- Entregar el **MVP funcionando**.  
+- Completar las pantallas restantes en Framer.  
+- Generar una mejor experiencia para el usuario.  
+- Mantener un ambiente de trabajo positivo donde todos puedan aportar ideas.  
+
+---
+
+#### 🦈 The Sharks Up Ahead Ready to Bite Us
+**Riesgos o amenazas que podrían afectarnos:**
+- Cambios de requerimientos inesperados.  
+- Falta de tiempo para realizar ajustes de diseño.  
+- Época de parciales y entregas de otras materias.  
+- Falta de comunicación en semanas con mucha carga académica.  
+- Desmotivación o cansancio hacia el final del semestre.  
+
+---
+
+#### 🧭 Conclusión
+El equipo demostró una **gran mejora en la organización y coordinación**, junto con un **avance sólido en el uso de Framer** y en la calidad de las entregas.  
+Aunque persisten desafíos vinculados al tiempo y la carga académica, se mantiene un ambiente positivo, colaborativo y enfocado en alcanzar los próximos objetivos del proyecto.
+
+![Retro](Img/Retro.jpg "retro")
 
 # Construir y validar posibles soluciones del MVP a través de prototipos
 
