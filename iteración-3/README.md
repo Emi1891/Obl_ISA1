@@ -267,12 +267,12 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
   - **Criterios de aceptación**:
     - Se debe mostrar un panel de estadísticas con al menos seis gráficos.
     - Cada gráfico debe representar un indicador distinto:
-          - Average Ride Occupancy Rate
-          - Rides by Zone or Campus
-          - Peak Ride Hours
-          - User Role Distribution (Drivers vs Passengers)
-          - Average Satisfaction Level
-          - Shared Kilometers / Estimated CO₂ Savings
+      - Average Ride Occupancy Rate
+      - Rides by Zone or Campus
+      - Peak Ride Hours
+      - User Role Distribution (Drivers vs Passengers)
+      - Average Satisfaction Level
+      - Shared Kilometers / Estimated CO₂ Savings        
     - Las métricas deben mostrarse con colores coherentes con la identidad visual de la app.
 
 - **Historia de usuario 40**: Cerrar Sesión
