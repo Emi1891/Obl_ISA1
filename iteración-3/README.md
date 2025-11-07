@@ -86,6 +86,10 @@ Miércoles 29 de Octubre, realizamos la segunda parte de la planning. El objetiv
 
 Story Map actualizado para reflejar las nuevas actualizaciones que el cliente pidio para ser incluidas y dado al buen ritmo del equipo se logro hacer carry in de 4 tareas más para esta iteración:
 
+🟧 Historias nuevas solicitadas por el cliente <br>
+🟨 Historias que hicieron carry in a la iteración <br>
+🎀 Historias que ya estaban
+
 ![SM1](Img/StoryMap.jpg "SM")
 ![SM2](Img/SMIteracion3.jpg "SM")
 
@@ -369,15 +373,6 @@ A continuación se redactan las estimaciones puestas por el equipo correspondien
   - 3 SP
 
 --- 
-### Artefactos principales
-
-- Minuta de la sprint planning con su agenda, actividades y resultados.
-- Objetivos de la iteración.
-- Sprint backlog con historias de usuarios y tareas asociadas.
-- Planificación de acuerdo a la capacidad del equipo.
-- Técnicas de priorización y estimación utilizadas.
-- Uso de métricas relevantes para la planificación como la velocidad y productividad.
-
 ## Seguimiento de la iteración
 
 ### Minuta 3: Daily 1 (31/10/2025)
