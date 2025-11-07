@@ -403,12 +403,9 @@ El equipo ya realizó las validaciones necesarias con usuarios las cuales se est
 
 ## Inspección y adaptación del proceso
 
-_[Existe evidencia sobre la inspección del proceso con aprendizajes principales y acciones de mejora implementadas durante el desarrollo del proyecto.]_
+### Minuta 6: Retrospective (07/11/2025)
 
-### Artefactos principales
 
-- Minuta de la retrospectiva con la dinámica utilizada y sus principales resultados.
-- Planificación y seguimiento de las acciones de mejora.
 
 # Construir y validar posibles soluciones del MVP a través de prototipos
 
@@ -608,15 +605,17 @@ Dentro de User Profile hay un apartado donde al seleccionar conductores favorito
 
 ## Inspección y adaptación del producto
 
-_[Existe evidencia de instancias de inspección y validación del producto con usuarios y la recolección de su feedback con ajustes finales a los prototipos.]_
+### Minuta 7: Review (07/11/2025)
 
-### Artefactos principales
+El viernes 7 de octubre, al finalizar el sprint, el equipo se reunió para analizar el desempeño general y revisar los objetivos alcanzados.
+Junto con el Product Owner repasamos la Definition of Done, confirmando que se adapta adecuadamente a nuestro flujo de trabajo actual, por lo que decidimos mantenerla sin cambios.
 
-- Minutas de sprint review.
-- Evidencia de los usability testing con usuarios finales.
-  - Descripción de las tareas propuestas a los usuarios finales.
-  - Cobertura obtenida de validación de los usuarios de la aplicación.
-- Feedback recibido de los usuarios finales con la priorización de las propuestas de cambio.
+Durante la revisión, constatamos que se completaron todas las User Stories planificadas en tiempo y forma, reflejando una estimación de esfuerzo precisa y una velocidad de equipo alineada con lo esperado.
+
+![RR](Reuniones/Review.PNG "RR")
+
+#### Validación con Usuarios
+
 
 ## ⌛ Registro de Horas del equipo
 
