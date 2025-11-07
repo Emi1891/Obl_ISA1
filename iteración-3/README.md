@@ -511,6 +511,8 @@ Cuando un pasajero reserva uno o más asientos en un viaje, el conductor recibe 
 Del mismo modo, si el pasajero decide cancelar su reserva, el sistema envía una notificación automática al conductor informando la cancelación, ajustando el número de asientos disponibles del viaje y reflejando el cambio en tiempo real dentro de la pantalla de viajes activos.
 Así, el sistema mantiene al conductor informado sobre quién se unirá al viaje y cualquier cambio que pueda afectar la planificación, garantizando claridad, organización y una mejor coordinación entre las partes.
 
+![user](Pantallas/NotificacionConductor.png "user")
+
 ### Cancelar reserva HU 36
 
 Esta pantalla, al igual que la de cancelar viaje, parte de la vista de viajes activos, pero en este caso del pasajero. Una vez en esta vista, se selecciona el viaje al cual se quiere dar de baja. Una vez seleccionado, se redirige al usuario a la pantalla de información del viaje. Una vez ahí, debajo del botón de enviar mensaje al conductor, se encuentra el de darse de baja. Si el usuario selecciona esta opción, salta una ventana emergente preguntando por la confirmación de la acción. En caso de seleccionar que si, el usuario es redirigido a la vista de sus viajes activos, dándolo de baja del viaje seleccionado inicialmente. En caso de que seleccione que no, la ventana emergente se cierra y se vuelve a la vista de la información del viaje.
