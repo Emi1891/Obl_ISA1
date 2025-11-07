@@ -611,6 +611,11 @@ Durante la revisión, constatamos que se completaron todas las User Stories plan
 
 #### Validación con Usuarios
 
+Para esta tercera iteración, al igual que en la anterior, realizamos pruebas de usabilidad a través de terceros al darles ahora una versión más completa del prototipo. En este caso también buscamos detectar posibles mejoras de usabilidad y navegación, además de validar las funcionalidades existentes y posibles a añadir.
+
+En esta ocasión, organizamos tres sesiones con distintos usuarios potenciales los cuales participaron de forma voluntaria. En cada sesión, le dimos completa libertad al usuario para que navegue y explore la aplicación, pudiendo asi no solo verificar las funcionalidades existentes siguiendo un flujo más organico, sino que tambien aprovechando ese factor de aleatoriedad que aumenta las posibildades de encontrar deficiencias tanto de organización como en las funcionalidades.
+
+En resumem, la retroalimentación obtenida por los sujetos de prueba fue muy positiva, obteniendo menciones de lo completo que esta el sistema en cuanto a funcionalidad y opciones.
 
 ## ⌛ Registro de Horas del equipo
 
