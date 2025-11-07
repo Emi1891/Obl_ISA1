@@ -617,10 +617,15 @@ En esta ocasión, organizamos tres sesiones con distintos usuarios potenciales l
 
 En resumem, la retroalimentación obtenida por los sujetos de prueba fue muy positiva, obteniendo menciones de lo completo que esta el sistema en cuanto a funcionalidad y opciones.
 
+| **Usuario** | **FeedBack** |
+| --- | --- |
+| <img src="Validaciones/Validacion1B.jpeg" alt="Usuario" height="400"> | <img src="Validaciones/Validacion1A.jpeg" alt="Chat" height="400"> |
+
 ## ⌛ Registro de Horas del equipo
 
 A continuación se muestran las horas de trabajo del equipo, registrando las grupales e individuales
 
+![Horas Juan Ferreira](Horas/Juanma.PNG "Juan Ferreira")
 
 
 ## Links a los ambientes:
