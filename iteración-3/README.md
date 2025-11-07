@@ -260,6 +260,21 @@ Repartimos las tareas de manera **equitativa**, asegurando que cada integrante c
     - Se debe poder ver la siguiente información básica del viaje: origen, destino, fecha, horario y conductor.
     - Debe existir una opción para ver más detalles del viaje (por ejemplo: vehículo, comentarios previamente hechos, costo pagado, cantidad de asientos reservados).
 
+- **Historia de usuario 38**: Visualizar Estadisticas
+  - **Como**: Administrador del Sistema
+  - **Quiero**: Visualizar estadísticas sobre el uso del sistema de carpool universitario
+  - **Para**: Analizar la actividad de la aplicación, comprender patrones de uso y conocer el impacto positivo del servicio
+  - **Criterios de aceptación**:
+    - Se debe mostrar un panel de estadísticas con al menos seis gráficos.
+    - Cada gráfico debe representar un indicador distinto:
+          - Average Ride Occupancy Rate
+          - Rides by Zone or Campus
+          - Peak Ride Hours
+          - User Role Distribution (Drivers vs Passengers)
+          - Average Satisfaction Level
+          - Shared Kilometers / Estimated CO₂ Savings
+    - Las métricas deben mostrarse con colores coherentes con la identidad visual de la app.
+
 - **Historia de usuario 40**: Cerrar Sesión
   - **Como**: Como usuario loggeado (Pasajero, Conductor o Admin)
   - **Quiero**: Cerrar la sesión de mi cuenta en la aplicación 
@@ -343,6 +358,9 @@ A continuación se redactan las estimaciones puestas por el equipo correspondien
 - **Historia de usuario 35**: Aviso cuando un pasajero cancele un viaje
   - 2 SP
 
+- **Historia de usuario 38**: Visualizar Estadisticas
+  - 2 SP
+
 - **Historia de usuario 40**: Cerrar Sesión
   - 1 SP
 - **Historia de usuario 41**: Chat previo al viaje
@@ -364,21 +382,21 @@ A continuación se redactan las estimaciones puestas por el equipo correspondien
 
 ### Minuta 3: Daily 1 (31/10/2025)
 
-El viernes 31 de octubre, realizamos la primera daily de esta iteración 3, con el objetivo de coordinar el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos a completar 10 de las 19 propuestas para esta sprint, 10 de las 19 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
+El viernes 31 de octubre, realizamos la primera daily de esta iteración 3, con el objetivo de coordinar el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos a completar 10 de las 20 propuestas para esta sprint, 10 de las 20 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
 El equipo se encuentra preparando una buena versión la cual será mostrada como prototipo a usuarios para validarlo.
 
 ![Daily](Reuniones/Daily1.jpeg "D")
 
 ### Minuta 4: Daily 2 (03/11/2025)
 
-El lunes 03 de noviembre, realizamos la segunda daily de esta iteración 3, con el objetivo de continuar con el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos solo nos queda por terminar 5 para esta sprint, 14 de las 19 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
+El lunes 03 de noviembre, realizamos la segunda daily de esta iteración 3, con el objetivo de continuar con el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos solo nos queda por terminar 5 para esta sprint, 14 de las 20 historias de usuarios. Continuamos con el objetivo de crear las pantallas faltantes además de las Historias de Usuario pendientes.
 El equipo tiene una versión lo suficientemente estable la cual será mostrada como prototipo a usuarios para validarlo.
 
 ![Daily](Reuniones/Daily2.jpeg "D")
 
 ### Minuta 5: Daily 3 (05/11/2025)
 
-El lunes 05 de noviembre, realizamos la última daily de esta iteración 3, con el objetivo de redondear con el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos solo logramos completar todas las propuestas para esta sprint, 19 de las 19 historias de usuarios. 
+El lunes 05 de noviembre, realizamos la última daily de esta iteración 3, con el objetivo de redondear con el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la creación de pantallas en la web de **Framer**, de las cuales llegamos solo logramos completar todas las propuestas para esta sprint, 20 de las 20 historias de usuarios. 
 El equipo ya realizó las validaciones necesarias con usuarios las cuales se estarán compartiendo en la reunión que tendremos de la Review.
 
 ![Daily](Reuniones/Daily3.jpeg "D")
@@ -510,6 +528,32 @@ Al momento de dar de baja al usuario, se valida que el mismo se este dando de ba
 Esta pantalla permite al pasajero revisar los viajes en los que ha participado. El título "Recent Trips” aparece en la parte superior, seguido por un listado de viajes ordenados desde el más reciente hacia atrás. Cada tarjeta incluye la información principal: conductor, ruta, fecha y horario del viaje. Si el pasajero selecciona un viaje, accede a un detalle donde puede ver información ampliada del conductor, el vehículo, otros pasajeros que compartieron el viaje y la opción de dejar una calificación si aún no lo ha hecho.
 
 ![user](Pantallas/HistorialPasajero.png "user")
+
+### Visualizar Estadisticas HU 38
+
+Esta pantalla es más visual donde denotamos algunas estadisticas de uso en la aplicación de las cuales destacamos:
+
+- #### Tasa de ocupación promedio por viaje
+        Mide el promedio de pasajeros por vehículo respecto a la capacidad total, muestra qué tan bien se está aprovechando el sistema de carpool.
+
+- #### Distribución de viajes por zonas o campus
+        Mide el porcentaje de viajes iniciados o finalizados en cada zona (por ejemplo: Pocitos, Centro, Carrasco, etc.), permite identificar las zonas con mayor demanda y ajustar puntos de encuentro o incentivos.
+
+- #### Horarios pico de viajes
+        Mide la cantidad de viajes iniciados por franja horaria, permite gestionar la disponibilidad de conductores en horas críticas (ingreso y salida de clases).
+
+- #### Relación entre rol de usuario (conductor/pasajero)
+        Mide la proporción de usuarios que actúan como conductores vs. pasajeros, equilibra la comunidad y muestra si faltan más conductores o pasajeros.
+
+- #### Nivel promedio de satisfacción
+        Mide la calificación promedio de los viajes (por estrellas o puntaje 1–5), mide la calidad del servicio y la experiencia del usuario.
+
+- #### Kilómetros compartidos / ahorro estimado de CO₂
+        Mide el total de kilómetros recorridos en carpool y reducción de emisiones estimada respecto a viajes individuales, muestra el impacto ambiental positivo del sistema, ideal para reportes institucionales.
+        
+<p style="text-align: center;">
+  <img src="Pantallas/Estadisticas.PNG" alt="Viajes activos pasajero" height="520">
+</p>
 
 ### Cerrar Sesión HU 40
 
