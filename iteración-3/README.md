@@ -676,6 +676,7 @@ En resumen, la retroalimentación obtenida por los sujetos de prueba fue muy pos
 | --- | --- |
 | <img src="Validaciones/Validacion1B.jpeg" alt="Usuario1" height="400"> | <img src="Validaciones/Validacion1A.jpeg" alt="Chat1" height="400"> |
 | <img src="Validaciones/Validacion2B.jpg" alt ="Usuario2" height="400"> | <img src="Validaciones/Validacion2A.png" alt="Chat2"> |
+| <img src="Validaciones/Validacion3B.jpg" alt ="Usuario3" height="400"> | <img src="Validaciones/Validacion3A.png" alt="Chat3"> |
 
 ## ⌛ Registro de Horas del equipo
 
@@ -683,6 +684,7 @@ A continuación se muestran las horas de trabajo del equipo, registrando las gru
 
 ![Horas Juan Ferreira](Horas/Juanma.PNG "Juan Ferreira")
 ![Horas Emiliano Reyes](Horas/Emiliano.png "Emiliano Reyes")
+![Horas Juan Croquis](Horas/Juani.png "Juan Croquis")
 
 
 ## Links a los ambientes:
