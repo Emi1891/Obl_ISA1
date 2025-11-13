@@ -75,6 +75,13 @@ Martes 11 de Noviembre, realizamos la primera reunión para preparar el ambiente
 
 ![Planning 1](Reuniones/Planning.jpeg "Planning 1")
 
+#### 👥 Asignación de tareas
+
+
+#### 📚 Tareas de la iteración 4
+
+#### 🧮 Estimación del esfuerzo
+
 ### Artefactos principales
 
 - Minuta de la sprint planning con su agenda, actividades y resultados.
@@ -87,6 +94,10 @@ Martes 11 de Noviembre, realizamos la primera reunión para preparar el ambiente
 ## Seguimiento de la iteración
 
 _[Existe evidencia sobre el registro de actividades y horas de cada integrante del equipo con el seguimiento general de cada iteración del proyecto sobre lo planificado inicialmente.]_
+
+### Minuta 2: Daily 1 (14/11/2025)
+### Minuta 3: Daily 2 (19/11/2025)
+### Minuta 4: Daily 3 (21/11/2025)
 
 ### Artefactos principales
 
@@ -111,6 +122,8 @@ _[Existe evidencia sobre la inspección del proceso con aprendizajes principales
 ## Prototipos finales
 
 _[Se evidencian los prototipos finales con las validaciones de los usuarios. Los prototipos deberán ser exportados en algún formato de imagen (como png o jpg) a efectos de poder ser visualizados fácilmente dentro del propio repo de github.]_
+
+## Conclusiones finales del prototipo
 
 ### Artefactos principales
 
