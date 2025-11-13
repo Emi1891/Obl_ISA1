@@ -12,20 +12,68 @@
 
 ## Definición del marco de trabajo
 
-_[Definición del marco de trabajo SCRUM con los acuerdos principales del equipo y evidencia de sus prácticas aplicadas en la iteración. Deben estar los roles definidos para cada integrante del equipo y la justificación de la adaptación del marco de trabajo al contexto de la iteración.]_
+Siguiendo como habíamos establecido los roles con la intención de que en las siguientes iteraciones se roten, favoreciendo así la participación y el aprendizaje de todos.
+
+- **Product Owner**: Juan Ferreira
+
+- **Scrum Master**: Emiliano Reyes
+
+- **Developer**: Juan Croquis
 
 ### Artefactos principales
 
-- Justificación de las adaptaciones principales del marco de trabajo al contexto del proyecto.
-- Definición del calendario de eventos con justificación de su adaptación al contexto de la iteración.
-- Roles y responsabilidades definidos para cada integrante del equipo.
-- Políticas de trabajo del equipo:
-  - Definition of Done.
-  - Definition of Ready.
+En el presente Sprint definimos que los eventos se establecerán de la siguiente forma:
+
+- **Sprint Planning**: 1 días (11/11/2025)
+- **Daily Scrum**: 3 días (14/11/2025, 19/11/2025 y 21/11/2025)
+- **Sprint Review**: 1 día (22/11/2025)
+- **Sprint Retrospective**: 1 día (22/11/2025)
+
+# Definition of Done y Definition of Ready – Carpool Universitario
+
+## Definition of Done (DoD)
+
+Un entregable (historia de usuario, funcionalidad o tarea) se considera **terminado** cuando:
+
+- **Funcionalidad implementada**  
+  Ejemplo: el registro de usuario permite crear cuenta como conductor o pasajero.  
+
+- **Funcionalidad testeada**  
+  Pruebas unitarias y funcionales confirman que el login, búsqueda de viajes, reserva y publicación funcionan según lo esperado.  
+
+- **Criterios de aceptación cumplidos**  
+  Cada historia de usuario cuenta con criterios claros (ejemplo:  
+  *"Como pasajero quiero buscar un viaje por horario y zona, para elegir la mejor opción"*),  
+  y deben cumplirse en su totalidad.  
+
+---
+
+## Definition of Ready (DoR)
+
+Una historia de usuario o tarea se considera **lista para entrar en un Sprint** cuando:
+
+- **Estimación de esfuerzo confirmada**  
+  El equipo acordó una estimación en puntos de historia o tiempo, y está alineada con la capacidad disponible del Sprint.  
+
+- **Recursos disponibles**  
+  El equipo cuenta con acceso a las herramientas necesarias.
+
+- **Conocimientos/capacitación suficiente**  
+  Los miembros tienen claro cómo implementar la historia.
+
+- **Diseño de UI aprobado**  
+  Las pantallas necesarias para la historia (ejemplo: formulario de *Publicar viaje*, vista de *Reservar lugar*) están definidas y detalladas.  
+
+- **Criterios de aceptación definidos**  
+  Cada historia de usuario tiene escenarios claros que permitan saber cuándo está "hecha". 
 
 ## Planificación de la iteración
 
-_[Sprint Backlog para cumplir con el objetivo de la iteración. Debe contener las historias de usuario priorizadas y las tareas planificadas basadas en la capacidad y velocidad disponible del equipo.]_
+### Minuta 1: Planning (11/11/2025)
+
+Martes 11 de Noviembre, realizamos la primera reunión para preparar el ambiente para la iteración 4. El objetivo de esta reunión fue avanzar y planificar qué íbamos a realizar en esta iteración (Sprint). Designamos roles, validamos las herramientas a utilizar, definimos el objetivo de la iteración, buscamos consenso sobre cómo aplicar el marco de trabajo SCRUM al contexto del proyecto y qué corresponde a cada rol. Armamos las herramientas a usar, como esta es la etapa final de documentación, generación del video del prototipo y conclusiones finales.
+
+![Planning 1](Reuniones/Planning.jpeg "Planning 1")
 
 ### Artefactos principales
 
@@ -70,3 +118,18 @@ _[Se evidencian los prototipos finales con las validaciones de los usuarios. Los
 - Prototipos asociados como bocetos a las historias de usuario.
 - Lista de mejoras sugeridas de las validaciones con usuarios finales.
   - Se explicita que mejoras fueron implementadas en los prototipos y cuales quedaron fuera del alcance del proyecto.
+
+## ⌛ Registro de Horas del equipo
+
+A continuación se muestran las horas de trabajo del equipo, registrando las grupales e individuales
+
+
+## Links a los ambientes:
+
+### Azure DevOps:
+
+> https://dev.azure.com/Obligatorio1/Carpooling%20universitario/_boards/board/t/Carpooling%20universitario%20Team/Backlog%20items?System.IterationPath=Carpooling%20universitario%5CSprint%202
+
+### Framer:
+
+> https://framer.com/projects/Proyecto-Carpool--oYH9FogtuTUVn9HgMU5H-iTRso
