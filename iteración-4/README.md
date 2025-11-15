@@ -75,27 +75,130 @@ Martes 11 de Noviembre, realizamos la primera reunión para preparar el ambiente
 
 ![Planning 1](Reuniones/Planning.jpeg "Planning 1")
 
+### Sprint Backlog
+
+![B1](Img/SprintBack.PNG "B1")
+
+### Story Map
+
+Aqui se refleja las tareas finales cierre de proyecto en esta iteración 4.
+
+![SM](Img/StoryMap.jpg "SM")
+
 #### 👥 Asignación de tareas
 
+Durante la **planificación** asumimos distintos roles según la necesidad, pero en la etapa de **desarrollo** trabajaremos los tres de forma colaborativa.  
+Como en esta iteración se basaba más en documentación y cierre del proyecto en todas las tareas participamos todos como equipo.
 
 #### 📚 Tareas de la iteración 4
 
+##### 1. 🗂️ Documentación Final
+
+- **Descripción:**  
+  Redactar un documento completo del proyecto incluyendo problema identificado, proceso de ideación, validaciones, prototipos y conclusiones. Debe seguir una estructura clara con títulos, imágenes y referencias a experimentos y entrevistas.
+
+- **Objetivo:**  
+  Consolidar toda la información clave del proyecto en un solo documento para permitir su comprensión por parte de evaluadores, docentes y futuros desarrolladores.
+
+---
+
+##### 2. 🎨 Ajustes Finales de la UI en Framer
+
+- **Descripción:**  
+  Revisar y pulir el diseño del prototipo interactivo en Framer. Esto incluye mejoras visuales, corrección de errores en la navegación, ajustes en botones, íconos, texto, y colores. Agregar animaciones si es necesario.
+
+- **Objetivo:**  
+  Asegurar que el prototipo tenga una apariencia profesional, funcionalidad fluida y que represente fielmente el flujo real del producto final.
+
+---
+
+##### 3. 📹 Video del Prototipo
+
+- **Descripción:**  
+  Grabar un video breve (6 minutos) donde se muestre el uso completo del prototipo: login, búsqueda de viajes, selección, chat, favoritos y evaluación post-viaje.
+
+- **Objetivo:**  
+  Mostrar de forma clara y resumida cómo funcionaría el producto si estuviera desarrollado. Sirve como demostración en la presentación y para evaluación externa.
+
+---
+
+##### 4. 🧑‍🏫 Presentación de la Defensa
+
+- **Descripción:**  
+  Preparar una presentación oral o visual (PPT, PDF, Canva, etc.) con los puntos clave del proyecto: problema, solución, validaciones, prototipo, aprendizajes. Duración sugerida: 15 minutos.
+
+- **Objetivo:**  
+  Defender el proyecto ante docentes y/o jurado, comunicando el valor de la solución de forma clara y profesional.
+
+---
+
+##### 5. ✅ Cierre Final de las Validaciones
+
+- **Descripción:**  
+  Documentar todos los experimentos y pruebas de validación: encuestas, grupos de WhatsApp, publicaciones en redes, entrevistas, etc. Incluir resultados y métricas recolectadas.
+
+- **Objetivo:**  
+  Demostrar que la solución fue testeada con usuarios reales y que responde a una necesidad concreta. Validar que hay demanda/interés.
+
+---
+
+##### 6. 📊 Cierre Final de las Evaluaciones
+
+- **Descripción:**  
+  Mostrar cómo se implementa (o simula) la evaluación del conductor y del pasajero en el prototipo. Incluir pantallas con estrellas, comentarios, botones, etc.
+
+- **Objetivo:**  
+  Agregar una funcionalidad clave para la confianza y mejora continua del servicio, reforzando la propuesta de valor del producto.
+
+---
+
+##### 7. 🧠 Conclusiones Finales
+
+- **Descripción:**  
+  Redactar un bloque final que sintetice lo aprendido: validación del problema, ajustes durante el proceso, valor del prototipo, limitaciones, y posibles próximos pasos.
+
+- **Objetivo:**  
+  Reflexionar sobre el proceso y dejar un cierre formal del proyecto, útil tanto para autoevaluación como para futuros desarrollos o presentaciones externas.
+
+
 #### 🧮 Estimación del esfuerzo
 
-### Artefactos principales
+Para estimar el esfuerzo de las historias seleccionadas aplicamos la técnica **T-Shirts Sizes** basada en **Talles de camisetas**.
 
-- Minuta de la sprint planning con su agenda, actividades y resultados.
-- Objetivos de la iteración.
-- Sprint backlog con historias de usuarios y tareas asociadas.
-- Planificación de acuerdo a la capacidad del equipo.
-- Técnicas de priorización y estimación utilizadas.
-- Uso de métricas relevantes para la planificación como la velocidad y productividad.
+Tomamos en cuenta los siguientes factores:
+- **Complejidad técnica**
+- **Volumen de trabajo**
+- **Nivel de incertidumbre**
+
+A continuación se detalla la estimación de cada actividad clave:
+
+| Tarea                                     | Estimación (T-Shirt Size) | Equivalente numérico |
+|------------------------------------------|----------------------------|-----------------------|
+| Documentación final del producto         | L                          | 5                     |
+| Creación del video                       | M                          | 3                     |
+| Ajustes de Framer en UI                  | XS                         | 1                     |
+| Presentación para la defensa             | L                          | 5                     |
+| Cierre final de las validaciones         | S                          | 2                     |
+| Cierre final de las evaluaciones         | S                          | 2                     |
+| Conclusiones finales                     | S                          | 2                     |
+
+### 🔢 Total estimado (en unidades relativas): `20`
+
+> ⚠️ **Nota:** Las equivalencias son subjetivas y definidas por el equipo. En este caso:
+> - XS = 1  
+> - S = 2  
+> - M = 3  
+> - L = 5  
+
 
 ## Seguimiento de la iteración
 
-_[Existe evidencia sobre el registro de actividades y horas de cada integrante del equipo con el seguimiento general de cada iteración del proyecto sobre lo planificado inicialmente.]_
-
 ### Minuta 2: Daily 1 (14/11/2025)
+
+El viernes 14 de noviembre, realizamos la primera daily de esta iteración 4, con el objetivo de coordinar el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la redacción del informe de la defensa, seteamos algunas dificultades de las tareas cambiando la estimación para una más adaptable a esta iteración. También acordamos que herramientas usar para la presentación final y comenzamos a preparar las cosas para el video del prototipo.
+
+![Daily 1](Reuniones/Daily1.PNG "Daily 1")
+
 ### Minuta 3: Daily 2 (19/11/2025)
 ### Minuta 4: Daily 3 (21/11/2025)
 
