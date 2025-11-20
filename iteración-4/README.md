@@ -232,6 +232,17 @@ Luego, al momento de validar nuestros prototipos tanto en la iteración 2 como e
 
 ## Conclusiones finales del prototipo
 
+El prototipo final fue desarrollado en Framer, donde armamos todas las pantallas principales y conectamos los flujos completos de pasajero, conductor y administrador. Durante las iteraciones 2 y 3 dejamos listas las versiones finales de cada vista, ajustando diseño, navegación y validaciones hasta lograr un prototipo coherente y funcional.
+
+El prototipo incluye los casos esenciales del MVP: búsqueda y reserva de viajes, publicación y edición de viajes, visualización de viajes activos y finalizados, gestión de usuarios y manejo de reportes. Todas las pantallas quedaron conectadas entre sí, permitiendo recorrer el flujo completo como lo haría un usuario real.
+
+También definimos algunos casos extra que no llegaron a implementarse en esta entrega, como el sistema de pagos, la billetera virtual y la gestión completa de datos del auto. Estos quedaron documentados como posibles mejoras futuras.
+
+En general, el prototipo final refleja de manera clara cómo funcionaría la aplicación e integra todas las funcionalidades planificadas para esta fase del proyecto.
+
+- [Iteración 2](./iteración-2/README.md)
+- [Iteración 3](./iteración-3/README.md)
+
 ## Iteración final - Evaluaciones
 
 ## Conclusiones finales (Gráficas):

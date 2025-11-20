@@ -23,7 +23,7 @@ Para el desarrollo del proyecto se deberá utilizar el marco de trabajo SCRUM. E
 
 # Integrantes del equipo
 
-- Juan Croquis ()
+- Juan Croquis (286049)
 
 - Juan Ferreira (308438)
 
