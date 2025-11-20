@@ -27,7 +27,7 @@ Para el desarrollo del proyecto se deberá utilizar el marco de trabajo SCRUM. E
 
 - Juan Ferreira (308438)
 
-- Emiliano Reyes ()
+- Emiliano Reyes (251525)
 
 # Roles
 

@@ -1,4 +1,4 @@
-# Indice
+# Índice
 
 - [Gestión de la iteración](#gestión-de-la-iteración)
   - [Definición del marco de trabajo](#definición-del-marco-de-trabajo)
@@ -12,7 +12,7 @@
 
 ## Definición del marco de trabajo
 
-Siguiendo como habíamos establecido los roles con la intención de que en las siguientes iteraciones se roten, favoreciendo así la participación y el aprendizaje de todos.
+Siguiendo lo que habíamos establecido, los roles se mantienen con la intención de que en las siguientes iteraciones se roten, favoreciendo así la participación y el aprendizaje de todos.
 
 - **Product Owner**: Juan Ferreira
 
@@ -24,7 +24,7 @@ Siguiendo como habíamos establecido los roles con la intención de que en las s
 
 En el presente Sprint definimos que los eventos se establecerán de la siguiente forma:
 
-- **Sprint Planning**: 1 días (11/11/2025)
+- **Sprint Planning**: 1 día (11/11/2025)
 - **Daily Scrum**: 3 días (14/11/2025, 19/11/2025 y 21/11/2025)
 - **Sprint Review**: 1 día (22/11/2025)
 - **Sprint Retrospective**: 1 día (22/11/2025)
@@ -71,7 +71,7 @@ Una historia de usuario o tarea se considera **lista para entrar en un Sprint** 
 
 ### Minuta 1: Planning (11/11/2025)
 
-Martes 11 de Noviembre, realizamos la primera reunión para preparar el ambiente para la iteración 4. El objetivo de esta reunión fue avanzar y planificar qué íbamos a realizar en esta iteración (Sprint). Designamos roles, validamos las herramientas a utilizar, definimos el objetivo de la iteración, buscamos consenso sobre cómo aplicar el marco de trabajo SCRUM al contexto del proyecto y qué corresponde a cada rol. Armamos las herramientas a usar, como esta es la etapa final de documentación, generación del video del prototipo y conclusiones finales.
+Martes 11 de noviembre, realizamos la primera reunión para preparar el ambiente para la iteración 4. El objetivo de esta reunión fue avanzar y planificar qué íbamos a realizar en esta iteración (Sprint). Designamos roles, validamos las herramientas a utilizar, definimos el objetivo de la iteración, buscamos consenso sobre cómo aplicar el marco de trabajo SCRUM al contexto del proyecto y qué corresponde a cada rol. Armamos las herramientas a usar. Como esta es la etapa final de documentación, generación del video del prototipo y conclusiones finales.
 
 ![Planning 1](Reuniones/Planning.jpeg "Planning 1")
 
@@ -81,14 +81,14 @@ Martes 11 de Noviembre, realizamos la primera reunión para preparar el ambiente
 
 ### Story Map
 
-Aqui se refleja las tareas finales cierre de proyecto en esta iteración 4.
+Aquí se reflejan las tareas finales de cierre de proyecto en esta iteración 4.
 
 ![SM](Img/StoryMap.jpg "SM")
 
 #### 👥 Asignación de tareas
 
 Durante la **planificación** asumimos distintos roles según la necesidad, pero en la etapa de **desarrollo** trabajaremos los tres de forma colaborativa.  
-Como en esta iteración se basaba más en documentación y cierre del proyecto en todas las tareas participamos todos como equipo.
+Como en esta iteración se basaba más en documentación y cierre del proyecto, en todas las tareas participamos todos como equipo.
 
 #### 📚 Tareas de la iteración 4
 
@@ -195,7 +195,7 @@ A continuación se detalla la estimación de cada actividad clave:
 
 ### Minuta 2: Daily 1 (14/11/2025)
 
-El viernes 14 de noviembre, realizamos la primera daily de esta iteración 4, con el objetivo de coordinar el trabajo del equipo y revisar el avance, presentamos avances en cuanto a la redacción del informe de la defensa, seteamos algunas dificultades de las tareas cambiando la estimación para una más adaptable a esta iteración. También acordamos que herramientas usar para la presentación final y comenzamos a preparar las cosas para el video del prototipo.
+El viernes 14 de noviembre, realizamos la primera daily de esta iteración 4, con el objetivo de coordinar el trabajo del equipo y revisar el avance. Presentamos avances en cuanto a la redacción del informe de la defensa, establecimos algunas dificultades de las tareas, cambiando la estimación para una más adaptable a esta iteración. También acordamos qué herramientas usar para la presentación final y comenzamos a preparar las cosas para el video del prototipo.
 
 ![Daily 1](Reuniones/Daily1.PNG "Daily 1")
 
@@ -205,7 +205,7 @@ El viernes 14 de noviembre, realizamos la primera daily de esta iteración 4, co
 ### Artefactos principales
 
 - Minuta de daily scrum describiendo la coordinación del trabajo de cada integrante del equipo.
-  - ¿Que logramos hacer?
+  - ¿Qué logramos hacer?
   - ¿Qué planificamos hacer?
   - ¿Qué impedimentos tenemos?
 - Registro y reporte de horas de cada integrante del equipo con sus actividades principales.
@@ -222,16 +222,19 @@ _[Existe evidencia sobre la inspección del proceso con aprendizajes principales
 
 # Construir y validar la solución final del MVP a través de prototipos
 
-##  Conclusiones finales de las validacones
+## Conclusiones finales de las validaciones
 
-_[Se evidencian los prototipos finales con las validaciones de los usuarios. Los prototipos deberán ser exportados en algún formato de imagen (como png o jpg) a efectos de poder ser visualizados fácilmente dentro del propio repo de github.]_
+Cada validación realizada en las distintas iteraciones nos fue de gran ayuda para obtener opiniones desde distintos enfoques y lugares.
+
+La encuesta que realizamos en la primera iteración fue de gran ayuda al momento de orientarnos en el inicio del proyecto. Obtuvimos una visibilidad del amplio espectro de contextos en los cuales se ubican los posibles consumidores del producto y cuáles son sus motivos para utilizarlo.
+
+Luego, al momento de validar nuestros prototipos tanto en la iteración 2 como en la 3, recibimos comentarios que nos sirvieron para poder terminar de encaminarnos tanto en cuanto al diseño como en cuanto a las funcionalidades aplicadas.
 
 ## Conclusiones finales del prototipo
 
+## Iteración final - Evaluaciones
 
-# Iteración final evaluaciones
-
-## Conclusiones finales (Graficas):
+## Conclusiones finales (Gráficas):
 
 ### Burndown chart Iteración 1:
 <p align="center">
@@ -255,12 +258,11 @@ _[Se evidencian los prototipos finales con las validaciones de los usuarios. Los
 - Prototipos interactivos finales con el feedback de las validaciones.
 - Prototipos asociados como bocetos a las historias de usuario.
 - Lista de mejoras sugeridas de las validaciones con usuarios finales.
-  - Se explicita que mejoras fueron implementadas en los prototipos y cuales quedaron fuera del alcance del proyecto.
+  - Se explicita qué mejoras fueron implementadas en los prototipos y cuáles quedaron fuera del alcance del proyecto.
 
 ## ⌛ Registro de Horas del equipo
 
-A continuación se muestran las horas de trabajo del equipo, registrando las grupales e individuales
-
+A continuación se muestran las horas de trabajo del equipo, registrando las grupales e individuales.
 
 ## Links a los ambientes:
 
