@@ -200,6 +200,12 @@ El viernes 14 de noviembre, realizamos la primera daily de esta iteración 4, co
 ![Daily 1](Reuniones/Daily1.PNG "Daily 1")
 
 ### Minuta 3: Daily 2 (19/11/2025)
+
+El miércoles 19 de noviembre, realizamos la segunda daily de esta iteración 4, con el objetivo de verificar el trabajo del equipo y revisar el avance. Presentamos avances en cuanto a la redacción del informe de la defensa, completamos objetivos, conclusiones y graficas. También añadimos información academica en el Readme general, asi como datos extras.
+Para finalizar ya tenemos todo listo para comenzar a grabar el video del prototipo final, el cual lo haremos en la siguiente sesión.
+
+![Daily 2](Reuniones/Daily2.PNG "Daily 2")
+
 ### Minuta 4: Daily 3 (21/11/2025)
 
 ### Artefactos principales
@@ -240,8 +246,8 @@ También definimos algunos casos extra que no llegaron a implementarse en esta e
 
 En general, el prototipo final refleja de manera clara cómo funcionaría la aplicación e integra todas las funcionalidades planificadas para esta fase del proyecto.
 
-- [Iteración 2](./iteración-2/README.md)
-- [Iteración 3](./iteración-3/README.md)
+- [Iteración 2](../iteración-2/README.md)
+- [Iteración 3](../iteración-3/README.md)
 
 ## Iteración final - Evaluaciones
 
