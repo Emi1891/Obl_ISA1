@@ -220,13 +220,35 @@ _[Existe evidencia sobre la inspección del proceso con aprendizajes principales
 - Minuta de la retrospectiva con la dinámica utilizada y sus principales resultados.
 - Planificación y seguimiento de las acciones de mejora.
 
-# Construir y validar posibles soluciones del MVP a través de prototipos
+# Construir y validar la solución final del MVP a través de prototipos
 
-## Prototipos finales
+##  Conclusiones finales de las validacones
 
 _[Se evidencian los prototipos finales con las validaciones de los usuarios. Los prototipos deberán ser exportados en algún formato de imagen (como png o jpg) a efectos de poder ser visualizados fácilmente dentro del propio repo de github.]_
 
 ## Conclusiones finales del prototipo
+
+
+# Iteración final evaluaciones
+
+## Conclusiones finales (Graficas):
+
+### Burndown chart Iteración 1:
+<p align="center">
+  <img src="Graficas/IT1.jpeg" alt="Iteración 1" width="600"/>
+</p>
+
+### Burndown chart Iteración 2:
+<p align="center">
+  <img src="Graficas/IT2.jpeg" alt="Iteración 2" width="600"/>
+</p>
+
+### Burndown chart Iteración 3:
+<p align="center">
+  <img src="Graficas/IT3.png" alt="Iteración 3" width="600"/>
+</p>
+
+### Burndown chart Iteración 4:
 
 ### Artefactos principales
 
