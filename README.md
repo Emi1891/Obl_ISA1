@@ -23,7 +23,24 @@ Para el desarrollo del proyecto se deberá utilizar el marco de trabajo SCRUM. E
 
 # Integrantes del equipo
 
-_[Enumerar los integrantes del equipo con sus números de estudiantes y rol dentro del proyecto.]_
+- Juan Croquis ()
+
+- Juan Ferreira (308438)
+
+- Emiliano Reyes ()
+
+# Roles
+
+A lo largo del proyecto fuimos rotando los roles en cada iteración, pero más allá de esas asignaciones formales, trabajamos siempre de manera colaborativa: todos aportamos en análisis, decisiones y ejecución para asegurar que el producto avanzara de forma consistente.
+
+### Product Owner
+Es quien representa las necesidades del cliente o los interesados en el producto. Su responsabilidad principal es priorizar el trabajo y asegurar que el equipo genere el mayor valor posible.
+
+### Scrum Master
+Vela por el cumplimiento de las prácticas, valores y principios de SCRUM. Facilita los eventos, elimina impedimentos y promueve la mejora continua del equipo.
+
+### Developer
+Es el rol orientado a construir el producto: programar, diseñar, probar y refinar las funcionalidades.
 
 # Iteraciones y esfuerzo
 
@@ -46,7 +63,15 @@ _[Con el desarrollo del proyecto se pueden ir encontrando mejoras a los entregab
 
 ## Informe académico
 
-_[Existe la elaboración de un informe académico que resume los resultados y reflexiona sobre las lecciones aprendidas sobre las prácticas de ingeniería de software ágil. El informe académico deberá ser implementado como un archivo de markdown en el propio repositorio de github.]_
+La utilización del marco SCRUM a lo largo del proyecto permitió que el equipo se familiarizara con los principios de la gestión ágil y los aplicara en un entorno real de desarrollo. A medida que avanzábamos, fuimos incorporando los roles, ceremonias y artefactos del marco, ajustándolos al contexto y a las necesidades específicas del trabajo.
+
+Aunque procuramos mantenernos fieles a SCRUM, fue necesario introducir ciertas modificaciones para adaptarnos a la dinámica del proyecto. Por ejemplo, las reuniones de Daily se realizaron de manera virtual y, por cuestiones de disponibilidad, no siempre pudieron llevarse a cabo todos los días, como propone la guía original.
+
+También influyó el carácter académico del proyecto: las tareas no siempre se distribuyeron de manera constante a lo largo de cada sprint, situación que puede observarse claramente en algunos de los burn down charts generados.
+
+Pese a estas adaptaciones, la experiencia fue muy valiosa. Nos permitió comprender la diferencia entre gestionar un proyecto con un enfoque ágil y hacerlo con métodos tradicionales. En particular, aprendimos la relevancia de iterar, inspeccionar y ajustar, así como la importancia de la comunicación y el trabajo colaborativo por encima de una planificación rígida.
+
+En definitiva, agradecemos haber tenido la oportunidad de aplicar SCRUM en un entorno académico. Consideramos que este aprendizaje es clave para el ejercicio profesional y que sus prácticas nos servirán como base en futuros proyectos del ámbito tecnológico.
 
 ### Artefactos principales
 
