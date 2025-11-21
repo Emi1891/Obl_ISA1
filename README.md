@@ -57,7 +57,31 @@ Las siguientes carpetas deberán tener la entrega de cada iteración siguiendo l
 
 # Mejoras y ajustes principales a los entregables de cada iteración
 
-_[Con el desarrollo del proyecto se pueden ir encontrando mejoras a los entregables ya realizados de cada iteración. Enumerar en esta sección las principales mejoras realizadas posterior a cada entrega. Esto puede incluir la implementación de las sugerencias realizadas por los docentes durante el proyecto.]_
+## 🌱 Iteración 1
+
+Durante la primera iteración, el trabajo se centró principalmente en la fase de investigación y preparación, ya que el proyecto se encontraba aún en su etapa de prototipado inicial. En esta instancia, el equipo se dedicó a recopilar información relevante a través de encuestas realizadas a los usuarios interesados, lo que permitió comprender mejor sus necesidades y validar las primeras hipótesis del producto.
+
+Además, se llevó a cabo el seteo general de las herramientas de trabajo, definiendo el entorno colaborativo y las plataformas que se utilizarían a lo largo del desarrollo. Paralelamente, se elaboró el Product Backlog inicial, donde se registraron y priorizaron las primeras historias de usuario. Finalmente, se realizó una división de tareas por iteración, estableciendo los objetivos y responsabilidades de cada integrante para las siguientes etapas del proyecto.
+
+## 🎋 Iteración 2
+
+Durante la segunda iteración, el equipo dio inicio al prototipado de las primeras pantallas del proyecto y comenzó a trabajar con la herramienta Framer. Si bien al principio el proceso presentó algunas dificultades debido al aprendizaje inicial del entorno, el grupo logró avanzar en la creación y conexión de las distintas vistas, implementando las funciones de reconocimiento y modo continuar.
+
+Al finalizar esta iteración, se realizó una prueba con un usuario, lo que permitió recopilar valiosa retroalimentación sobre el diseño y la usabilidad. A partir de esa información, se aplicaron mejoras en el estilo visual y se decidió separar una de las pantallas, que inicialmente se había planteado como una sola, para lograr una interfaz más clara y organizada.
+
+## 🌲 Iteración 3
+
+Durante la tercera iteración se obtuvo una mayor cantidad de retroalimentación por parte de los usuarios. En esta ocasión participaron tres personas, a diferencia de la segunda iteración en la que solo se contó con un usuario. Esto resultó muy útil, ya que permitió recopilar distintos puntos de vista sobre el prototipo, considerando tanto la mirada de usuarios con experiencia como la de quienes lo probaban por primera vez.
+
+En cuanto a las retrospectivas, se mejoró notablemente la redacción y el enfoque de las tareas. En la primera iteración no estaba del todo claro qué debía incluirse en esa sección, pero desde la segunda, gracias a las aclaraciones brindadas por los docentes, el equipo logró definirlo con mayor precisión y coherencia.
+
+También el equipo modificó el Story Map, incorporando los nuevos casos de uso propuestos por los docentes, lo que permitió ampliar y ajustar la visión del producto. Asimismo, algunas tareas de prototipado que originalmente pertenecían a la iteración 4 fueron adelantadas a la 3, con el fin de optimizar los tiempos y mantener una mejor coherencia entre las entregas del prototipo y el feedback recibido.
+
+## ✨ Iteración 4
+
+Durante la cuarta y última iteración, el equipo implementó varios ajustes en la organización del trabajo. En esta etapa se decidió modificar las historias de usuario, transformándolas en tareas más específicas, y se adoptó un nuevo método de estimación por talles de camiseta, el cual resultó más adecuado para la naturaleza de las actividades de cierre.
+
+A diferencia de las iteraciones anteriores, las tareas ya no se centraron en el prototipado, sino en la investigación, documentación y conclusiones finales del proyecto, así como en la reflexión sobre los aprendizajes obtenidos durante todo el proceso. Además, dado que las actividades finales implicaban la colaboración de todo el equipo, no se asignaron tareas individuales, sino que se trabajó de forma conjunta y coordinada para lograr un cierre integral y coherente del proyecto.
 
 # Reflexiones y aprendizajes finales de los resultados del proyecto
 
@@ -85,3 +109,13 @@ _[Debe existir un video (de 6 minutos máximo) demostrando el flujo principal de
 ### Artefactos principales
 
 - Video de 6 minutos demostrando el flujo de la aplicación y explicando la propuesta de valor.
+
+## Links a los ambientes:
+
+### Azure DevOps:
+
+> https://dev.azure.com/Obligatorio1/Carpooling%20universitario/_boards/board/t/Carpooling%20universitario%20Team/Backlog%20items?System.IterationPath=Carpooling%20universitario%5CSprint%202
+
+### Framer:
+
+> https://framer.com/projects/Proyecto-Carpool--oYH9FogtuTUVn9HgMU5H-iTRso
