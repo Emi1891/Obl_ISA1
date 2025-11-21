@@ -201,8 +201,8 @@ El viernes 14 de noviembre, realizamos la primera daily de esta iteración 4, co
 
 ### Minuta 3: Daily 2 (19/11/2025)
 
-El miércoles 19 de noviembre, realizamos la segunda daily de esta iteración 4, con el objetivo de verificar el trabajo del equipo y revisar el avance. Presentamos avances en cuanto a la redacción del informe de la defensa, completamos objetivos, conclusiones y graficas. También añadimos información academica en el Readme general, asi como datos extras.
-Para finalizar ya tenemos todo listo para comenzar a grabar el video del prototipo final, el cual lo haremos en la siguiente sesión.
+El miércoles 19 de noviembre, realizamos la segunda daily de esta iteración 4, con el objetivo de verificar el trabajo del equipo y revisar el avance. Presentamos avances en cuanto a la redacción del informe de la defensa, completamos objetivos, conclusiones y gráficas. También añadimos información académica en el README general, así como datos extras.
+Para finalizar, ya tenemos todo listo para comenzar a grabar el video del prototipo final, el cual lo haremos en la siguiente sesión.
 
 ![Daily 2](Reuniones/Daily2.PNG "Daily 2")
 
@@ -258,15 +258,21 @@ En general, el prototipo final refleja de manera clara cómo funcionaría la apl
   <img src="Graficas/IT1.jpeg" alt="Iteración 1" width="600"/>
 </p>
 
+En esta primera iteración podemos notar en la gráfica que no tuvimos un progreso tan lineal en cuanto a la realización de las tareas designadas como sería lo ideal, ya que los tres integrantes del equipo estuvimos realizando otras tareas académicas en paralelo al proyecto.
+
 ### Burndown chart Iteración 2:
 <p align="center">
   <img src="Graficas/IT2.jpeg" alt="Iteración 2" width="600"/>
 </p>
 
+A diferencia de la iteración 1, en esta pudimos mantener un ritmo de trabajo mucho más constante, más allá de un pequeño estancamiento de unos días, debido a la complejidad de las tareas que estábamos realizando en ese momento.
+
 ### Burndown chart Iteración 3:
 <p align="center">
   <img src="Graficas/IT3.png" alt="Iteración 3" width="600"/>
 </p>
+
+Al igual que en la iteración 2, pudimos mantener un progreso bastante constante, aunque no tan estrictamente lineal. En este caso, hubo algunas ocasiones tanto por tiempo como por complejidad en las cuales completar ciertas tareas nos llevó más de un día.
 
 ### Burndown chart Iteración 4:
 
