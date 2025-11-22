@@ -104,13 +104,15 @@ En definitiva, agradecemos haber tenido la oportunidad de aplicar SCRUM en un en
 
 Mi reflexión final sobre el proyecto la considero muy positiva. Al inicio del curso me sentía bastante escéptico sobre la materia, un poco por saber la carga teórica que lleva y otro por el desconocimiento de esta. Sin embargo, al correr del semestre y a medida que avanzaba el proyecto, comencé a apreciar y entender de que se trataba realmente el curso y como se veían trasladadas todas las metodologías a la práctica. Esto no solo lo note en la parte académica, sino también en lo personal, ya que no solo aprecio el interiorizarme dentro de metodologías que se aplican en el mercado laboral, sino también el aumento en la productividad que me generó aplicar esta metodología. Quizás esto también se deba al gran equipo que hicimos, que no permitió en ningún momento que ningún integrante se quede atrás, promoviendo que se mantenga el ritmo necesario para el proyecto.
 
+**Juan Ferreira:**
+
+A lo largo del proyecto pude conectar la teoría con la práctica, aplicando de forma concreta los conceptos vistos en clase. Fue muy valioso comprobar cómo los contenidos del curso tenían una utilidad real dentro del desarrollo del proyecto.
+Durante las distintas iteraciones notamos un progreso constante en nuestros conocimientos y en la forma de trabajo. En las primeras etapas nos costó adaptarnos, ya que todo era nuevo, pero con el tiempo fuimos comprendiendo mejor las metodologías ágiles y aplicándolas con mayor naturalidad.
+En lo personal, considero que este proyecto fue una experiencia muy positiva y formativa, ya que me permitió entender que la agilidad no se trata solo de cumplir con ceremonias o entregas, sino de evaluar, mejorar y ajustar continuamente nuestro proceso. Aunque al principio enfrentamos desafíos para organizarnos y distribuir las historias de usuario, gracias a las retrospectivas y al trabajo en equipo logramos superarlos.
+En conclusión, fue un proyecto altamente enriquecedor, que me brindó nuevos aprendizajes y una visión más clara de cómo funcionan las metodologías ágiles en un entorno real.
+
 
 ## Conclusión final
-
-### Artefactos principales
-
-- Informe académico resumiendo resultados principales del proyecto.
-- Reflexiones y aprendizajes del proyecto.
 
 ## Video demo
 
