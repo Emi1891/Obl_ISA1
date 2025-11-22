@@ -217,6 +217,13 @@ Para finalizar, grabamos el video que demuestra el flujo realizado de nuestro pr
 
 ### Minuta 5: Review (22/11/2025)
 
+La Sprint Review, realizada el 22 de noviembre, permitió repasar el trabajo y los avances logrados durante las últimas dos semanas. En esta iteración, el foco estuvo puesto en documentar el progreso del proyecto y cerrar la etapa de investigación, consolidando toda la información y aprendizajes obtenidos en sprints anteriores.
+
+Si bien no se incorporaron nuevas funcionalidades, se completó una documentación detallada que servirá como base sólida para futuras implementaciones y presentaciones. Este trabajo permitió ordenar resultados, validar hallazgos y dejar constancia del proceso seguido.
+
+Durante la revisión, el equipo destacó el valor de haber alcanzado un cierre integral de la fase de investigación, asegurando que todo el conocimiento generado quede bien estructurado y accesible. También se reconoció el compromiso del grupo para mantener la continuidad del trabajo, incluso sin entregas visibles al usuario final.
+
+Mirando hacia adelante, el equipo buscará aprovechar esta base documentada para facilitar el desarrollo y priorización de próximas iteraciones. Esta revisión reflejó nuestro esfuerzo constante por mantener la calidad, la colaboración y la claridad en cada etapa del proyecto.
 
 ![Review](Reuniones/Review.PNG "review")
 
@@ -335,6 +342,9 @@ En esta iteración final se puede observar un avance similar al de la iteración
 ## ⌛ Registro de Horas del equipo
 
 A continuación se muestran las horas de trabajo del equipo, registrando las grupales e individuales.
+
+
+![Horas](Horas/Horas.PNG "Horas")
 
 ## Links a los ambientes:
 
