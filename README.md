@@ -114,6 +114,17 @@ _[Debe existir un video (de 6 minutos máximo) demostrando el flujo principal de
 
 - Video de 6 minutos demostrando el flujo de la aplicación y explicando la propuesta de valor.
 
+<video id="miVideo" width="640" height="360" controls>
+  <source src="src/video.mp4" type="video/mp4">
+</video>
+
+<script>
+  const v = document.getElementById("miVideo");
+  v.addEventListener("play", () => {
+    v.playbackRate = 0.75; 
+  });
+</script>
+
 ## Links a los ambientes:
 
 ### Azure DevOps:
