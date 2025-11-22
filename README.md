@@ -112,6 +112,8 @@ En lo personal, considero que este proyecto fue una experiencia muy positiva y f
 En conclusión, fue un proyecto altamente enriquecedor, que me brindó nuevos aprendizajes y una visión más clara de cómo funcionan las metodologías ágiles en un entorno real.
 
 **Juan Croquis:**
+
+
 Al cerrar el proyecto, me quedo con la sensación de que realmente aprendí trabajando. Las iteraciones, las reuniones y el ir ajustando cosas sobre la marcha me ayudaron a entender cómo se organiza un proyecto de verdad y cómo se avanza de a poco hasta que todo empieza a encajar.
 El trabajo en equipo también fue clave. Entre todos logramos coordinarnos, dividirnos bien las tareas y apoyarnos cuando alguno se trababa. Eso hizo que el proceso fuera mucho más llevadero. Con Framer terminé llevándome una buena experiencia. Al principio me costó un poco agarrarle la mano, pero después se volvió una herramienta que me ayudó a ver el proyecto de forma más concreta.
 En general, me voy con la sensación de que crecí tanto en lo técnico como en la forma de trabajar con otros. Fue un proyecto que realmente sumó.
