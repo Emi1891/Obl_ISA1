@@ -208,8 +208,8 @@ Para finalizar, ya tenemos todo listo para comenzar a grabar el video del protot
 
 ### Minuta 4: Daily 3 (21/11/2025)
 
-El viernes 21 de noviembre, realizamos la tercera y última daily de la iteración 4, , con el objetivo de verificar el trabajo del equipo y revisar el avance. Terminamos gran parte del informe final, tenemos casi terminado la defensa para presentar el lunes, completamos el resumen de las gráficas y varias tareas quedaron culminadas.
-Para finalizar grabamos el video donde demuestra el flujo realizado de nuestro prototipo, pasando por todas las capas requeridas.
+El viernes 21 de noviembre, realizamos la tercera y última daily de la iteración 4, con el objetivo de verificar el trabajo del equipo y revisar el avance. Terminamos gran parte del informe final, tenemos casi terminada la defensa para presentar el lunes, completamos el resumen de las gráficas y varias tareas quedaron culminadas.
+Para finalizar, grabamos el video que demuestra el flujo realizado de nuestro prototipo, pasando por todas las capas requeridas.
 
 ![Daily 3](Reuniones/Daily3.PNG "Daily 3")
 
@@ -283,6 +283,8 @@ Al igual que en la iteración 2, pudimos mantener un progreso bastante constante
 <p align="center">
   <img src="Graficas/IT4.png" alt="Iteración 4" width="600"/>
 </p>
+
+En esta iteración final se puede observar un avance similar al de la iteración 1. Esto está directamente relacionado, al igual que en la primera iteración, con el periodo en el que se realizó la cuarta iteración, ya que nuevamente fue un momento con distintas entregas de demás materias. Además, influyó también la menor cantidad de tareas a realizar, no siendo necesario un ritmo tan constante.
 
 
 ## ⌛ Registro de Horas del equipo
