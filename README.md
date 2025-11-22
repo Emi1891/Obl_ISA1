@@ -100,6 +100,11 @@ En definitiva, agradecemos haber tenido la oportunidad de aplicar SCRUM en un en
 
 ## Reflexiones individuales
 
+**Emiliano Reyes:**
+
+Mi reflexión final sobre el proyecto la considero muy positiva. Al inicio del curso me sentía bastante escéptico sobre la materia, un poco por saber la carga teórica que lleva y otro por el desconocimiento de esta. Sin embargo, al correr del semestre y a medida que avanzaba el proyecto, comencé a apreciar y entender de que se trataba realmente el curso y como se veían trasladadas todas las metodologías a la práctica. Esto no solo lo note en la parte académica, sino también en lo personal, ya que no solo aprecio el interiorizarme dentro de metodologías que se aplican en el mercado laboral, sino también el aumento en la productividad que me generó aplicar esta metodología. Quizás esto también se deba al gran equipo que hicimos, que no permitió en ningún momento que ningún integrante se quede atrás, promoviendo que se mantenga el ritmo necesario para el proyecto.
+
+
 ## Conclusión final
 
 ### Artefactos principales
