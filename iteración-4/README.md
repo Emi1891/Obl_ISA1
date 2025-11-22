@@ -280,12 +280,10 @@ Al igual que en la iteración 2, pudimos mantener un progreso bastante constante
 
 ### Burndown chart Iteración 4:
 
-### Artefactos principales
+<p align="center">
+  <img src="Graficas/IT4.png" alt="Iteración 4" width="600"/>
+</p>
 
-- Prototipos interactivos finales con el feedback de las validaciones.
-- Prototipos asociados como bocetos a las historias de usuario.
-- Lista de mejoras sugeridas de las validaciones con usuarios finales.
-  - Se explicita qué mejoras fueron implementadas en los prototipos y cuáles quedaron fuera del alcance del proyecto.
 
 ## ⌛ Registro de Horas del equipo
 
