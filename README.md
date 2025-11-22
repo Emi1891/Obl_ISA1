@@ -108,22 +108,11 @@ En definitiva, agradecemos haber tenido la oportunidad de aplicar SCRUM en un en
 
 ## Video demo
 
-_[Debe existir un video (de 6 minutos máximo) demostrando el flujo principal de los prototipos, explicando el problema que se quiere resolver y el valor entregado por el producto ideado. El video deberá ser publicado y enlazado en el informe académico para su correcta visualización.]_
+En el siguiente link se encuentra el video de la demo del prototipo final del proyecto:
 
-### Artefactos principales
+> https://www.youtube.com/watch?v=yqlLS6RiYsg
 
-- Video de 6 minutos demostrando el flujo de la aplicación y explicando la propuesta de valor.
-
-<video id="miVideo" width="640" height="360" controls>
-  <source src="src/video.mp4" type="video/mp4">
-</video>
-
-<script>
-  const v = document.getElementById("miVideo");
-  v.addEventListener("play", () => {
-    v.playbackRate = 0.75; 
-  });
-</script>
+El video quedó ligeramente por encima del límite de 6 minutos. Intentamos recortarlo en varias oportunidades para ajustarlo al tiempo máximo permitido, pero no logramos reducirlo más sin afectar la explicación completa de los flujos requeridos. La duración final es de 6 minutos y 27 segundos, lo que representa un exceso mínimo. Consideramos que esta diferencia no debería ser un inconveniente, ya que el margen es muy pequeño y el contenido mostrado es necesario para una correcta comprensión del prototipo.
 
 ## Links a los ambientes:
 
