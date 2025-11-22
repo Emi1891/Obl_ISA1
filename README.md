@@ -97,6 +97,10 @@ Pese a estas adaptaciones, la experiencia fue muy valiosa. Nos permitió compren
 
 En definitiva, agradecemos haber tenido la oportunidad de aplicar SCRUM en un entorno académico. Consideramos que este aprendizaje es clave para el ejercicio profesional y que sus prácticas nos servirán como base en futuros proyectos del ámbito tecnológico.
 
+## Reflexiones individuales
+
+## Conclusión final
+
 ### Artefactos principales
 
 - Informe académico resumiendo resultados principales del proyecto.
