@@ -108,11 +108,13 @@ Mi reflexión final sobre el proyecto la considero muy positiva. Al inicio del c
 
 A lo largo del proyecto pude conectar la teoría con la práctica, aplicando de forma concreta los conceptos vistos en clase. Fue muy valioso comprobar cómo los contenidos del curso tenían una utilidad real dentro del desarrollo del proyecto.
 Durante las distintas iteraciones notamos un progreso constante en nuestros conocimientos y en la forma de trabajo. En las primeras etapas nos costó adaptarnos, ya que todo era nuevo, pero con el tiempo fuimos comprendiendo mejor las metodologías ágiles y aplicándolas con mayor naturalidad.
-En lo personal, considero que este proyecto fue una experiencia muy positiva y formativa, ya que me permitió entender que la agilidad no se trata solo de cumplir con ceremonias o entregas, sino de evaluar, mejorar y ajustar continuamente nuestro proceso. Aunque al principio enfrentamos desafíos para organizarnos y distribuir las historias de usuario, gracias a las retrospectivas y al trabajo en equipo logramos superarlos.
+En lo personal, considero que este proyecto fue una experiencia muy positiva y formativa, ya que me permitió entender que la agilidad no se trata solo de cumplir con ceremonias o entregas, sino de evaluar, mejorar y ajustar continuamente nuestro proceso. 
 En conclusión, fue un proyecto altamente enriquecedor, que me brindó nuevos aprendizajes y una visión más clara de cómo funcionan las metodologías ágiles en un entorno real.
 
 
 ## Conclusión final
+
+En conclusión, la aplicación del marco SCRUM nos permitió experimentar de forma práctica los principios de la gestión ágil, entendiendo la importancia de la comunicación, la adaptación y la mejora continua. A lo largo del proyecto fuimos aprendiendo a organizarnos mejor, a definir roles con claridad y a trabajar de manera más colaborativa. Aunque fue necesario ajustar ciertas prácticas al contexto académico, logramos mantener el enfoque y cumplir los objetivos propuestos. Esta experiencia nos dejó una comprensión más profunda de cómo las metodologías ágiles potencian el trabajo en equipo y la eficiencia, siendo un aprendizaje valioso para nuestro futuro profesional.
 
 ## Video demo
 
