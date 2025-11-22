@@ -215,15 +215,60 @@ Para finalizar, grabamos el video que demuestra el flujo realizado de nuestro pr
 
 ## Inspección y adaptación del proceso
 
-### Minuta 5: Review ⛵ (22/11/2025)
+### Minuta 5: Review (22/11/2025)
 
 
-### Minuta 6: Retrospective ⛵ (22/11/2025)
+![Review](Reuniones/Review.PNG "review")
 
-### Artefactos principales
 
-- Minuta de la retrospectiva con la dinámica utilizada y sus principales resultados.
-- Planificación y seguimiento de las acciones de mejora.
+### Minuta 6: Retrospective 🎪 (22/11/2025)
+
+#### 🧩 Descripción
+Para cerrar el sprint, el equipo realizó una retrospectiva con temática de *Festival*, donde se destacaron los logros, los aprendizajes y las oportunidades de mejora del proceso.  
+Se trabajó de forma colaborativa, reflexionando sobre lo que funcionó bien, lo que podría mejorarse y los conocimientos que hubiesen sido útiles desde el inicio.
+
+---
+
+#### 🎤 Main Stage – The Highlights of This Sprint
+**Cosas que salieron bien y disfrutamos del proceso:**
+- Comunicación fluida con el equipo.  
+- Reuniones efectivas y enfocadas.  
+- Aprendimos a trabajar muy bien en **Framer**.  
+- Claridad en los objetivos de la iteración.  
+- Buena estimación de tareas.  
+- Colaboración efectiva entre los roles.  
+- Buen manejo de la documentación.  
+- Se logró cumplir con todos los objetivos de la iteración.
+
+---
+
+#### 🔮 Fortune Teller – Things We Wish We Knew at the Start
+**Aprendizajes que hubiéramos querido saber desde el comienzo:**
+- Que **Framer** tenía ciertas limitaciones o configuraciones que era mejor entender desde el inicio.  
+- Que los **parciales y entregas de otras materias** afectarían el ritmo del equipo y convenía preverlo.  
+- Que usar un **repositorio compartido y organizado** desde el principio facilita el seguimiento del proyecto.  
+- Que realizar **revisiones semanales rápidas** es más efectivo que esperar al final del sprint para detectar problemas.
+
+---
+
+#### ⛑️ First Aid Tent – Things That Didn’t Go as Well as We’d Hoped
+**Aspectos que podrían mejorar o que presentaron dificultades:**
+- Iniciamos las tareas de la iteración más tarde de lo ideal.  
+- Al haber pocas tareas, no hubo demasiado margen para detectar desvíos.  
+- Fue un mes con muchas pruebas y entregas, lo cual nos jugó en contra en la planificación.
+
+---
+
+#### 🧭 Conclusión
+El equipo demostró una **excelente coordinación y progreso técnico**, destacándose especialmente en el uso de **Framer** y en la claridad de los objetivos.  
+A pesar de los desafíos académicos externos, se logró mantener una buena comunicación, estimación de tareas y cumplimiento de metas.  
+Los aprendizajes obtenidos permitirán mejorar la organización y la anticipación en los próximos sprints.
+
+---
+
+📸 **Imagen de la retro:**
+
+![Retro](Img/Retro.jpg "retro")
 
 # Construir y validar la solución final del MVP a través de prototipos
 
