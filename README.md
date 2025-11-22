@@ -85,12 +85,6 @@ A diferencia de las iteraciones anteriores, las tareas ya no se centraron en el 
 
 # Reflexiones y aprendizajes finales de los resultados del proyecto
 
-Al final del proyecto, luego de hablar entre los integrantes del grupolo que más nos queda es la sensación de que no fue solo “hacer un prototipo”, sino ir entendiendo paso a paso cómo organizar un proyecto, cómo dividir tareas y cómo mantener un ritmo de trabajo constante sin perder de vista el objetivo.
-Algo que nos pasó varias veces es que pensábamos que ya estaba todo claro, pero cuando empezabamos a armar las pantallas nos dábamos cuenta de que faltaban detalles, que había decisiones que tomar o cosas para ajustar. Eso nos enseñó que es normal tener que revisar, corregir y volver a mirar lo que hicimos, y que ese proceso es parte del avance, no un error.
-También fue importante el trabajo en equipo. Coordinar horarios, repartirnos bien las tareas y ayudarnos cuando alguien estaba trancado hizo que el proyecto saliera adelante. Creo que aprendimos a comunicarnos mejor y a ser más ordenados, porque si uno se atrasaba o no avisaba algo, el resto también quedaba frenado.
-Y otra cosa que también nos dejó el proyecto fue entender mejor cómo piensa un usuario. Más de una vez tuvimos que cambiar pequeñas cosas para que la aplicación fuera más clara o más fácil de usar, y eso hizo que el prototipo final se sintiera más redondo.
-En definitiva, fue un trabajo largo, con momentos buenos y otros más pesados, pero del que salimos con un prototipo completo y con varios aprendizajes que solo se consiguen haciendo, equivocándose un poco y volviendo a mejorar.
-
 
 ## Informe académico
 
