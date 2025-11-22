@@ -208,18 +208,17 @@ Para finalizar, ya tenemos todo listo para comenzar a grabar el video del protot
 
 ### Minuta 4: Daily 3 (21/11/2025)
 
-### Artefactos principales
+El viernes 21 de noviembre, realizamos la tercera y última daily de la iteración 4, , con el objetivo de verificar el trabajo del equipo y revisar el avance. Terminamos gran parte del informe final, tenemos casi terminado la defensa para presentar el lunes, completamos el resumen de las gráficas y varias tareas quedaron culminadas.
+Para finalizar grabamos el video donde demuestra el flujo realizado de nuestro prototipo, pasando por todas las capas requeridas.
 
-- Minuta de daily scrum describiendo la coordinación del trabajo de cada integrante del equipo.
-  - ¿Qué logramos hacer?
-  - ¿Qué planificamos hacer?
-  - ¿Qué impedimentos tenemos?
-- Registro y reporte de horas de cada integrante del equipo con sus actividades principales.
-- Seguimiento visual de la iteración con burndown y/o burnup charts.
+![Daily 3](Reuniones/Daily3.PNG "Daily 3")
 
 ## Inspección y adaptación del proceso
 
-_[Existe evidencia sobre la inspección del proceso con aprendizajes principales y acciones de mejora implementadas durante el desarrollo del proyecto.]_
+### Minuta 5: Review ⛵ (22/11/2025)
+
+
+### Minuta 6: Retrospective ⛵ (22/11/2025)
 
 ### Artefactos principales
 
@@ -249,7 +248,12 @@ En general, el prototipo final refleja de manera clara cómo funcionaría la apl
 - [Iteración 2](../iteración-2/README.md)
 - [Iteración 3](../iteración-3/README.md)
 
-## Iteración final - Evaluaciones
+<br>
+
+---
+<br>
+
+# Iteración final - Evaluaciones
 
 ## Conclusiones finales (Gráficas):
 
